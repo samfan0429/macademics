@@ -1,5 +1,5 @@
 # Macademics
 
-A student-built semester planning webapp for Macalester students
+A student-built semester planning webapp for Macalester students.
 
 ---
