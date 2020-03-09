@@ -4,7 +4,8 @@
     <search-bar></search-bar>
     <hr>
     <course-display></course-display>
-    <hr>
+    <course-display></course-display>
+
     <app-footer></app-footer>
   </div>
 </template>
@@ -16,19 +17,18 @@ import CourseDisplay from './components/CourseDisplay.vue'
 import Footer from './components/Footer.vue';
 
 export default {
-  
   components: {
     'app-header': Header,
     'search-bar': SearchBar,
     'course-display': CourseDisplay,
     'app-footer': Footer,
   }
-  
 }
 </script>
 
 <style>
 .container{
-  height: 100vh
+  height: 100%;
+  /* font-size: 55px */
 }
 </style>
