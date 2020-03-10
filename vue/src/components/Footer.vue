@@ -11,7 +11,7 @@
 <style>
 footer{
     position: fixed;
-    left: 0;
+    width: 100%;
     bottom: 0;
 }
 </style>

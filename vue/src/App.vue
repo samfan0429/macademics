@@ -1,10 +1,9 @@
 <template>
   <div class="container">
     <app-header></app-header>
-    <search-bar></search-bar>
     <hr>
-    <course-display></course-display>
-    <course-display></course-display>
+    <search-bar></search-bar>
+    <courses-searched></courses-searched>
 
     <app-footer></app-footer>
   </div>
@@ -13,14 +12,14 @@
 <script>
 import Header from './components/Header.vue';
 import SearchBar from './components/SearchBar.vue'
-import CourseDisplay from './components/CourseDisplay.vue'
+import CoursesSearched from './components/CoursesSearched.vue'
 import Footer from './components/Footer.vue';
 
 export default {
   components: {
     'app-header': Header,
     'search-bar': SearchBar,
-    'course-display': CourseDisplay,
+    'courses-searched': CoursesSearched,
     'app-footer': Footer,
   }
 }
@@ -29,6 +28,6 @@ export default {
 <style>
 .container{
   height: 100%;
-  /* font-size: 55px */
+  font-size: 25px
 }
 </style>

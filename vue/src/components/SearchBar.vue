@@ -1,6 +1,6 @@
 <template>
     <div>
-        <input type="text" v-model="input">
+        <input id='search-bar'type="text" v-model="input">
         <div>{{input}}</div>
     </div>
 </template>
@@ -16,5 +16,17 @@ export default {
 </script>
 
 <style>
+#search-bar{
+    display: block;
+    margin : auto;
 
+    width: 50%;
+    padding: 1%;
+    border: 2px solid #dfe1e5;
+
+    border-radius: 24px;
+    outline: none;
+    
+
+}
 </style>
