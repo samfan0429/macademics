@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import db from '/home/ngonhat352/CodingProjects/macademics/vue/src/firebaseinit.js'
+import db from './firebaseinit.js'
 export default {
     data() {
         return {
