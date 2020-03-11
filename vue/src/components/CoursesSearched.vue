@@ -2,10 +2,9 @@
     <section id="courses-searched">
         <!-- <div id="course" v-for="(course, index) in courses.slice(0,10)" :key="index" v-if="course.show"> -->
         <div  
-        class="course"
         v-for="i in 10" :key="i"  >
             <div 
-            class="[{course: courses[i].name != courses[i-1].name}, repeated]" 
+            class="course" 
             v-if="courses[i].name != courses[i-1].name">
                 <button 
                     v-if="courses[i].show"
@@ -22,9 +21,17 @@
                 <button>{{courses[i].days}} - {{courses[i].time}}</button>
             </div>
             
-        
-            <button v-else>{{courses[i].days}} - {{courses[i].time}}</button>
+            <!-- <button v-else>{{courses[i].days}} - {{courses[i].time}}</button> -->
         </div>
+        <div 
+            class="sections">
+                <button
+                    v-for="i in 10" 
+                    :key="i"
+                    v-if="courses[i].name == courses[i-1].name">
+                {{courses[i].days}} - {{courses[i].time}}</button>
+        </div>
+
     </section>
 </template>
 
@@ -36,7 +43,6 @@ export default {
             courses: []
         }
     },
-
     created() {
         db.collection('spring20').get().then
         (querySnapshot => {
@@ -56,14 +62,9 @@ export default {
 </script>
 
 <style>
-
-.course{
+.course, .sections{
     display: flex;
     padding: 10px
-}
-
-div ~ .repeated{
-    color: blue;
 }
 
 #course-name{
