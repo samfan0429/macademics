@@ -27,7 +27,7 @@ export default {
 
 <style>
 .container{
-  height: 100%;
+  min-height: 100%;
   font-size: 25px
 }
 </style>

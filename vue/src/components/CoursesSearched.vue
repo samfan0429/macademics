@@ -1,10 +1,29 @@
 <template>
     <section id="courses-searched">
-        <div id="course" v-for="(course, index) in courses.slice(0,4)" :key="index">
-            <button @click="course.show=!course.show">X</button>
+        <!-- <div id="course" v-for="(course, index) in courses.slice(0,10)" :key="index" v-if="course.show"> -->
+        <div  
+        class="course"
+        v-for="i in 10" :key="i"  >
+            <div 
+            class="[{course: courses[i].name != courses[i-1].name}, repeated]" 
+            v-if="courses[i].name != courses[i-1].name">
+                <button 
+                    v-if="courses[i].show"
+                    @click="courses[i].show=!courses[i].show">
+                X
+                </button>
 
-            <div id="course-name" v-if="course.show" >{{course.numsection}} - {{course.name}} </div>
-            <button v-if="course.show">{{course.days}} - {{course.time}}</button>
+                <div 
+                    id="course-name"  
+                    v-if="courses[i].show">
+                {{courses[i].numsection}} - {{courses[i].name}} 
+                </div>
+
+                <button>{{courses[i].days}} - {{courses[i].time}}</button>
+            </div>
+            
+        
+            <button v-else>{{courses[i].days}} - {{courses[i].time}}</button>
         </div>
     </section>
 </template>
@@ -19,11 +38,11 @@ export default {
     },
 
     created() {
-        db.collection('spring20').orderBy('numsection').get().then
+        db.collection('spring20').get().then
         (querySnapshot => {
             querySnapshot.forEach(document => {
                 const data = {
-                    'numsection': document.data().numsection,
+                    'numsection': document.data().numsection.slice(0,-3),
                     'name': document.data().name,
                     'days': document.data().days,
                     'time': document.data().time,
@@ -38,9 +57,13 @@ export default {
 
 <style>
 
-#course{
+.course{
     display: flex;
     padding: 10px
+}
+
+div ~ .repeated{
+    color: blue;
 }
 
 #course-name{
