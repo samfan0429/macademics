@@ -1,46 +1,46 @@
 <template>
     <section id="courses-searched">
-        <!-- <div id="course" v-for="(course, index) in courses.slice(0,10)" :key="index" v-if="course.show"> -->
-        <div  
-        v-for="i in 10" :key="i"  >
-            <div 
-            class="course" 
-            v-if="courses[i].name != courses[i-1].name">
-                <button 
-                    v-if="courses[i].show"
-                    @click="courses[i].show=!courses[i].show">
-                X
-                </button>
+        <div class="course" v-for="(course, index) in courses.slice(0,10)" :key="index" >
+            <button 
+                @click="course.show=!course.show">
+            X
+            </button>
 
+            <div v-if="course.show" class= "course">
                 <div 
                     id="course-name"  
-                    v-if="courses[i].show">
-                {{courses[i].numsection}} - {{courses[i].name}} 
+                    v-if="course.show">
+                {{course.numsection.slice(0,-3)}} - {{course.name}} 
                 </div>
 
-                <button>{{courses[i].days}} - {{courses[i].time}}</button>
+                <button @click="sectionSelected(course)">{{course.days}} - {{course.time}}</button>
             </div>
-            
-            <!-- <button v-else>{{courses[i].days}} - {{courses[i].time}}</button> -->
-        </div>
-        <div 
-            class="sections">
-                <button
-                    v-for="i in 10" 
-                    :key="i"
-                    v-if="courses[i].name == courses[i-1].name">
-                {{courses[i].days}} - {{courses[i].time}}</button>
         </div>
 
     </section>
 </template>
 
 <script>
-import db from './firebaseinit.js'
+import db from '../firebaseinit.js'
+import {eventBus} from '../main'
+
 export default {
     data() {
         return {
-            courses: []
+            courses: [],
+            sectionsSelected: []
+        }
+    },
+
+    methods: {
+        sectionSelected(course){
+            if(!(this.sectionsSelected.includes(course))){
+                this.sectionsSelected.push(course);
+                eventBus.displaySection(this.sectionsSelected);
+            }
+            else{
+                console.log(sectionsSelected)
+            }
         }
     },
     created() {
@@ -48,7 +48,7 @@ export default {
         (querySnapshot => {
             querySnapshot.forEach(document => {
                 const data = {
-                    'numsection': document.data().numsection.slice(0,-3),
+                    'numsection': document.data().numsection,
                     'name': document.data().name,
                     'days': document.data().days,
                     'time': document.data().time,
@@ -62,7 +62,7 @@ export default {
 </script>
 
 <style>
-.course, .sections{
+.course{
     display: flex;
     padding: 10px
 }
