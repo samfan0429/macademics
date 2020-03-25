@@ -54,8 +54,14 @@ def row_to_json(content):
 
             items["courseid"] = course_id
 
+            items["course-num"] = items["numsection"].split('-')[0]
+
             # add each course to the courses list
             courses.append(items)
+
+
+
+
 
 
 
