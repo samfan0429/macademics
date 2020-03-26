@@ -57,6 +57,13 @@ def row_to_json(content):
             items["course-num"] = items["numsection"].split('-')[0]
             items["dept"] = items["numsection"].split(' ')[0]
 
+            items["start"] = items["time"].split('-')[0]
+
+            if items["start"] != "TBA":
+                items["end"] = items["time"].split('-')[1]
+
+
+
             # add each course to the courses list
             courses.append(items)
 
