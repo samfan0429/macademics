@@ -20,7 +20,7 @@ def row_to_json(content):
     course_pattern = re.compile("[\w]{3,4}\s[\d]{3}-[a-zA-Z0-9]{2}")  # regex pattern of any course
 
     rows = content.find_all('tr')
-    courses = []
+    sections = []
     for i in range(len(rows)):
 
         cells = rows[i].find_all('td')
@@ -61,11 +61,36 @@ def row_to_json(content):
 
             if items["start"] != "TBA":
                 items["end"] = items["time"].split('-')[1]
+            else:
+                items["end"] = "TBA"
 
 
 
             # add each course to the courses list
-            courses.append(items)
+            sections.append(items)
+
+            courses = {}
+
+            for section in sections:
+                if section['course-num'] not in courses:
+                    courses[section['course-num']] = {
+                        'course-num': section['course-num'],
+                        'dept': section['dept'],
+                        'name': section['name'],
+                        'sections': []
+                    }
+
+                courses[section['course-num']]['sections'].append({
+                    'numsection': section['numsection'],
+                    'instructor': section['instructor'],
+                    'days': section['days'],
+                    'availmax': section['availmax'],
+                    'courseid': section['courseid'],
+                    'start': section['start'],
+                    'end': section['end']
+
+                    # and so on with the properties you want
+                })
 
 
 
