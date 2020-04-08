@@ -3,9 +3,8 @@
         <hr>
         <div 
         v-for="section in sectionsSelected" 
-        :key="section" 
-        v-if="section.show">
-            {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.time}}
+        :key="section">
+            {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.start}} - {{section.end}}
         </div>
     </section>
 </template>
