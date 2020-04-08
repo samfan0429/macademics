@@ -38,9 +38,6 @@ export default {
                 this.sectionsSelected.push(course);
                 eventBus.displaySection(this.sectionsSelected);
             }
-            else{
-                console.log(sectionsSelected)
-            }
         }
     },
     created() {
