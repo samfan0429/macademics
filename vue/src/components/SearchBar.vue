@@ -26,7 +26,5 @@ export default {
 
     border-radius: 24px;
     outline: none;
-    
-
 }
 </style>
