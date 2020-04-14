@@ -4,7 +4,7 @@ import json
 import re
 from datetime import *
 
-url = 'https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/'
+url = 'https://www.macalester.edu/registrar/schedules/2020spring/class-schedule/'
 response = requests.get(url, timeout=5)
 content = BeautifulSoup(response.content, "html.parser")
 
@@ -17,7 +17,7 @@ def row_to_json(content):
     startTime = datetime.now()
 
     # text patterns
-    course_pattern = re.compile("[\w]{2,3,4}\s[\d]{3}-[a-zA-Z0-9]{2}")  # regex pattern of any course
+    course_pattern = re.compile("[\w]{3,4}\s[\d]{3}-[a-zA-Z0-9]{2}")  # regex pattern of any course
 
     rows = content.find_all('tr')
     sections = []
@@ -98,10 +98,10 @@ def row_to_json(content):
 
 
 
-    export_dict = {"fall20": courses}
+    export_dict = {"spring20": courses}
 
     # export as JSON
-    with open('fall20.json', 'w') as fout:
+    with open('spring20.json', 'w') as fout:
         json.dump(export_dict, fout, indent=4)
 
     print('\nTime elasped: ', datetime.now() - startTime)
