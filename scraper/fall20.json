@@ -1,7 +1,6 @@
 {
     "fall20": {
         "AMST 112": {
-            "course-num": "AMST 112",
             "dept": "AMST",
             "name": "Introduction to African American Literature",
             "sections": [
@@ -17,7 +16,6 @@
             ]
         },
         "AMST 194": {
-            "course-num": "AMST 194",
             "dept": "AMST",
             "name": "The Obama Presidency",
             "sections": [
@@ -33,7 +31,6 @@
             ]
         },
         "AMST 203": {
-            "course-num": "AMST 203",
             "dept": "AMST",
             "name": "Politics and Inequality: The American Welfare State",
             "sections": [
@@ -49,7 +46,6 @@
             ]
         },
         "AMST 225": {
-            "course-num": "AMST 225",
             "dept": "AMST",
             "name": "American Indian History to 1871",
             "sections": [
@@ -65,7 +61,6 @@
             ]
         },
         "AMST 240": {
-            "course-num": "AMST 240",
             "dept": "AMST",
             "name": "Race, Culture, and Ethnicity in Education",
             "sections": [
@@ -81,7 +76,6 @@
             ]
         },
         "AMST 244": {
-            "course-num": "AMST 244",
             "dept": "AMST",
             "name": "Urban Latino Power",
             "sections": [
@@ -97,7 +91,6 @@
             ]
         },
         "AMST 270": {
-            "course-num": "AMST 270",
             "dept": "AMST",
             "name": "Black Public Intellectuals",
             "sections": [
@@ -113,7 +106,6 @@
             ]
         },
         "AMST 271": {
-            "course-num": "AMST 271",
             "dept": "AMST",
             "name": "Uses and Abuses: Drugs, Addiction and Recovery",
             "sections": [
@@ -129,7 +121,6 @@
             ]
         },
         "AMST 294": {
-            "course-num": "AMST 294",
             "dept": "AMST",
             "name": "Radical Reelism: Indigeneity, Politics and Visual Culture",
             "sections": [
@@ -154,7 +145,6 @@
             ]
         },
         "AMST 301": {
-            "course-num": "AMST 301",
             "dept": "AMST",
             "name": "Critical Prison Studies",
             "sections": [
@@ -170,7 +160,6 @@
             ]
         },
         "AMST 308": {
-            "course-num": "AMST 308",
             "dept": "AMST",
             "name": "Introduction to U.S. Latinx Studies",
             "sections": [
@@ -186,7 +175,6 @@
             ]
         },
         "AMST 394": {
-            "course-num": "AMST 394",
             "dept": "AMST",
             "name": "Latinx in the Midwest",
             "sections": [
@@ -202,7 +190,6 @@
             ]
         },
         "AMST 400": {
-            "course-num": "AMST 400",
             "dept": "AMST",
             "name": "Senior Seminar",
             "sections": [
@@ -218,7 +205,6 @@
             ]
         },
         "ANTH 101": {
-            "course-num": "ANTH 101",
             "dept": "ANTH",
             "name": "General Anthropology",
             "sections": [
@@ -234,7 +220,6 @@
             ]
         },
         "ANTH 111": {
-            "course-num": "ANTH 111",
             "dept": "ANTH",
             "name": "Cultural Anthropology",
             "sections": [
@@ -250,7 +235,6 @@
             ]
         },
         "ANTH 194": {
-            "course-num": "ANTH 194",
             "dept": "ANTH",
             "name": "Pandemic Infections",
             "sections": [
@@ -266,7 +250,6 @@
             ]
         },
         "ANTH 239": {
-            "course-num": "ANTH 239",
             "dept": "ANTH",
             "name": "Medical Anthropology",
             "sections": [
@@ -282,7 +265,6 @@
             ]
         },
         "ANTH 253": {
-            "course-num": "ANTH 253",
             "dept": "ANTH",
             "name": "Comparative Muslim Cultures",
             "sections": [
@@ -298,7 +280,6 @@
             ]
         },
         "ANTH 294": {
-            "course-num": "ANTH 294",
             "dept": "ANTH",
             "name": "Digital Archaeology: Digitizing the Human Experience",
             "sections": [
@@ -323,7 +304,6 @@
             ]
         },
         "ANTH 358": {
-            "course-num": "ANTH 358",
             "dept": "ANTH",
             "name": "Anthropology of Violence",
             "sections": [
@@ -339,7 +319,6 @@
             ]
         },
         "ANTH 368": {
-            "course-num": "ANTH 368",
             "dept": "ANTH",
             "name": "Life Histories/Cultures/Selves",
             "sections": [
@@ -355,7 +334,6 @@
             ]
         },
         "ANTH 394": {
-            "course-num": "ANTH 394",
             "dept": "ANTH",
             "name": "Poetics, Performance, and Political Speech",
             "sections": [
@@ -371,7 +349,6 @@
             ]
         },
         "ANTH 487": {
-            "course-num": "ANTH 487",
             "dept": "ANTH",
             "name": "Theory in Anthropology",
             "sections": [
@@ -381,13 +358,12 @@
                     "days": "T R",
                     "availmax": "16 / 16",
                     "courseid": "10129",
-                    "start": "09:40 am",
-                    "end": "11:10 am"
+                    "start": "01:20 pm",
+                    "end": "02:50 pm"
                 }
             ]
         },
         "ART 130": {
-            "course-num": "ART 130",
             "dept": "ART",
             "name": "Drawing I",
             "sections": [
@@ -403,7 +379,6 @@
             ]
         },
         "ART 131": {
-            "course-num": "ART 131",
             "dept": "ART",
             "name": "Ceramics I",
             "sections": [
@@ -428,7 +403,6 @@
             ]
         },
         "ART 149": {
-            "course-num": "ART 149",
             "dept": "ART",
             "name": "Introduction to Visual Culture",
             "sections": [
@@ -444,7 +418,6 @@
             ]
         },
         "ART 160": {
-            "course-num": "ART 160",
             "dept": "ART",
             "name": "Art of the West I",
             "sections": [
@@ -460,7 +433,6 @@
             ]
         },
         "ART 170": {
-            "course-num": "ART 170",
             "dept": "ART",
             "name": "Art of the East I: China",
             "sections": [
@@ -476,7 +448,6 @@
             ]
         },
         "ART 230": {
-            "course-num": "ART 230",
             "dept": "ART",
             "name": "Color",
             "sections": [
@@ -492,7 +463,6 @@
             ]
         },
         "ART 233": {
-            "course-num": "ART 233",
             "dept": "ART",
             "name": "Photography I",
             "sections": [
@@ -508,7 +478,6 @@
             ]
         },
         "ART 234": {
-            "course-num": "ART 234",
             "dept": "ART",
             "name": "Painting I",
             "sections": [
@@ -524,9 +493,8 @@
             ]
         },
         "ART 235": {
-            "course-num": "ART 235",
             "dept": "ART",
-            "name": "Sculpture I: Basic Sculpture with a Dose of Hot Metal",
+            "name": "Sculpture I",
             "sections": [
                 {
                     "numsection": "ART 235-01",
@@ -540,7 +508,6 @@
             ]
         },
         "ART 236": {
-            "course-num": "ART 236",
             "dept": "ART",
             "name": "Printmaking I",
             "sections": [
@@ -556,7 +523,6 @@
             ]
         },
         "ART 239": {
-            "course-num": "ART 239",
             "dept": "ART",
             "name": "2-D Design",
             "sections": [
@@ -572,7 +538,6 @@
             ]
         },
         "ART 252": {
-            "course-num": "ART 252",
             "dept": "ART",
             "name": "Gender, Sexualities, and Feminist Visual Culture",
             "sections": [
@@ -588,7 +553,6 @@
             ]
         },
         "ART 280": {
-            "course-num": "ART 280",
             "dept": "ART",
             "name": "Art and Architecture of Ancient Egypt",
             "sections": [
@@ -604,7 +568,6 @@
             ]
         },
         "ART 284": {
-            "course-num": "ART 284",
             "dept": "ART",
             "name": "Art and Architecture of Byzantium and Medieval Europe",
             "sections": [
@@ -620,7 +583,6 @@
             ]
         },
         "ART 294": {
-            "course-num": "ART 294",
             "dept": "ART",
             "name": "Transnational Surrealism: Art, Photography, and Film",
             "sections": [
@@ -636,7 +598,6 @@
             ]
         },
         "ART 367": {
-            "course-num": "ART 367",
             "dept": "ART",
             "name": "3-D Design",
             "sections": [
@@ -652,7 +613,6 @@
             ]
         },
         "ART 373": {
-            "course-num": "ART 373",
             "dept": "ART",
             "name": "Printmaking II",
             "sections": [
@@ -668,7 +628,6 @@
             ]
         },
         "ART 394": {
-            "course-num": "ART 394",
             "dept": "ART",
             "name": "Illustration",
             "sections": [
@@ -684,7 +643,6 @@
             ]
         },
         "ASIA 140": {
-            "course-num": "ASIA 140",
             "dept": "ASIA",
             "name": "Introduction to East Asian Civilization",
             "sections": [
@@ -700,7 +658,6 @@
             ]
         },
         "ASIA 170": {
-            "course-num": "ASIA 170",
             "dept": "ASIA",
             "name": "Art of the East I: China",
             "sections": [
@@ -716,7 +673,6 @@
             ]
         },
         "ASIA 194": {
-            "course-num": "ASIA 194",
             "dept": "ASIA",
             "name": "Revolution and Romance in Chinese Fiction and Film",
             "sections": [
@@ -741,7 +697,6 @@
             ]
         },
         "ASIA 275": {
-            "course-num": "ASIA 275",
             "dept": "ASIA",
             "name": "The Rise of Modern China",
             "sections": [
@@ -757,7 +712,6 @@
             ]
         },
         "ASIA 276": {
-            "course-num": "ASIA 276",
             "dept": "ASIA",
             "name": "The Great Tradition in Japan before 1853",
             "sections": [
@@ -773,7 +727,6 @@
             ]
         },
         "ASIA 294": {
-            "course-num": "ASIA 294",
             "dept": "ASIA",
             "name": "Uyghur Culture and Society",
             "sections": [
@@ -789,7 +742,6 @@
             ]
         },
         "BIOL 170": {
-            "course-num": "BIOL 170",
             "dept": "BIOL",
             "name": "Ecology and the Environment",
             "sections": [
@@ -850,7 +802,6 @@
             ]
         },
         "BIOL 180": {
-            "course-num": "BIOL 180",
             "dept": "BIOL",
             "name": "Biodiversity and Evolution",
             "sections": [
@@ -884,7 +835,6 @@
             ]
         },
         "BIOL 190": {
-            "course-num": "BIOL 190",
             "dept": "BIOL",
             "name": "Genetics",
             "sections": [
@@ -927,7 +877,6 @@
             ]
         },
         "BIOL 200": {
-            "course-num": "BIOL 200",
             "dept": "BIOL",
             "name": "Cell Biology",
             "sections": [
@@ -952,7 +901,6 @@
             ]
         },
         "BIOL 255": {
-            "course-num": "BIOL 255",
             "dept": "BIOL",
             "name": "Cell Biology and Genetics Laboratory Methods",
             "sections": [
@@ -977,7 +925,6 @@
             ]
         },
         "BIOL 304": {
-            "course-num": "BIOL 304",
             "dept": "BIOL",
             "name": "Neuroanatomy",
             "sections": [
@@ -1002,7 +949,6 @@
             ]
         },
         "BIOL 312": {
-            "course-num": "BIOL 312",
             "dept": "BIOL",
             "name": "Microbiology",
             "sections": [
@@ -1027,7 +973,6 @@
             ]
         },
         "BIOL 316": {
-            "course-num": "BIOL 316",
             "dept": "BIOL",
             "name": "Cell/Molecular Neuroscience",
             "sections": [
@@ -1052,7 +997,6 @@
             ]
         },
         "BIOL 320": {
-            "course-num": "BIOL 320",
             "dept": "BIOL",
             "name": "Computational Biology",
             "sections": [
@@ -1068,7 +1012,6 @@
             ]
         },
         "BIOL 322": {
-            "course-num": "BIOL 322",
             "dept": "BIOL",
             "name": "Advanced Genetics",
             "sections": [
@@ -1084,7 +1027,6 @@
             ]
         },
         "BIOL 351": {
-            "course-num": "BIOL 351",
             "dept": "BIOL",
             "name": "Biochemistry I",
             "sections": [
@@ -1118,7 +1060,6 @@
             ]
         },
         "BIOL 369": {
-            "course-num": "BIOL 369",
             "dept": "BIOL",
             "name": "Developmental Biology",
             "sections": [
@@ -1143,7 +1084,6 @@
             ]
         },
         "BIOL 394": {
-            "course-num": "BIOL 394",
             "dept": "BIOL",
             "name": "Global Change Biology",
             "sections": [
@@ -1159,7 +1099,6 @@
             ]
         },
         "BIOL 494": {
-            "course-num": "BIOL 494",
             "dept": "BIOL",
             "name": "Seminar/Biology of Mindfulness",
             "sections": [
@@ -1193,7 +1132,6 @@
             ]
         },
         "CHEM 111": {
-            "course-num": "CHEM 111",
             "dept": "CHEM",
             "name": "General Chemistry I: Structure and Equilibrium",
             "sections": [
@@ -1299,7 +1237,6 @@
             ]
         },
         "CHEM 115": {
-            "course-num": "CHEM 115",
             "dept": "CHEM",
             "name": "Accelerated General Chemistry",
             "sections": [
@@ -1324,7 +1261,6 @@
             ]
         },
         "CHEM 194": {
-            "course-num": "CHEM 194",
             "dept": "CHEM",
             "name": "Food Chemistry",
             "sections": [
@@ -1340,7 +1276,6 @@
             ]
         },
         "CHEM 211": {
-            "course-num": "CHEM 211",
             "dept": "CHEM",
             "name": "Organic Chemistry I",
             "sections": [
@@ -1410,7 +1345,6 @@
             ]
         },
         "CHEM 300": {
-            "course-num": "CHEM 300",
             "dept": "CHEM",
             "name": "Chemistry Seminar",
             "sections": [
@@ -1426,7 +1360,6 @@
             ]
         },
         "CHEM 311": {
-            "course-num": "CHEM 311",
             "dept": "CHEM",
             "name": "Thermodynamics and Kinetics",
             "sections": [
@@ -1469,7 +1402,6 @@
             ]
         },
         "CHEM 320": {
-            "course-num": "CHEM 320",
             "dept": "CHEM",
             "name": "Computational Chemistry",
             "sections": [
@@ -1485,7 +1417,6 @@
             ]
         },
         "CHEM 351": {
-            "course-num": "CHEM 351",
             "dept": "CHEM",
             "name": "Biochemistry I",
             "sections": [
@@ -1519,7 +1450,6 @@
             ]
         },
         "CHEM 411": {
-            "course-num": "CHEM 411",
             "dept": "CHEM",
             "name": "Advanced Inorganic Chemistry",
             "sections": [
@@ -1553,7 +1483,6 @@
             ]
         },
         "CHIN 101": {
-            "course-num": "CHIN 101",
             "dept": "CHIN",
             "name": "First Year Chinese I",
             "sections": [
@@ -1605,7 +1534,6 @@
             ]
         },
         "CHIN 194": {
-            "course-num": "CHIN 194",
             "dept": "CHIN",
             "name": "Revolution and Romance in Chinese Fiction and Film",
             "sections": [
@@ -1630,7 +1558,6 @@
             ]
         },
         "CHIN 203": {
-            "course-num": "CHIN 203",
             "dept": "CHIN",
             "name": "Second Year Chinese I",
             "sections": [
@@ -1682,7 +1609,6 @@
             ]
         },
         "CHIN 305": {
-            "course-num": "CHIN 305",
             "dept": "CHIN",
             "name": "Third Year Chinese I",
             "sections": [
@@ -1716,7 +1642,6 @@
             ]
         },
         "CHIN 407": {
-            "course-num": "CHIN 407",
             "dept": "CHIN",
             "name": "Fourth Year Chinese I",
             "sections": [
@@ -1732,7 +1657,6 @@
             ]
         },
         "CLAS 111": {
-            "course-num": "CLAS 111",
             "dept": "CLAS",
             "name": "Elementary Latin I",
             "sections": [
@@ -1751,13 +1675,21 @@
                     "days": "T",
                     "availmax": "20 / 20",
                     "courseid": "10247",
-                    "start": "03:00 pm",
-                    "end": "04:00 pm"
+                    "start": "01:20 pm",
+                    "end": "02:20 pm"
+                },
+                {
+                    "numsection": "CLAS 111-L2",
+                    "instructor": "Beth Severy-Hoven",
+                    "days": "T",
+                    "availmax": "20 / 20",
+                    "courseid": "10797",
+                    "start": "10:10 am",
+                    "end": "11:10 am"
                 }
             ]
         },
         "CLAS 113": {
-            "course-num": "CLAS 113",
             "dept": "CLAS",
             "name": "Elementary Arabic I",
             "sections": [
@@ -1791,7 +1723,6 @@
             ]
         },
         "CLAS 117": {
-            "course-num": "CLAS 117",
             "dept": "CLAS",
             "name": "Elementary Hebrew I",
             "sections": [
@@ -1825,7 +1756,6 @@
             ]
         },
         "CLAS 121": {
-            "course-num": "CLAS 121",
             "dept": "CLAS",
             "name": "The Greek World",
             "sections": [
@@ -1841,7 +1771,6 @@
             ]
         },
         "CLAS 135": {
-            "course-num": "CLAS 135",
             "dept": "CLAS",
             "name": "India and Rome",
             "sections": [
@@ -1857,7 +1786,6 @@
             ]
         },
         "CLAS 194": {
-            "course-num": "CLAS 194",
             "dept": "CLAS",
             "name": "Tenors and Togas",
             "sections": [
@@ -1867,13 +1795,12 @@
                     "days": "M W F",
                     "availmax": "16 / 16",
                     "courseid": "10264",
-                    "start": "02:20 pm",
-                    "end": "03:20 pm"
+                    "start": "09:40 am",
+                    "end": "10:40 am"
                 }
             ]
         },
         "CLAS 200": {
-            "course-num": "CLAS 200",
             "dept": "CLAS",
             "name": "Ancient and Medieval Philosophies",
             "sections": [
@@ -1889,7 +1816,6 @@
             ]
         },
         "CLAS 231": {
-            "course-num": "CLAS 231",
             "dept": "CLAS",
             "name": "Intermediate Latin I: Prose",
             "sections": [
@@ -1905,7 +1831,6 @@
             ]
         },
         "CLAS 241": {
-            "course-num": "CLAS 241",
             "dept": "CLAS",
             "name": "Intermediate Arabic I",
             "sections": [
@@ -1939,7 +1864,6 @@
             ]
         },
         "CLAS 260": {
-            "course-num": "CLAS 260",
             "dept": "CLAS",
             "name": "Introduction to Ancient/Medieval Art",
             "sections": [
@@ -1955,7 +1879,6 @@
             ]
         },
         "CLAS 261": {
-            "course-num": "CLAS 261",
             "dept": "CLAS",
             "name": "Intermediate Greek: Prose",
             "sections": [
@@ -1971,7 +1894,6 @@
             ]
         },
         "CLAS 294": {
-            "course-num": "CLAS 294",
             "dept": "CLAS",
             "name": "Digital Archaeology: Digitizing the Human Experience",
             "sections": [
@@ -1987,7 +1909,6 @@
             ]
         },
         "CLAS 483": {
-            "course-num": "CLAS 483",
             "dept": "CLAS",
             "name": "Advanced Reading in Latin",
             "sections": [
@@ -2003,7 +1924,6 @@
             ]
         },
         "CLAS 490": {
-            "course-num": "CLAS 490",
             "dept": "CLAS",
             "name": "Senior Seminar",
             "sections": [
@@ -2019,7 +1939,6 @@
             ]
         },
         "COMP 112": {
-            "course-num": "COMP 112",
             "dept": "COMP",
             "name": "Introduction to Data Science",
             "sections": [
@@ -2044,7 +1963,6 @@
             ]
         },
         "COMP 123": {
-            "course-num": "COMP 123",
             "dept": "COMP",
             "name": "Core Concepts in Computer Science",
             "sections": [
@@ -2096,7 +2014,6 @@
             ]
         },
         "COMP 127": {
-            "course-num": "COMP 127",
             "dept": "COMP",
             "name": "Object-Oriented Programming and Abstraction",
             "sections": [
@@ -2175,7 +2092,6 @@
             ]
         },
         "COMP 128": {
-            "course-num": "COMP 128",
             "dept": "COMP",
             "name": "Data Structures",
             "sections": [
@@ -2200,7 +2116,6 @@
             ]
         },
         "COMP 154": {
-            "course-num": "COMP 154",
             "dept": "COMP",
             "name": "Digital Ethics",
             "sections": [
@@ -2216,7 +2131,6 @@
             ]
         },
         "COMP 194": {
-            "course-num": "COMP 194",
             "dept": "COMP",
             "name": "Interacting with Virtual Worlds: 3D User Interfaces and Virtual Reality",
             "sections": [
@@ -2232,7 +2146,6 @@
             ]
         },
         "COMP 221": {
-            "course-num": "COMP 221",
             "dept": "COMP",
             "name": "Algorithm Design and Analysis",
             "sections": [
@@ -2248,7 +2161,6 @@
             ]
         },
         "COMP 225": {
-            "course-num": "COMP 225",
             "dept": "COMP",
             "name": "Software Design and Development",
             "sections": [
@@ -2282,7 +2194,6 @@
             ]
         },
         "COMP 240": {
-            "course-num": "COMP 240",
             "dept": "COMP",
             "name": "Computer Systems Organization",
             "sections": [
@@ -2307,7 +2218,6 @@
             ]
         },
         "COMP 302": {
-            "course-num": "COMP 302",
             "dept": "COMP",
             "name": "Introduction to Database Management Systems",
             "sections": [
@@ -2323,7 +2233,6 @@
             ]
         },
         "COMP 320": {
-            "course-num": "COMP 320",
             "dept": "COMP",
             "name": "Computational Biology",
             "sections": [
@@ -2339,7 +2248,6 @@
             ]
         },
         "COMP 394": {
-            "course-num": "COMP 394",
             "dept": "COMP",
             "name": "Video Games: Coding, Narrative and Life in VR",
             "sections": [
@@ -2364,7 +2272,6 @@
             ]
         },
         "COMP 440": {
-            "course-num": "COMP 440",
             "dept": "COMP",
             "name": "Collective Intelligence",
             "sections": [
@@ -2380,7 +2287,6 @@
             ]
         },
         "COMP 479": {
-            "course-num": "COMP 479",
             "dept": "COMP",
             "name": "Network Science",
             "sections": [
@@ -2396,7 +2302,6 @@
             ]
         },
         "COMP 484": {
-            "course-num": "COMP 484",
             "dept": "COMP",
             "name": "Introduction to Artificial Intelligence",
             "sections": [
@@ -2412,7 +2317,6 @@
             ]
         },
         "COMP 494": {
-            "course-num": "COMP 494",
             "dept": "COMP",
             "name": "Computer Security and Privacy",
             "sections": [
@@ -2428,7 +2332,6 @@
             ]
         },
         "ECON 113": {
-            "course-num": "ECON 113",
             "dept": "ECON",
             "name": "Financial Accounting",
             "sections": [
@@ -2453,7 +2356,6 @@
             ]
         },
         "ECON 119": {
-            "course-num": "ECON 119",
             "dept": "ECON",
             "name": "Principles of Economics",
             "sections": [
@@ -2481,17 +2383,8 @@
                     "days": "M W F",
                     "availmax": "25 / 25",
                     "courseid": "10058",
-                    "start": "01:10 pm",
-                    "end": "02:10 pm"
-                },
-                {
-                    "numsection": "ECON 119-04",
-                    "instructor": "Pete Ferderer",
-                    "days": "M W F",
-                    "availmax": "25 / 25",
-                    "courseid": "10059",
-                    "start": "02:20 pm",
-                    "end": "03:20 pm"
+                    "start": "10:50 am",
+                    "end": "11:50 am"
                 },
                 {
                     "numsection": "ECON 119-05",
@@ -2514,7 +2407,6 @@
             ]
         },
         "ECON 194": {
-            "course-num": "ECON 194",
             "dept": "ECON",
             "name": "Can Business Be Good?",
             "sections": [
@@ -2530,7 +2422,6 @@
             ]
         },
         "ECON 229": {
-            "course-num": "ECON 229",
             "dept": "ECON",
             "name": "World Economic History",
             "sections": [
@@ -2540,13 +2431,21 @@
                     "days": "M W F",
                     "availmax": "25 / 25",
                     "courseid": "10063",
-                    "start": "10:50 am",
-                    "end": "11:50 am"
+                    "start": "01:10 pm",
+                    "end": "02:10 pm"
+                },
+                {
+                    "numsection": "ECON 229-02",
+                    "instructor": "Pete Ferderer",
+                    "days": "M W F",
+                    "availmax": "25 / 25",
+                    "courseid": "10796",
+                    "start": "02:20 pm",
+                    "end": "03:20 pm"
                 }
             ]
         },
         "ECON 235": {
-            "course-num": "ECON 235",
             "dept": "ECON",
             "name": "Climate Change: Science, Economics, and Policy",
             "sections": [
@@ -2562,7 +2461,6 @@
             ]
         },
         "ECON 258": {
-            "course-num": "ECON 258",
             "dept": "ECON",
             "name": "Introduction to Securities Analysis",
             "sections": [
@@ -2578,7 +2476,6 @@
             ]
         },
         "ECON 294": {
-            "course-num": "ECON 294",
             "dept": "ECON",
             "name": "Intro to Labor Economics",
             "sections": [
@@ -2594,7 +2491,6 @@
             ]
         },
         "ECON 353": {
-            "course-num": "ECON 353",
             "dept": "ECON",
             "name": "Managerial Accounting",
             "sections": [
@@ -2610,7 +2506,6 @@
             ]
         },
         "ECON 356": {
-            "course-num": "ECON 356",
             "dept": "ECON",
             "name": "Capital Markets",
             "sections": [
@@ -2626,7 +2521,6 @@
             ]
         },
         "ECON 361": {
-            "course-num": "ECON 361",
             "dept": "ECON",
             "name": "Intermediate Microeconomic Analysis",
             "sections": [
@@ -2651,7 +2545,6 @@
             ]
         },
         "ECON 371": {
-            "course-num": "ECON 371",
             "dept": "ECON",
             "name": "Intermediate Macroeconomic Analysis",
             "sections": [
@@ -2676,7 +2569,6 @@
             ]
         },
         "ECON 381": {
-            "course-num": "ECON 381",
             "dept": "ECON",
             "name": "Introduction to Econometrics",
             "sections": [
@@ -2719,7 +2611,6 @@
             ]
         },
         "ECON 426": {
-            "course-num": "ECON 426",
             "dept": "ECON",
             "name": "International Economic Development",
             "sections": [
@@ -2735,7 +2626,6 @@
             ]
         },
         "ECON 444": {
-            "course-num": "ECON 444",
             "dept": "ECON",
             "name": "Honors Seminar",
             "sections": [
@@ -2751,7 +2641,6 @@
             ]
         },
         "ECON 457": {
-            "course-num": "ECON 457",
             "dept": "ECON",
             "name": "Finance",
             "sections": [
@@ -2767,7 +2656,6 @@
             ]
         },
         "ECON 481": {
-            "course-num": "ECON 481",
             "dept": "ECON",
             "name": "Advanced Econometrics",
             "sections": [
@@ -2783,7 +2671,6 @@
             ]
         },
         "EDUC 220": {
-            "course-num": "EDUC 220",
             "dept": "EDUC",
             "name": "Educational Psychology",
             "sections": [
@@ -2799,7 +2686,6 @@
             ]
         },
         "EDUC 240": {
-            "course-num": "EDUC 240",
             "dept": "EDUC",
             "name": "Race, Culture, and Ethnicity in Education",
             "sections": [
@@ -2815,7 +2701,6 @@
             ]
         },
         "EDUC 250": {
-            "course-num": "EDUC 250",
             "dept": "EDUC",
             "name": "Building Trust: Education in Global Perspective",
             "sections": [
@@ -2831,7 +2716,6 @@
             ]
         },
         "EDUC 275": {
-            "course-num": "EDUC 275",
             "dept": "EDUC",
             "name": "Outdoor Environmental Education in Theory, Policy and Practice",
             "sections": [
@@ -2856,7 +2740,6 @@
             ]
         },
         "EDUC 294": {
-            "course-num": "EDUC 294",
             "dept": "EDUC",
             "name": "Social-Emotional Learning",
             "sections": [
@@ -2872,13 +2755,12 @@
             ]
         },
         "EDUC 390": {
-            "course-num": "EDUC 390",
             "dept": "EDUC",
             "name": "Teaching and Learning in Urban Schools",
             "sections": [
                 {
                     "numsection": "EDUC 390-01",
-                    "instructor": "Jonathan Hamilton",
+                    "instructor": "Brian Lozenski",
                     "days": "M",
                     "availmax": "10 / 10",
                     "courseid": "10011",
@@ -2888,7 +2770,6 @@
             ]
         },
         "EDUC 460": {
-            "course-num": "EDUC 460",
             "dept": "EDUC",
             "name": "Education and Social Change",
             "sections": [
@@ -2904,7 +2785,6 @@
             ]
         },
         "ENGL 112": {
-            "course-num": "ENGL 112",
             "dept": "ENGL",
             "name": "Introduction to African American Literature",
             "sections": [
@@ -2920,9 +2800,8 @@
             ]
         },
         "ENGL 125": {
-            "course-num": "ENGL 125",
             "dept": "ENGL",
-            "name": "Studies in Literature",
+            "name": "Studies in Literature: Literary Makers - Handicraft, Gender, and the Art of Survival",
             "sections": [
                 {
                     "numsection": "ENGL 125-01",
@@ -2936,7 +2815,6 @@
             ]
         },
         "ENGL 150": {
-            "course-num": "ENGL 150",
             "dept": "ENGL",
             "name": "Introduction to Creative Writing",
             "sections": [
@@ -2964,8 +2842,8 @@
                     "days": "T R",
                     "availmax": "16 / 16",
                     "courseid": "10089",
-                    "start": "01:20 pm",
-                    "end": "02:50 pm"
+                    "start": "03:00 pm",
+                    "end": "04:30 pm"
                 },
                 {
                     "numsection": "ENGL 150-04",
@@ -2991,8 +2869,8 @@
                     "days": "T R",
                     "availmax": "16 / 16",
                     "courseid": "10094",
-                    "start": "03:00 pm",
-                    "end": "04:30 pm"
+                    "start": "01:20 pm",
+                    "end": "02:50 pm"
                 },
                 {
                     "numsection": "ENGL 150-07",
@@ -3006,7 +2884,6 @@
             ]
         },
         "ENGL 194": {
-            "course-num": "ENGL 194",
             "dept": "ENGL",
             "name": "Living in the Anthropocene: Earth in the Age of Humans",
             "sections": [
@@ -3031,7 +2908,6 @@
             ]
         },
         "ENGL 208": {
-            "course-num": "ENGL 208",
             "dept": "ENGL",
             "name": "Literary Publishing",
             "sections": [
@@ -3047,7 +2923,6 @@
             ]
         },
         "ENGL 225": {
-            "course-num": "ENGL 225",
             "dept": "ENGL",
             "name": "Musical Fictions",
             "sections": [
@@ -3063,9 +2938,8 @@
             ]
         },
         "ENGL 262": {
-            "course-num": "ENGL 262",
             "dept": "ENGL",
-            "name": "Studies in Literature and the Natural World",
+            "name": "Studies in Literature and the Natural World: Reading Nature in the Global Novel",
             "sections": [
                 {
                     "numsection": "ENGL 262-01",
@@ -3079,7 +2953,6 @@
             ]
         },
         "ENGL 276": {
-            "course-num": "ENGL 276",
             "dept": "ENGL",
             "name": "African American Literature 1900 to Present",
             "sections": [
@@ -3095,7 +2968,6 @@
             ]
         },
         "ENGL 277": {
-            "course-num": "ENGL 277",
             "dept": "ENGL",
             "name": "Angels and Demons of the American Renaissance (1835-1880)",
             "sections": [
@@ -3111,7 +2983,6 @@
             ]
         },
         "ENGL 280": {
-            "course-num": "ENGL 280",
             "dept": "ENGL",
             "name": "Crafts of Writing: Poetry",
             "sections": [
@@ -3127,9 +2998,8 @@
             ]
         },
         "ENGL 281": {
-            "course-num": "ENGL 281",
             "dept": "ENGL",
-            "name": "Crafts of Writing: Fiction",
+            "name": "Crafts of Writing, Fiction: Fantastic Beasts and How to Write Them",
             "sections": [
                 {
                     "numsection": "ENGL 281-01",
@@ -3138,12 +3008,11 @@
                     "availmax": "16 / 16",
                     "courseid": "10106",
                     "start": "01:20 pm",
-                    "end": "02:30 pm"
+                    "end": "02:50 pm"
                 }
             ]
         },
         "ENGL 284": {
-            "course-num": "ENGL 284",
             "dept": "ENGL",
             "name": "Crafts of Writing: Screenwriting",
             "sections": [
@@ -3159,7 +3028,6 @@
             ]
         },
         "ENGL 285": {
-            "course-num": "ENGL 285",
             "dept": "ENGL",
             "name": "Introduction to Playwriting and Textual Analysis",
             "sections": [
@@ -3175,7 +3043,6 @@
             ]
         },
         "ENGL 294": {
-            "course-num": "ENGL 294",
             "dept": "ENGL",
             "name": "Romance from the Middle Ages to the Rom Com",
             "sections": [
@@ -3185,7 +3052,7 @@
                     "days": "T R",
                     "availmax": "20 / 20",
                     "courseid": "10083",
-                    "start": "01:00 pm",
+                    "start": "01:20 pm",
                     "end": "02:50 pm"
                 },
                 {
@@ -3203,13 +3070,12 @@
                     "days": "T R",
                     "availmax": "16 / 16",
                     "courseid": "10095",
-                    "start": "01:20 pm",
-                    "end": "02:50 pm"
+                    "start": "09:40 am",
+                    "end": "11:10 am"
                 }
             ]
         },
         "ENGL 310": {
-            "course-num": "ENGL 310",
             "dept": "ENGL",
             "name": "Shakespeare Studies: Shakespeare and Justice",
             "sections": [
@@ -3225,7 +3091,6 @@
             ]
         },
         "ENGL 394": {
-            "course-num": "ENGL 394",
             "dept": "ENGL",
             "name": "Chaucer: Medieval Contexts and Modern Adaptions",
             "sections": [
@@ -3241,7 +3106,6 @@
             ]
         },
         "ENGL 401": {
-            "course-num": "ENGL 401",
             "dept": "ENGL",
             "name": "Projects in Literary Research",
             "sections": [
@@ -3256,24 +3120,22 @@
                 }
             ]
         },
-        "ENGL 406": {
-            "course-num": "ENGL 406",
+        "ENGL 494": {
             "dept": "ENGL",
-            "name": "Projects in Creative Writing",
+            "name": "A New Decameron",
             "sections": [
                 {
-                    "numsection": "ENGL 406-01",
+                    "numsection": "ENGL 494-01",
                     "instructor": "Marlon James",
                     "days": "T R",
                     "availmax": "12 / 12",
-                    "courseid": "10105",
+                    "courseid": "10798",
                     "start": "03:00 pm",
                     "end": "04:30 pm"
                 }
             ]
         },
         "ENVI 104": {
-            "course-num": "ENVI 104",
             "dept": "ENVI",
             "name": "Soil: Science and Sustainability",
             "sections": [
@@ -3289,7 +3151,6 @@
             ]
         },
         "ENVI 160": {
-            "course-num": "ENVI 160",
             "dept": "ENVI",
             "name": "Dynamic Earth/Global Change",
             "sections": [
@@ -3323,7 +3184,6 @@
             ]
         },
         "ENVI 170": {
-            "course-num": "ENVI 170",
             "dept": "ENVI",
             "name": "Ecology and the Environment",
             "sections": [
@@ -3384,7 +3244,6 @@
             ]
         },
         "ENVI 194": {
-            "course-num": "ENVI 194",
             "dept": "ENVI",
             "name": "Living in the Anthropocene: Earth in the Age of Humans",
             "sections": [
@@ -3413,12 +3272,11 @@
                     "availmax": "16 / 16",
                     "courseid": "10783",
                     "start": "01:20 pm",
-                    "end": "04:30 pm"
+                    "end": "03:20 pm"
                 }
             ]
         },
         "ENVI 203": {
-            "course-num": "ENVI 203",
             "dept": "ENVI",
             "name": "Introduction to Urban Ecology",
             "sections": [
@@ -3434,7 +3292,6 @@
             ]
         },
         "ENVI 232": {
-            "course-num": "ENVI 232",
             "dept": "ENVI",
             "name": "People, Agriculture and the Environment",
             "sections": [
@@ -3450,7 +3307,6 @@
             ]
         },
         "ENVI 234": {
-            "course-num": "ENVI 234",
             "dept": "ENVI",
             "name": "U.S. Environmental History",
             "sections": [
@@ -3466,7 +3322,6 @@
             ]
         },
         "ENVI 235": {
-            "course-num": "ENVI 235",
             "dept": "ENVI",
             "name": "Climate Change: Science, Economics, and Policy",
             "sections": [
@@ -3482,7 +3337,6 @@
             ]
         },
         "ENVI 240": {
-            "course-num": "ENVI 240",
             "dept": "ENVI",
             "name": "The Earth's Climate System",
             "sections": [
@@ -3507,7 +3361,6 @@
             ]
         },
         "ENVI 258": {
-            "course-num": "ENVI 258",
             "dept": "ENVI",
             "name": "Geography of Environmental Hazards",
             "sections": [
@@ -3522,8 +3375,22 @@
                 }
             ]
         },
+        "ENVI 262": {
+            "dept": "ENVI",
+            "name": "Studies in Literature and the Natural World: Reading Nature in the Global Novel",
+            "sections": [
+                {
+                    "numsection": "ENVI 262-01",
+                    "instructor": "Amy Elkins",
+                    "days": "M W F",
+                    "availmax": "20 / 20",
+                    "courseid": "10793",
+                    "start": "02:20 pm",
+                    "end": "03:20 pm"
+                }
+            ]
+        },
         "ENVI 275": {
-            "course-num": "ENVI 275",
             "dept": "ENVI",
             "name": "Outdoor Environmental Education in Theory, Policy and Practice",
             "sections": [
@@ -3548,7 +3415,6 @@
             ]
         },
         "ENVI 280": {
-            "course-num": "ENVI 280",
             "dept": "ENVI",
             "name": "Environmental Classics",
             "sections": [
@@ -3564,7 +3430,6 @@
             ]
         },
         "ENVI 281": {
-            "course-num": "ENVI 281",
             "dept": "ENVI",
             "name": "The Andes: Landscape and Power",
             "sections": [
@@ -3580,7 +3445,6 @@
             ]
         },
         "ENVI 294": {
-            "course-num": "ENVI 294",
             "dept": "ENVI",
             "name": "Environmental Sociology",
             "sections": [
@@ -3623,7 +3487,6 @@
             ]
         },
         "ENVI 337": {
-            "course-num": "ENVI 337",
             "dept": "ENVI",
             "name": "Energy Justice",
             "sections": [
@@ -3639,7 +3502,6 @@
             ]
         },
         "ENVI 350": {
-            "course-num": "ENVI 350",
             "dept": "ENVI",
             "name": "Renewable Energy Systems",
             "sections": [
@@ -3655,7 +3517,6 @@
             ]
         },
         "ENVI 394": {
-            "course-num": "ENVI 394",
             "dept": "ENVI",
             "name": "Global Change Biology",
             "sections": [
@@ -3671,7 +3532,6 @@
             ]
         },
         "ENVI 478": {
-            "course-num": "ENVI 478",
             "dept": "ENVI",
             "name": "Cities of the 21st Century: The Political Economy of Urban Sustainability",
             "sections": [
@@ -3687,7 +3547,6 @@
             ]
         },
         "ENVI 489": {
-            "course-num": "ENVI 489",
             "dept": "ENVI",
             "name": "Environmental Leadership Pract",
             "sections": [
@@ -3703,7 +3562,6 @@
             ]
         },
         "ENVI 490": {
-            "course-num": "ENVI 490",
             "dept": "ENVI",
             "name": "Envi St Leadership Seminar",
             "sections": [
@@ -3718,8 +3576,22 @@
                 }
             ]
         },
+        "ENVI 494": {
+            "dept": "ENVI",
+            "name": "Seminar/Environmental Health",
+            "sections": [
+                {
+                    "numsection": "ENVI 494-01",
+                    "instructor": "Devavani Chatterjea",
+                    "days": "W",
+                    "availmax": "16 / 16",
+                    "courseid": "10794",
+                    "start": "07:00 pm",
+                    "end": "10:00 pm"
+                }
+            ]
+        },
         "FREN 101": {
-            "course-num": "FREN 101",
             "dept": "FREN",
             "name": "French I",
             "sections": [
@@ -3780,7 +3652,6 @@
             ]
         },
         "FREN 102": {
-            "course-num": "FREN 102",
             "dept": "FREN",
             "name": "French II",
             "sections": [
@@ -3814,7 +3685,6 @@
             ]
         },
         "FREN 111": {
-            "course-num": "FREN 111",
             "dept": "FREN",
             "name": "Accelerated French I-II",
             "sections": [
@@ -3848,7 +3718,6 @@
             ]
         },
         "FREN 194": {
-            "course-num": "FREN 194",
             "dept": "FREN",
             "name": "Food in France and Francophone World: Local and Global",
             "sections": [
@@ -3864,7 +3733,6 @@
             ]
         },
         "FREN 203": {
-            "course-num": "FREN 203",
             "dept": "FREN",
             "name": "French III",
             "sections": [
@@ -3952,7 +3820,6 @@
             ]
         },
         "FREN 204": {
-            "course-num": "FREN 204",
             "dept": "FREN",
             "name": "Text, Film and Media",
             "sections": [
@@ -3986,7 +3853,6 @@
             ]
         },
         "FREN 305": {
-            "course-num": "FREN 305",
             "dept": "FREN",
             "name": "Advanced Expression: Communication Tools",
             "sections": [
@@ -4020,7 +3886,6 @@
             ]
         },
         "FREN 306": {
-            "course-num": "FREN 306",
             "dept": "FREN",
             "name": "Introduction to Literary Analysis",
             "sections": [
@@ -4036,7 +3901,6 @@
             ]
         },
         "FREN 394": {
-            "course-num": "FREN 394",
             "dept": "FREN",
             "name": "Introduction to the Documentary Film in Francophone Africa",
             "sections": [
@@ -4052,7 +3916,6 @@
             ]
         },
         "FREN 494": {
-            "course-num": "FREN 494",
             "dept": "FREN",
             "name": "Dreams, Drugs, and Demons: The Sacred and the Profane in French Literature and Culture",
             "sections": [
@@ -4077,7 +3940,6 @@
             ]
         },
         "GEOG 111": {
-            "course-num": "GEOG 111",
             "dept": "GEOG",
             "name": "Human Geography of Global Issues",
             "sections": [
@@ -4093,7 +3955,6 @@
             ]
         },
         "GEOG 113": {
-            "course-num": "GEOG 113",
             "dept": "GEOG",
             "name": "World Regional Geography: People, Places and Globalization",
             "sections": [
@@ -4109,7 +3970,6 @@
             ]
         },
         "GEOG 203": {
-            "course-num": "GEOG 203",
             "dept": "GEOG",
             "name": "Introduction to Urban Ecology",
             "sections": [
@@ -4125,7 +3985,6 @@
             ]
         },
         "GEOG 225": {
-            "course-num": "GEOG 225",
             "dept": "GEOG",
             "name": "Introduction to Geographic Information Systems",
             "sections": [
@@ -4159,7 +4018,6 @@
             ]
         },
         "GEOG 232": {
-            "course-num": "GEOG 232",
             "dept": "GEOG",
             "name": "People, Agriculture and the Environment",
             "sections": [
@@ -4175,7 +4033,6 @@
             ]
         },
         "GEOG 241": {
-            "course-num": "GEOG 241",
             "dept": "GEOG",
             "name": "Urban Geography",
             "sections": [
@@ -4191,7 +4048,6 @@
             ]
         },
         "GEOG 242": {
-            "course-num": "GEOG 242",
             "dept": "GEOG",
             "name": "Regional Geography of the US and Canada",
             "sections": [
@@ -4207,7 +4063,6 @@
             ]
         },
         "GEOG 256": {
-            "course-num": "GEOG 256",
             "dept": "GEOG",
             "name": "Medical Geography",
             "sections": [
@@ -4223,7 +4078,6 @@
             ]
         },
         "GEOG 258": {
-            "course-num": "GEOG 258",
             "dept": "GEOG",
             "name": "Geography of Environmental Hazards",
             "sections": [
@@ -4239,7 +4093,6 @@
             ]
         },
         "GEOG 261": {
-            "course-num": "GEOG 261",
             "dept": "GEOG",
             "name": "Geography of World Urbanization",
             "sections": [
@@ -4264,7 +4117,6 @@
             ]
         },
         "GEOG 294": {
-            "course-num": "GEOG 294",
             "dept": "GEOG",
             "name": "Migration, Environment and Place Identity(ies): Exploring geographies of home, mobility and place",
             "sections": [
@@ -4289,7 +4141,6 @@
             ]
         },
         "GEOG 362": {
-            "course-num": "GEOG 362",
             "dept": "GEOG",
             "name": "Introduction to Remote Sensing",
             "sections": [
@@ -4305,7 +4156,6 @@
             ]
         },
         "GEOG 378": {
-            "course-num": "GEOG 378",
             "dept": "GEOG",
             "name": "Statistical Research Methods in Geography",
             "sections": [
@@ -4321,7 +4171,6 @@
             ]
         },
         "GEOG 478": {
-            "course-num": "GEOG 478",
             "dept": "GEOG",
             "name": "Cities of the 21st Century: The Political Economy of Urban Sustainability",
             "sections": [
@@ -4337,7 +4186,6 @@
             ]
         },
         "GEOL 103": {
-            "course-num": "GEOL 103",
             "dept": "GEOL",
             "name": "Geocinema",
             "sections": [
@@ -4353,7 +4201,6 @@
             ]
         },
         "GEOL 104": {
-            "course-num": "GEOL 104",
             "dept": "GEOL",
             "name": "Soil: Science and Sustainability",
             "sections": [
@@ -4369,7 +4216,6 @@
             ]
         },
         "GEOL 160": {
-            "course-num": "GEOL 160",
             "dept": "GEOL",
             "name": "Dynamic Earth/Global Change",
             "sections": [
@@ -4403,7 +4249,6 @@
             ]
         },
         "GEOL 250": {
-            "course-num": "GEOL 250",
             "dept": "GEOL",
             "name": "Mineralogy",
             "sections": [
@@ -4419,7 +4264,6 @@
             ]
         },
         "GEOL 260": {
-            "course-num": "GEOL 260",
             "dept": "GEOL",
             "name": "Geomorphology",
             "sections": [
@@ -4444,7 +4288,6 @@
             ]
         },
         "GEOL 300": {
-            "course-num": "GEOL 300",
             "dept": "GEOL",
             "name": "Paleobiology",
             "sections": [
@@ -4469,7 +4312,6 @@
             ]
         },
         "GEOL 394": {
-            "course-num": "GEOL 394",
             "dept": "GEOL",
             "name": "Soils through Magnetism and Minerals",
             "sections": [
@@ -4494,7 +4336,6 @@
             ]
         },
         "GERM 101": {
-            "course-num": "GERM 101",
             "dept": "GERM",
             "name": "Elementary German I",
             "sections": [
@@ -4537,7 +4378,6 @@
             ]
         },
         "GERM 110": {
-            "course-num": "GERM 110",
             "dept": "GERM",
             "name": "Accelerated Elementary German",
             "sections": [
@@ -4580,7 +4420,6 @@
             ]
         },
         "GERM 174": {
-            "course-num": "GERM 174",
             "dept": "GERM",
             "name": "Vampires - from Monsters to Superheroes",
             "sections": [
@@ -4596,7 +4435,6 @@
             ]
         },
         "GERM 203": {
-            "course-num": "GERM 203",
             "dept": "GERM",
             "name": "Intermediate German I",
             "sections": [
@@ -4648,7 +4486,6 @@
             ]
         },
         "GERM 204": {
-            "course-num": "GERM 204",
             "dept": "GERM",
             "name": "Intermediate German II",
             "sections": [
@@ -4691,7 +4528,6 @@
             ]
         },
         "GERM 294": {
-            "course-num": "GERM 294",
             "dept": "GERM",
             "name": "Spinoza's Eco-Society",
             "sections": [
@@ -4707,7 +4543,6 @@
             ]
         },
         "GERM 308": {
-            "course-num": "GERM 308",
             "dept": "GERM",
             "name": "German Cultural History I: Making Modern Germany",
             "sections": [
@@ -4723,7 +4558,6 @@
             ]
         },
         "GERM 337": {
-            "course-num": "GERM 337",
             "dept": "GERM",
             "name": "Dead White Men: Marx-Freud-Sartre-Lacan",
             "sections": [
@@ -4739,7 +4573,6 @@
             ]
         },
         "GERM 363": {
-            "course-num": "GERM 363",
             "dept": "GERM",
             "name": "Cyborgs, Puppets, and Borderline Humans",
             "sections": [
@@ -4755,7 +4588,6 @@
             ]
         },
         "GERM 394": {
-            "course-num": "GERM 394",
             "dept": "GERM",
             "name": "From Kant to Hegel",
             "sections": [
@@ -4771,7 +4603,6 @@
             ]
         },
         "HIST 121": {
-            "course-num": "HIST 121",
             "dept": "HIST",
             "name": "The Greek World",
             "sections": [
@@ -4787,7 +4618,6 @@
             ]
         },
         "HIST 137": {
-            "course-num": "HIST 137",
             "dept": "HIST",
             "name": "From Confederation to Confederacy: US History from Independence to Civil War",
             "sections": [
@@ -4803,7 +4633,6 @@
             ]
         },
         "HIST 140": {
-            "course-num": "HIST 140",
             "dept": "HIST",
             "name": "Introduction to East Asian Civilization",
             "sections": [
@@ -4819,7 +4648,6 @@
             ]
         },
         "HIST 181": {
-            "course-num": "HIST 181",
             "dept": "HIST",
             "name": "Introduction to Latin America",
             "sections": [
@@ -4835,7 +4663,6 @@
             ]
         },
         "HIST 194": {
-            "course-num": "HIST 194",
             "dept": "HIST",
             "name": "The Empire Strikes Back: Resistance in the U.S. Empire",
             "sections": [
@@ -4878,7 +4705,6 @@
             ]
         },
         "HIST 225": {
-            "course-num": "HIST 225",
             "dept": "HIST",
             "name": "American Indian History to 1871",
             "sections": [
@@ -4894,7 +4720,6 @@
             ]
         },
         "HIST 234": {
-            "course-num": "HIST 234",
             "dept": "HIST",
             "name": "U.S. Environmental History",
             "sections": [
@@ -4910,7 +4735,6 @@
             ]
         },
         "HIST 261": {
-            "course-num": "HIST 261",
             "dept": "HIST",
             "name": "Making History: Russian Cinema as Testimony, Propaganda, and Art",
             "sections": [
@@ -4926,7 +4750,6 @@
             ]
         },
         "HIST 262": {
-            "course-num": "HIST 262",
             "dept": "HIST",
             "name": "Revolutionary Russia and the Soviet Union, 1856-2000",
             "sections": [
@@ -4942,7 +4765,6 @@
             ]
         },
         "HIST 264": {
-            "course-num": "HIST 264",
             "dept": "HIST",
             "name": "Public Health in Africa from Empire to Ebola",
             "sections": [
@@ -4958,7 +4780,6 @@
             ]
         },
         "HIST 271": {
-            "course-num": "HIST 271",
             "dept": "HIST",
             "name": "Uses and Abuses: Drugs, Addiction and Recovery",
             "sections": [
@@ -4974,7 +4795,6 @@
             ]
         },
         "HIST 275": {
-            "course-num": "HIST 275",
             "dept": "HIST",
             "name": "The Rise of Modern China",
             "sections": [
@@ -4990,7 +4810,6 @@
             ]
         },
         "HIST 276": {
-            "course-num": "HIST 276",
             "dept": "HIST",
             "name": "The Great Tradition in Japan before 1853",
             "sections": [
@@ -5006,7 +4825,6 @@
             ]
         },
         "HIST 281": {
-            "course-num": "HIST 281",
             "dept": "HIST",
             "name": "The Andes: Landscape and Power",
             "sections": [
@@ -5022,7 +4840,6 @@
             ]
         },
         "HIST 294": {
-            "course-num": "HIST 294",
             "dept": "HIST",
             "name": "Piracy, Terrorism, and Insurgency in Northeast Africa",
             "sections": [
@@ -5038,7 +4855,6 @@
             ]
         },
         "HIST 394": {
-            "course-num": "HIST 394",
             "dept": "HIST",
             "name": "Rumors in History",
             "sections": [
@@ -5063,7 +4879,6 @@
             ]
         },
         "HIST 490": {
-            "course-num": "HIST 490",
             "dept": "HIST",
             "name": "Senior Seminar",
             "sections": [
@@ -5079,7 +4894,6 @@
             ]
         },
         "INTD 292": {
-            "course-num": "INTD 292",
             "dept": "INTD",
             "name": "Intellectual Property",
             "sections": [
@@ -5095,7 +4909,6 @@
             ]
         },
         "INTD 330": {
-            "course-num": "INTD 330",
             "dept": "INTD",
             "name": "Mellon Seminar: Exploring Academia",
             "sections": [
@@ -5110,8 +4923,52 @@
                 }
             ]
         },
+        "INTD 392": {
+            "dept": "INTD",
+            "name": "Democracy in Action Community-Based Seminar",
+            "sections": [
+                {
+                    "numsection": "INTD 392-01",
+                    "instructor": "Eric Carter",
+                    "days": "TBA",
+                    "availmax": "15 / 15",
+                    "courseid": "10788",
+                    "start": "TBA",
+                    "end": "TBA"
+                }
+            ]
+        },
+        "INTD 394": {
+            "dept": "INTD",
+            "name": "Democracy in Action Community-Based Seminar",
+            "sections": [
+                {
+                    "numsection": "INTD 394-01",
+                    "instructor": "Eric Carter",
+                    "days": "TBA",
+                    "availmax": "15 / 15",
+                    "courseid": "10789",
+                    "start": "TBA",
+                    "end": "TBA"
+                }
+            ]
+        },
+        "INTD 401": {
+            "dept": "INTD",
+            "name": "Urban Studies Colloquium",
+            "sections": [
+                {
+                    "numsection": "INTD 401-01",
+                    "instructor": "Ruthanne Kurth-Schai",
+                    "days": "W",
+                    "availmax": "15 / 15",
+                    "courseid": "10790",
+                    "start": "07:00 pm",
+                    "end": "08:30 pm"
+                }
+            ]
+        },
         "INTD 421": {
-            "course-num": "INTD 421",
             "dept": "INTD",
             "name": "Human Rights and Humanitarianism Colloquium",
             "sections": [
@@ -5127,7 +4984,6 @@
             ]
         },
         "INTL 110": {
-            "course-num": "INTL 110",
             "dept": "INTL",
             "name": "Introduction to Intl Studies: Globalization - Homogeneity and Heterogeneity",
             "sections": [
@@ -5143,7 +4999,6 @@
             ]
         },
         "INTL 111": {
-            "course-num": "INTL 111",
             "dept": "INTL",
             "name": "Intro to International Studies: Literature and Global Culture",
             "sections": [
@@ -5159,7 +5014,6 @@
             ]
         },
         "INTL 113": {
-            "course-num": "INTL 113",
             "dept": "INTL",
             "name": "Intro to International Studies: Identities, Interests, and Community",
             "sections": [
@@ -5183,8 +5037,22 @@
                 }
             ]
         },
+        "INTL 202": {
+            "dept": "INTL",
+            "name": "Global Media Industries",
+            "sections": [
+                {
+                    "numsection": "INTL 202-01",
+                    "instructor": "Michael Griffin",
+                    "days": "T R",
+                    "availmax": "20 / 20",
+                    "courseid": "10451",
+                    "start": "01:20 pm",
+                    "end": "02:50 pm"
+                }
+            ]
+        },
         "INTL 245": {
-            "course-num": "INTL 245",
             "dept": "INTL",
             "name": "Intro to Intl Human Rights",
             "sections": [
@@ -5200,7 +5068,6 @@
             ]
         },
         "INTL 253": {
-            "course-num": "INTL 253",
             "dept": "INTL",
             "name": "Comparative Muslim Cultures",
             "sections": [
@@ -5216,7 +5083,6 @@
             ]
         },
         "INTL 272": {
-            "course-num": "INTL 272",
             "dept": "INTL",
             "name": "The Post-Soviet Sphere",
             "sections": [
@@ -5224,15 +5090,29 @@
                     "numsection": "INTL 272-01",
                     "instructor": "James von Geldern",
                     "days": "M W F",
-                    "availmax": "16 / 16",
+                    "availmax": "20 / 20",
                     "courseid": "10267",
                     "start": "10:50 am",
                     "end": "11:50 am"
                 }
             ]
         },
+        "INTL 280": {
+            "dept": "INTL",
+            "name": "Indigenous Peoples' Movements in Global Context",
+            "sections": [
+                {
+                    "numsection": "INTL 280-01",
+                    "instructor": "Erik Larson",
+                    "days": "M W F",
+                    "availmax": "20 / 20",
+                    "courseid": "10792",
+                    "start": "02:20 pm",
+                    "end": "03:20 pm"
+                }
+            ]
+        },
         "INTL 282": {
-            "course-num": "INTL 282",
             "dept": "INTL",
             "name": "Introduction to International Public Health",
             "sections": [
@@ -5244,30 +5124,20 @@
                     "courseid": "10457",
                     "start": "02:20 pm",
                     "end": "03:20 pm"
-                },
-                {
-                    "numsection": "INTL 282-02",
-                    "instructor": "STAFF",
-                    "days": "M W F",
-                    "availmax": "20 / 20",
-                    "courseid": "10459",
-                    "start": "03:30 pm",
-                    "end": "04:30 pm"
                 }
             ]
         },
         "INTL 294": {
-            "course-num": "INTL 294",
             "dept": "INTL",
-            "name": "Topics in Global Media and Information",
+            "name": "Global Perspectives on Adolescent Sexual and Reproductive Health/Rights",
             "sections": [
                 {
                     "numsection": "INTL 294-01",
                     "instructor": "STAFF",
-                    "days": "T R",
+                    "days": "M W F",
                     "availmax": "20 / 20",
                     "courseid": "10460",
-                    "start": "03:00 pm",
+                    "start": "03:30 pm",
                     "end": "04:30 pm"
                 },
                 {
@@ -5291,7 +5161,6 @@
             ]
         },
         "INTL 485": {
-            "course-num": "INTL 485",
             "dept": "INTL",
             "name": "Senior Seminar: Confronting Global Hatred",
             "sections": [
@@ -5307,7 +5176,6 @@
             ]
         },
         "INTL 489": {
-            "course-num": "INTL 489",
             "dept": "INTL",
             "name": "Senior Seminar: Capitalism and World (Dis)Order",
             "sections": [
@@ -5323,7 +5191,6 @@
             ]
         },
         "JAPA 101": {
-            "course-num": "JAPA 101",
             "dept": "JAPA",
             "name": "First Year Japanese I",
             "sections": [
@@ -5384,7 +5251,6 @@
             ]
         },
         "JAPA 194": {
-            "course-num": "JAPA 194",
             "dept": "JAPA",
             "name": "Manga",
             "sections": [
@@ -5400,7 +5266,6 @@
             ]
         },
         "JAPA 203": {
-            "course-num": "JAPA 203",
             "dept": "JAPA",
             "name": "Second Year Japanese I",
             "sections": [
@@ -5452,7 +5317,6 @@
             ]
         },
         "JAPA 294": {
-            "course-num": "JAPA 294",
             "dept": "JAPA",
             "name": "Gender and Sexuality in Japan",
             "sections": [
@@ -5468,7 +5332,6 @@
             ]
         },
         "JAPA 305": {
-            "course-num": "JAPA 305",
             "dept": "JAPA",
             "name": "Third Year Japanese I",
             "sections": [
@@ -5511,7 +5374,6 @@
             ]
         },
         "JAPA 407": {
-            "course-num": "JAPA 407",
             "dept": "JAPA",
             "name": "Fourth Year Japanese I",
             "sections": [
@@ -5527,7 +5389,6 @@
             ]
         },
         "LATI 181": {
-            "course-num": "LATI 181",
             "dept": "LATI",
             "name": "Introduction to Latin America",
             "sections": [
@@ -5543,7 +5404,6 @@
             ]
         },
         "LATI 194": {
-            "course-num": "LATI 194",
             "dept": "LATI",
             "name": "Immigrant Voices in Times of Fear",
             "sections": [
@@ -5559,7 +5419,6 @@
             ]
         },
         "LATI 244": {
-            "course-num": "LATI 244",
             "dept": "LATI",
             "name": "Urban Latino Power",
             "sections": [
@@ -5575,7 +5434,6 @@
             ]
         },
         "LATI 281": {
-            "course-num": "LATI 281",
             "dept": "LATI",
             "name": "The Andes: Landscape and Power",
             "sections": [
@@ -5591,7 +5449,6 @@
             ]
         },
         "LATI 294": {
-            "course-num": "LATI 294",
             "dept": "LATI",
             "name": "Neotropical Landscapes",
             "sections": [
@@ -5607,7 +5464,6 @@
             ]
         },
         "LATI 307": {
-            "course-num": "LATI 307",
             "dept": "LATI",
             "name": "Introduction to the Analysis of Hispanic Texts",
             "sections": [
@@ -5623,7 +5479,6 @@
             ]
         },
         "LATI 308": {
-            "course-num": "LATI 308",
             "dept": "LATI",
             "name": "Introduction to U.S. Latinx Studies",
             "sections": [
@@ -5639,7 +5494,6 @@
             ]
         },
         "LATI 331": {
-            "course-num": "LATI 331",
             "dept": "LATI",
             "name": "Journeys through Brazil: Oral and Written Expression",
             "sections": [
@@ -5655,7 +5509,6 @@
             ]
         },
         "LATI 394": {
-            "course-num": "LATI 394",
             "dept": "LATI",
             "name": "Latinx in the Midwest",
             "sections": [
@@ -5671,7 +5524,6 @@
             ]
         },
         "LATI 488": {
-            "course-num": "LATI 488",
             "dept": "LATI",
             "name": "Senior Seminar",
             "sections": [
@@ -5687,7 +5539,6 @@
             ]
         },
         "LING 100": {
-            "course-num": "LING 100",
             "dept": "LING",
             "name": "Introduction to Linguistics",
             "sections": [
@@ -5703,7 +5554,6 @@
             ]
         },
         "LING 104": {
-            "course-num": "LING 104",
             "dept": "LING",
             "name": "Sounds of the World's Languages",
             "sections": [
@@ -5719,7 +5569,6 @@
             ]
         },
         "LING 205": {
-            "course-num": "LING 205",
             "dept": "LING",
             "name": "Phonology",
             "sections": [
@@ -5735,7 +5584,6 @@
             ]
         },
         "LING 220": {
-            "course-num": "LING 220",
             "dept": "LING",
             "name": "Language and Music",
             "sections": [
@@ -5751,7 +5599,6 @@
             ]
         },
         "LING 294": {
-            "course-num": "LING 294",
             "dept": "LING",
             "name": "Talking About (Non-Human) Animals",
             "sections": [
@@ -5767,7 +5614,6 @@
             ]
         },
         "LING 300": {
-            "course-num": "LING 300",
             "dept": "LING",
             "name": "Linguistic Analysis",
             "sections": [
@@ -5783,7 +5629,6 @@
             ]
         },
         "LING 309": {
-            "course-num": "LING 309",
             "dept": "LING",
             "name": "Intro to Hispanic Linguistics",
             "sections": [
@@ -5799,7 +5644,6 @@
             ]
         },
         "LING 394": {
-            "course-num": "LING 394",
             "dept": "LING",
             "name": "Poetics, Performance, and Political Speech",
             "sections": [
@@ -5815,7 +5659,6 @@
             ]
         },
         "MATH 135": {
-            "course-num": "MATH 135",
             "dept": "MATH",
             "name": "Applied Multivariable Calculus I",
             "sections": [
@@ -5849,7 +5692,6 @@
             ]
         },
         "MATH 137": {
-            "course-num": "MATH 137",
             "dept": "MATH",
             "name": "Applied Multivariable Calculus II",
             "sections": [
@@ -5883,7 +5725,6 @@
             ]
         },
         "MATH 236": {
-            "course-num": "MATH 236",
             "dept": "MATH",
             "name": "Linear Algebra",
             "sections": [
@@ -5908,7 +5749,6 @@
             ]
         },
         "MATH 237": {
-            "course-num": "MATH 237",
             "dept": "MATH",
             "name": "Applied Multivariable Calculus III",
             "sections": [
@@ -5933,7 +5773,6 @@
             ]
         },
         "MATH 279": {
-            "course-num": "MATH 279",
             "dept": "MATH",
             "name": "Discrete Mathematics",
             "sections": [
@@ -5958,7 +5797,6 @@
             ]
         },
         "MATH 312": {
-            "course-num": "MATH 312",
             "dept": "MATH",
             "name": "Differential Equations",
             "sections": [
@@ -5974,7 +5812,6 @@
             ]
         },
         "MATH 354": {
-            "course-num": "MATH 354",
             "dept": "MATH",
             "name": "Probability",
             "sections": [
@@ -5999,7 +5836,6 @@
             ]
         },
         "MATH 377": {
-            "course-num": "MATH 377",
             "dept": "MATH",
             "name": "Real Analysis",
             "sections": [
@@ -6015,7 +5851,6 @@
             ]
         },
         "MATH 379": {
-            "course-num": "MATH 379",
             "dept": "MATH",
             "name": "Combinatorics",
             "sections": [
@@ -6031,7 +5866,6 @@
             ]
         },
         "MATH 432": {
-            "course-num": "MATH 432",
             "dept": "MATH",
             "name": "Mathematical Modeling",
             "sections": [
@@ -6047,7 +5881,6 @@
             ]
         },
         "MATH 479": {
-            "course-num": "MATH 479",
             "dept": "MATH",
             "name": "Network Science",
             "sections": [
@@ -6063,7 +5896,6 @@
             ]
         },
         "MCST 110": {
-            "course-num": "MCST 110",
             "dept": "MCST",
             "name": "Texts and Power: Foundations of Media and Cultural Studies",
             "sections": [
@@ -6079,7 +5911,6 @@
             ]
         },
         "MCST 114": {
-            "course-num": "MCST 114",
             "dept": "MCST",
             "name": "News Reporting and Writing",
             "sections": [
@@ -6095,7 +5926,6 @@
             ]
         },
         "MCST 128": {
-            "course-num": "MCST 128",
             "dept": "MCST",
             "name": "Film Analysis/Visual Culture",
             "sections": [
@@ -6111,7 +5941,6 @@
             ]
         },
         "MCST 194": {
-            "course-num": "MCST 194",
             "dept": "MCST",
             "name": "Living in the Anthropocene: Earth in the Age of Humans",
             "sections": [
@@ -6126,7 +5955,7 @@
                 },
                 {
                     "numsection": "MCST 194-02",
-                    "instructor": "STAFF",
+                    "instructor": "Tia-Simone Gardner",
                     "days": "T R",
                     "availmax": "18 / 18",
                     "courseid": "10393",
@@ -6135,8 +5964,22 @@
                 }
             ]
         },
+        "MCST 202": {
+            "dept": "MCST",
+            "name": "Global Media Industries",
+            "sections": [
+                {
+                    "numsection": "MCST 202-01",
+                    "instructor": "Michael Griffin",
+                    "days": "T R",
+                    "availmax": "20 / 20",
+                    "courseid": "10453",
+                    "start": "01:20 pm",
+                    "end": "02:50 pm"
+                }
+            ]
+        },
         "MCST 294": {
-            "course-num": "MCST 294",
             "dept": "MCST",
             "name": "Radical Reelism: Indigeneity, Politics and Visual Culture",
             "sections": [
@@ -6157,11 +6000,19 @@
                     "courseid": "10394",
                     "start": "09:40 am",
                     "end": "10:40 am"
+                },
+                {
+                    "numsection": "MCST 294-03",
+                    "instructor": "Tia-Simone Gardner",
+                    "days": "T R",
+                    "availmax": "20 / 20",
+                    "courseid": "10795",
+                    "start": "09:40 am",
+                    "end": "11:10 am"
                 }
             ]
         },
         "MCST 323": {
-            "course-num": "MCST 323",
             "dept": "MCST",
             "name": "Fundamentals of Video Production",
             "sections": [
@@ -6176,24 +6027,7 @@
                 }
             ]
         },
-        "MCST 331": {
-            "course-num": "MCST 331",
-            "dept": "MCST",
-            "name": "Racial Formation, Culture and U.S. History",
-            "sections": [
-                {
-                    "numsection": "MCST 331-01",
-                    "instructor": "STAFF",
-                    "days": "T R",
-                    "availmax": "20 / 20",
-                    "courseid": "10396",
-                    "start": "09:40 am",
-                    "end": "11:10 am"
-                }
-            ]
-        },
         "MCST 337": {
-            "course-num": "MCST 337",
             "dept": "MCST",
             "name": "Dead White Men: Marx-Freud-Sartre-Lacan",
             "sections": [
@@ -6209,9 +6043,8 @@
             ]
         },
         "MCST 394": {
-            "course-num": "MCST 394",
             "dept": "MCST",
-            "name": "Documentary Cinema",
+            "name": "Documentary Cinema: Theory and Practice",
             "sections": [
                 {
                     "numsection": "MCST 394-01",
@@ -6225,7 +6058,6 @@
             ]
         },
         "MCST 488": {
-            "course-num": "MCST 488",
             "dept": "MCST",
             "name": "Advanced Topics Seminar",
             "sections": [
@@ -6241,7 +6073,6 @@
             ]
         },
         "MUSI 110": {
-            "course-num": "MUSI 110",
             "dept": "MUSI",
             "name": "Music Appreciation",
             "sections": [
@@ -6257,7 +6088,6 @@
             ]
         },
         "MUSI 113": {
-            "course-num": "MUSI 113",
             "dept": "MUSI",
             "name": "Theory I",
             "sections": [
@@ -6300,7 +6130,6 @@
             ]
         },
         "MUSI 180": {
-            "course-num": "MUSI 180",
             "dept": "MUSI",
             "name": "Music, Race, and Ethnicity",
             "sections": [
@@ -6316,7 +6145,6 @@
             ]
         },
         "MUSI 213": {
-            "course-num": "MUSI 213",
             "dept": "MUSI",
             "name": "Theory III, Form and Analysis",
             "sections": [
@@ -6332,7 +6160,6 @@
             ]
         },
         "MUSI 220": {
-            "course-num": "MUSI 220",
             "dept": "MUSI",
             "name": "Language and Music",
             "sections": [
@@ -6348,7 +6175,6 @@
             ]
         },
         "MUSI 225": {
-            "course-num": "MUSI 225",
             "dept": "MUSI",
             "name": "Musical Fictions",
             "sections": [
@@ -6364,7 +6190,6 @@
             ]
         },
         "MUSI 294": {
-            "course-num": "MUSI 294",
             "dept": "MUSI",
             "name": "Uyghur Culture and Society",
             "sections": [
@@ -6389,7 +6214,6 @@
             ]
         },
         "MUSI 342": {
-            "course-num": "MUSI 342",
             "dept": "MUSI",
             "name": "Medieval to Mozart",
             "sections": [
@@ -6405,7 +6229,6 @@
             ]
         },
         "MUSI 361": {
-            "course-num": "MUSI 361",
             "dept": "MUSI",
             "name": "Composition",
             "sections": [
@@ -6420,8 +6243,187 @@
                 }
             ]
         },
+        "MUSI 70": {
+            "dept": "MUSI",
+            "name": "Wind Symphony",
+            "sections": [
+                {
+                    "numsection": "MUSI 70-01",
+                    "instructor": "Shelley Hanson",
+                    "days": "M",
+                    "availmax": "80 / 80",
+                    "courseid": "10676",
+                    "start": "07:15 pm",
+                    "end": "08:14 pm"
+                }
+            ]
+        },
+        "MUSI 72": {
+            "dept": "MUSI",
+            "name": "African Music Ensemble",
+            "sections": [
+                {
+                    "numsection": "MUSI 72-01",
+                    "instructor": "Sowah Mensah",
+                    "days": "T R",
+                    "availmax": "25 / 25",
+                    "courseid": "10677",
+                    "start": "06:45 pm",
+                    "end": "08:15 pm"
+                }
+            ]
+        },
+        "MUSI 74": {
+            "dept": "MUSI",
+            "name": "Macalester Concert Choir",
+            "sections": [
+                {
+                    "numsection": "MUSI 74-01",
+                    "instructor": "Michael McGaghie",
+                    "days": "M WR",
+                    "availmax": "50 / 50",
+                    "courseid": "10678",
+                    "start": "04:45 pm",
+                    "end": "06:15 pm"
+                }
+            ]
+        },
+        "MUSI 76": {
+            "dept": "MUSI",
+            "name": "Macalester Chorale",
+            "sections": [
+                {
+                    "numsection": "MUSI 76-01",
+                    "instructor": "Michael McGaghie",
+                    "days": "T",
+                    "availmax": "70 / 70",
+                    "courseid": "10679",
+                    "start": "04:45 pm",
+                    "end": "06:15 pm"
+                }
+            ]
+        },
+        "MUSI 78": {
+            "dept": "MUSI",
+            "name": "Asian Music Ensemble",
+            "sections": [
+                {
+                    "numsection": "MUSI 78-01",
+                    "instructor": "Chuen-Fung Wong",
+                    "days": "F",
+                    "availmax": "25 / 25",
+                    "courseid": "10680",
+                    "start": "04:30 pm",
+                    "end": "06:30 pm"
+                }
+            ]
+        },
+        "MUSI 80": {
+            "dept": "MUSI",
+            "name": "Mac Jazz Band",
+            "sections": [
+                {
+                    "numsection": "MUSI 80-01",
+                    "instructor": "Joan Griffith",
+                    "days": "M W",
+                    "availmax": "50 / 50",
+                    "courseid": "10681",
+                    "start": "04:45 pm",
+                    "end": "06:15 pm"
+                }
+            ]
+        },
+        "MUSI 82": {
+            "dept": "MUSI",
+            "name": "Jazz/Popular Music Combos",
+            "sections": [
+                {
+                    "numsection": "MUSI 82-01",
+                    "instructor": "Peter Hennig",
+                    "days": "M",
+                    "availmax": "50 / 50",
+                    "courseid": "10683",
+                    "start": "07:00 pm",
+                    "end": "09:00 pm"
+                }
+            ]
+        },
+        "MUSI 84": {
+            "dept": "MUSI",
+            "name": "Pipe Band",
+            "sections": [
+                {
+                    "numsection": "MUSI 84-01",
+                    "instructor": "Michael Breidenbach",
+                    "days": "W",
+                    "availmax": "50 / 50",
+                    "courseid": "10684",
+                    "start": "06:30 pm",
+                    "end": "08:00 pm"
+                }
+            ]
+        },
+        "MUSI 86": {
+            "dept": "MUSI",
+            "name": "Chamber Ensembles",
+            "sections": [
+                {
+                    "numsection": "MUSI 86-01",
+                    "instructor": "Mark Mandarano",
+                    "days": "TBA",
+                    "availmax": "50 / 50",
+                    "courseid": "10685",
+                    "start": "TBA",
+                    "end": "TBA"
+                }
+            ]
+        },
+        "MUSI 88": {
+            "dept": "MUSI",
+            "name": "Macalester Symphony Orchestra",
+            "sections": [
+                {
+                    "numsection": "MUSI 88-01",
+                    "instructor": "Mark Mandarano",
+                    "days": "T R",
+                    "availmax": "70 / 70",
+                    "courseid": "10686",
+                    "start": "04:45 pm",
+                    "end": "06:15 pm"
+                }
+            ]
+        },
+        "MUSI 90": {
+            "dept": "MUSI",
+            "name": "Mac Early Music Ensemble",
+            "sections": [
+                {
+                    "numsection": "MUSI 90-01",
+                    "instructor": "Clea Galhano",
+                    "days": "W",
+                    "availmax": "50 / 50",
+                    "courseid": "10682",
+                    "start": "07:00 pm",
+                    "end": "08:30 pm"
+                }
+            ]
+        },
+        "MUSI 94": {
+            "dept": "MUSI",
+            "name": "Private Studio Instruction",
+            "sections": [
+                {
+                    "numsection": "MUSI 94-01",
+                    "instructor": "STAFF",
+                    "days": "TBA",
+                    "availmax": "50 / 50",
+                    "courseid": "10666",
+                    "start": "TBA",
+                    "end": "TBA"
+                }
+            ]
+        },
         "NSCI 488": {
-            "course-num": "NSCI 488",
             "dept": "NSCI",
             "name": "Neuroscience Capstone",
             "sections": [
@@ -6436,10 +6438,192 @@
                 }
             ]
         },
+        "PE 03": {
+            "dept": "PE",
+            "name": "Beginning Social Dance",
+            "sections": [
+                {
+                    "numsection": "PE 03-01",
+                    "instructor": "Julie Kendle",
+                    "days": "M",
+                    "availmax": "25 / 25",
+                    "courseid": "10692",
+                    "start": "07:00 pm",
+                    "end": "08:30 pm"
+                }
+            ]
+        },
+        "PE 04": {
+            "dept": "PE",
+            "name": "Karate I",
+            "sections": [
+                {
+                    "numsection": "PE 04-01",
+                    "instructor": "Joel Ertl",
+                    "days": "M W",
+                    "availmax": "15 / 15",
+                    "courseid": "10693",
+                    "start": "03:30 pm",
+                    "end": "04:30 pm"
+                }
+            ]
+        },
+        "PE 06": {
+            "dept": "PE",
+            "name": "Yoga I",
+            "sections": [
+                {
+                    "numsection": "PE 06-01",
+                    "instructor": "Laura Sleck",
+                    "days": "M W",
+                    "availmax": "25 / 25",
+                    "courseid": "10694",
+                    "start": "02:20 pm",
+                    "end": "03:20 pm"
+                },
+                {
+                    "numsection": "PE 06-02",
+                    "instructor": "Laura Sleck",
+                    "days": "M W",
+                    "availmax": "25 / 25",
+                    "courseid": "10695",
+                    "start": "04:45 pm",
+                    "end": "05:45 pm"
+                },
+                {
+                    "numsection": "PE 06-03",
+                    "instructor": "Elizabeth Persico",
+                    "days": "T R",
+                    "availmax": "25 / 25",
+                    "courseid": "10696",
+                    "start": "03:00 pm",
+                    "end": "04:00 pm"
+                }
+            ]
+        },
+        "PE 07": {
+            "dept": "PE",
+            "name": "Personal Health, Wellness and Mindfulness",
+            "sections": [
+                {
+                    "numsection": "PE 07-01",
+                    "instructor": "STAFF",
+                    "days": "T R",
+                    "availmax": "25 / 25",
+                    "courseid": "10690",
+                    "start": "01:20 pm",
+                    "end": "02:20 pm"
+                }
+            ]
+        },
+        "PE 10": {
+            "dept": "PE",
+            "name": "Racquet Sports",
+            "sections": [
+                {
+                    "numsection": "PE 10-01",
+                    "instructor": "Matthew Reed",
+                    "days": "T R",
+                    "availmax": "16 / 16",
+                    "courseid": "10691",
+                    "start": "01:20 pm",
+                    "end": "02:20 pm"
+                }
+            ]
+        },
+        "PE 14": {
+            "dept": "PE",
+            "name": "Karate II",
+            "sections": [
+                {
+                    "numsection": "PE 14-01",
+                    "instructor": "Joel Ertl",
+                    "days": "M W",
+                    "availmax": "10 / 10",
+                    "courseid": "10697",
+                    "start": "03:30 pm",
+                    "end": "04:30 pm"
+                }
+            ]
+        },
+        "PE 18": {
+            "dept": "PE",
+            "name": "Pilates",
+            "sections": [
+                {
+                    "numsection": "PE 18-01",
+                    "instructor": "Kristine Spangard",
+                    "days": "M W",
+                    "availmax": "25 / 25",
+                    "courseid": "10698",
+                    "start": "04:45 pm",
+                    "end": "05:45 pm"
+                }
+            ]
+        },
+        "PE 20": {
+            "dept": "PE",
+            "name": "Weight Training",
+            "sections": [
+                {
+                    "numsection": "PE 20-01",
+                    "instructor": "Scott Hintz",
+                    "days": "M W",
+                    "availmax": "25 / 25",
+                    "courseid": "10699",
+                    "start": "02:20 pm",
+                    "end": "03:20 pm"
+                }
+            ]
+        },
+        "PE 28": {
+            "dept": "PE",
+            "name": "Pilates II",
+            "sections": [
+                {
+                    "numsection": "PE 28-01",
+                    "instructor": "Kristine Spangard",
+                    "days": "T R",
+                    "availmax": "25 / 25",
+                    "courseid": "10700",
+                    "start": "04:45 pm",
+                    "end": "05:45 pm"
+                }
+            ]
+        },
+        "PE 33": {
+            "dept": "PE",
+            "name": "Salsa Dance",
+            "sections": [
+                {
+                    "numsection": "PE 33-01",
+                    "instructor": "Don DeBoer",
+                    "days": "R",
+                    "availmax": "25 / 25",
+                    "courseid": "10701",
+                    "start": "07:00 pm",
+                    "end": "08:30 pm"
+                }
+            ]
+        },
+        "PE 40": {
+            "dept": "PE",
+            "name": "Self Defense",
+            "sections": [
+                {
+                    "numsection": "PE 40-01",
+                    "instructor": "Gina Wood",
+                    "days": "T R",
+                    "availmax": "25 / 25",
+                    "courseid": "10702",
+                    "start": "01:20 pm",
+                    "end": "02:20 pm"
+                }
+            ]
+        },
         "PHIL 100": {
-            "course-num": "PHIL 100",
             "dept": "PHIL",
-            "name": "Introduction to Philosophy",
+            "name": "Introduction to Philosophy: Philosophy of the Future",
             "sections": [
                 {
                     "numsection": "PHIL 100-01",
@@ -6453,7 +6637,6 @@
             ]
         },
         "PHIL 111": {
-            "course-num": "PHIL 111",
             "dept": "PHIL",
             "name": "Introduction to Symbolic Logic",
             "sections": [
@@ -6478,7 +6661,6 @@
             ]
         },
         "PHIL 121": {
-            "course-num": "PHIL 121",
             "dept": "PHIL",
             "name": "Ethics",
             "sections": [
@@ -6494,7 +6676,6 @@
             ]
         },
         "PHIL 200": {
-            "course-num": "PHIL 200",
             "dept": "PHIL",
             "name": "Ancient and Medieval Philosophies",
             "sections": [
@@ -6510,7 +6691,6 @@
             ]
         },
         "PHIL 220": {
-            "course-num": "PHIL 220",
             "dept": "PHIL",
             "name": "Bioethics",
             "sections": [
@@ -6526,7 +6706,6 @@
             ]
         },
         "PHIL 225": {
-            "course-num": "PHIL 225",
             "dept": "PHIL",
             "name": "Digital Ethics",
             "sections": [
@@ -6542,7 +6721,6 @@
             ]
         },
         "PHIL 294": {
-            "course-num": "PHIL 294",
             "dept": "PHIL",
             "name": "From Kant to Hegel",
             "sections": [
@@ -6558,7 +6736,6 @@
             ]
         },
         "PHIL 310": {
-            "course-num": "PHIL 310",
             "dept": "PHIL",
             "name": "Philosophy of Science",
             "sections": [
@@ -6574,7 +6751,6 @@
             ]
         },
         "PHIL 321": {
-            "course-num": "PHIL 321",
             "dept": "PHIL",
             "name": "Contemporary Social and Political Philosophy",
             "sections": [
@@ -6590,7 +6766,6 @@
             ]
         },
         "PHIL 489": {
-            "course-num": "PHIL 489",
             "dept": "PHIL",
             "name": "Senior Seminar",
             "sections": [
@@ -6606,7 +6781,6 @@
             ]
         },
         "PHYS 120": {
-            "course-num": "PHYS 120",
             "dept": "PHYS",
             "name": "Astronomical Techniques",
             "sections": [
@@ -6622,9 +6796,8 @@
             ]
         },
         "PHYS 194": {
-            "course-num": "PHYS 194",
             "dept": "PHYS",
-            "name": "Science of Sustainable Design",
+            "name": "Physics of Sustainable Design",
             "sections": [
                 {
                     "numsection": "PHYS 194-01",
@@ -6642,12 +6815,11 @@
                     "availmax": "16 / 16",
                     "courseid": "10645",
                     "start": "01:20 pm",
-                    "end": "04:30 pm"
+                    "end": "03:20 pm"
                 }
             ]
         },
         "PHYS 226": {
-            "course-num": "PHYS 226",
             "dept": "PHYS",
             "name": "Principles of Physics I",
             "sections": [
@@ -6699,7 +6871,6 @@
             ]
         },
         "PHYS 227": {
-            "course-num": "PHYS 227",
             "dept": "PHYS",
             "name": "Principles of Physics II",
             "sections": [
@@ -6733,7 +6904,6 @@
             ]
         },
         "PHYS 331": {
-            "course-num": "PHYS 331",
             "dept": "PHYS",
             "name": "Modern Physics",
             "sections": [
@@ -6767,7 +6937,6 @@
             ]
         },
         "PHYS 350": {
-            "course-num": "PHYS 350",
             "dept": "PHYS",
             "name": "Renewable Energy Systems",
             "sections": [
@@ -6783,7 +6952,6 @@
             ]
         },
         "PHYS 443": {
-            "course-num": "PHYS 443",
             "dept": "PHYS",
             "name": "Electromagnetic Theory",
             "sections": [
@@ -6808,7 +6976,6 @@
             ]
         },
         "PHYS 481": {
-            "course-num": "PHYS 481",
             "dept": "PHYS",
             "name": "Quantum Mechanics",
             "sections": [
@@ -6833,7 +7000,6 @@
             ]
         },
         "PHYS 489": {
-            "course-num": "PHYS 489",
             "dept": "PHYS",
             "name": "Physics Seminar",
             "sections": [
@@ -6849,7 +7015,6 @@
             ]
         },
         "PHYS 494": {
-            "course-num": "PHYS 494",
             "dept": "PHYS",
             "name": "Research in Astrophysics",
             "sections": [
@@ -6865,7 +7030,6 @@
             ]
         },
         "POLI 100": {
-            "course-num": "POLI 100",
             "dept": "POLI",
             "name": "Foundations of US Politics",
             "sections": [
@@ -6881,7 +7045,6 @@
             ]
         },
         "POLI 101": {
-            "course-num": "POLI 101",
             "dept": "POLI",
             "name": "Political Argumentation and Debate",
             "sections": [
@@ -6897,7 +7060,6 @@
             ]
         },
         "POLI 120": {
-            "course-num": "POLI 120",
             "dept": "POLI",
             "name": "Foundations of International Politics",
             "sections": [
@@ -6913,7 +7075,6 @@
             ]
         },
         "POLI 140": {
-            "course-num": "POLI 140",
             "dept": "POLI",
             "name": "Foundations of Comparative Politics",
             "sections": [
@@ -6938,7 +7099,6 @@
             ]
         },
         "POLI 160": {
-            "course-num": "POLI 160",
             "dept": "POLI",
             "name": "Foundations of Political Theory",
             "sections": [
@@ -6954,7 +7114,6 @@
             ]
         },
         "POLI 202": {
-            "course-num": "POLI 202",
             "dept": "POLI",
             "name": "US Campaigns and Elections",
             "sections": [
@@ -6970,7 +7129,6 @@
             ]
         },
         "POLI 203": {
-            "course-num": "POLI 203",
             "dept": "POLI",
             "name": "Politics and Inequality: The American Welfare State",
             "sections": [
@@ -6986,7 +7144,6 @@
             ]
         },
         "POLI 205": {
-            "course-num": "POLI 205",
             "dept": "POLI",
             "name": "US Politics and Policymaking",
             "sections": [
@@ -7002,7 +7159,6 @@
             ]
         },
         "POLI 212": {
-            "course-num": "POLI 212",
             "dept": "POLI",
             "name": "Litigation and Public Policy in the U.S.",
             "sections": [
@@ -7018,7 +7174,6 @@
             ]
         },
         "POLI 221": {
-            "course-num": "POLI 221",
             "dept": "POLI",
             "name": "Global Governance",
             "sections": [
@@ -7034,7 +7189,6 @@
             ]
         },
         "POLI 244": {
-            "course-num": "POLI 244",
             "dept": "POLI",
             "name": "Urban Latino Power",
             "sections": [
@@ -7050,7 +7204,6 @@
             ]
         },
         "POLI 265": {
-            "course-num": "POLI 265",
             "dept": "POLI",
             "name": "Work, Wealth, Well-Being",
             "sections": [
@@ -7066,7 +7219,6 @@
             ]
         },
         "POLI 266": {
-            "course-num": "POLI 266",
             "dept": "POLI",
             "name": "Medieval Political Thought",
             "sections": [
@@ -7082,7 +7234,6 @@
             ]
         },
         "POLI 268": {
-            "course-num": "POLI 268",
             "dept": "POLI",
             "name": "Contemporary Social and Political Philosophy",
             "sections": [
@@ -7098,7 +7249,6 @@
             ]
         },
         "POLI 269": {
-            "course-num": "POLI 269",
             "dept": "POLI",
             "name": "Empirical Research Methods",
             "sections": [
@@ -7114,7 +7264,6 @@
             ]
         },
         "POLI 270": {
-            "course-num": "POLI 270",
             "dept": "POLI",
             "name": "Rhetoric of Campaigns and Election",
             "sections": [
@@ -7130,7 +7279,6 @@
             ]
         },
         "POLI 272": {
-            "course-num": "POLI 272",
             "dept": "POLI",
             "name": "Persuasion and Political Change",
             "sections": [
@@ -7146,7 +7294,6 @@
             ]
         },
         "POLI 294": {
-            "course-num": "POLI 294",
             "dept": "POLI",
             "name": "Spinoza's Eco-Society",
             "sections": [
@@ -7162,7 +7309,6 @@
             ]
         },
         "POLI 322": {
-            "course-num": "POLI 322",
             "dept": "POLI",
             "name": "Advanced International Theory",
             "sections": [
@@ -7178,7 +7324,6 @@
             ]
         },
         "POLI 337": {
-            "course-num": "POLI 337",
             "dept": "POLI",
             "name": "Energy Justice",
             "sections": [
@@ -7194,7 +7339,6 @@
             ]
         },
         "POLI 400": {
-            "course-num": "POLI 400",
             "dept": "POLI",
             "name": "Senior Research Seminar",
             "sections": [
@@ -7237,7 +7381,6 @@
             ]
         },
         "POLI 404": {
-            "course-num": "POLI 404",
             "dept": "POLI",
             "name": "Honors Colloquium",
             "sections": [
@@ -7253,7 +7396,6 @@
             ]
         },
         "PORT 111": {
-            "course-num": "PORT 111",
             "dept": "PORT",
             "name": "Accelerated Beginning Portuguese",
             "sections": [
@@ -7278,7 +7420,6 @@
             ]
         },
         "PORT 331": {
-            "course-num": "PORT 331",
             "dept": "PORT",
             "name": "Journeys through Brazil: Oral and Written Expression",
             "sections": [
@@ -7294,7 +7435,6 @@
             ]
         },
         "PSYC 100": {
-            "course-num": "PSYC 100",
             "dept": "PSYC",
             "name": "Introduction to Psychology",
             "sections": [
@@ -7355,7 +7495,6 @@
             ]
         },
         "PSYC 180": {
-            "course-num": "PSYC 180",
             "dept": "PSYC",
             "name": "Brain, Mind, and Behavior",
             "sections": [
@@ -7363,7 +7502,7 @@
                     "numsection": "PSYC 180-01",
                     "instructor": "Eric Wiertelak",
                     "days": "M W F",
-                    "availmax": "70 / 70",
+                    "availmax": "65 / 65",
                     "courseid": "10671",
                     "start": "12:00 pm",
                     "end": "01:00 pm"
@@ -7371,7 +7510,6 @@
             ]
         },
         "PSYC 201": {
-            "course-num": "PSYC 201",
             "dept": "PSYC",
             "name": "Research in Psychology I",
             "sections": [
@@ -7405,7 +7543,6 @@
             ]
         },
         "PSYC 220": {
-            "course-num": "PSYC 220",
             "dept": "PSYC",
             "name": "Educational Psychology",
             "sections": [
@@ -7421,7 +7558,6 @@
             ]
         },
         "PSYC 242": {
-            "course-num": "PSYC 242",
             "dept": "PSYC",
             "name": "Cognitive Psychology",
             "sections": [
@@ -7446,7 +7582,6 @@
             ]
         },
         "PSYC 244": {
-            "course-num": "PSYC 244",
             "dept": "PSYC",
             "name": "Cognitive Neuroscience",
             "sections": [
@@ -7471,7 +7606,6 @@
             ]
         },
         "PSYC 248": {
-            "course-num": "PSYC 248",
             "dept": "PSYC",
             "name": "Behavioral Neuroscience",
             "sections": [
@@ -7496,7 +7630,6 @@
             ]
         },
         "PSYC 250": {
-            "course-num": "PSYC 250",
             "dept": "PSYC",
             "name": "Developmental Psychology",
             "sections": [
@@ -7512,7 +7645,6 @@
             ]
         },
         "PSYC 254": {
-            "course-num": "PSYC 254",
             "dept": "PSYC",
             "name": "Social Psychology",
             "sections": [
@@ -7528,7 +7660,6 @@
             ]
         },
         "PSYC 258": {
-            "course-num": "PSYC 258",
             "dept": "PSYC",
             "name": "Industrial/Organizational Psychology",
             "sections": [
@@ -7544,7 +7675,6 @@
             ]
         },
         "PSYC 264": {
-            "course-num": "PSYC 264",
             "dept": "PSYC",
             "name": "The Psychology of Gender",
             "sections": [
@@ -7560,7 +7690,6 @@
             ]
         },
         "PSYC 272": {
-            "course-num": "PSYC 272",
             "dept": "PSYC",
             "name": "Health Psychology",
             "sections": [
@@ -7576,7 +7705,6 @@
             ]
         },
         "PSYC 301": {
-            "course-num": "PSYC 301",
             "dept": "PSYC",
             "name": "Research in Psychology II",
             "sections": [
@@ -7592,7 +7720,6 @@
             ]
         },
         "PSYC 342": {
-            "course-num": "PSYC 342",
             "dept": "PSYC",
             "name": "Intelligence",
             "sections": [
@@ -7608,7 +7735,6 @@
             ]
         },
         "PSYC 374": {
-            "course-num": "PSYC 374",
             "dept": "PSYC",
             "name": "Clinical and Counseling Psychology",
             "sections": [
@@ -7624,7 +7750,6 @@
             ]
         },
         "PSYC 377": {
-            "course-num": "PSYC 377",
             "dept": "PSYC",
             "name": "Moral Psychology",
             "sections": [
@@ -7640,7 +7765,6 @@
             ]
         },
         "PSYC 390": {
-            "course-num": "PSYC 390",
             "dept": "PSYC",
             "name": "Pain and Suffering",
             "sections": [
@@ -7656,21 +7780,11 @@
             ]
         },
         "PSYC 394": {
-            "course-num": "PSYC 394",
             "dept": "PSYC",
-            "name": "History of Biological Psychology/Neuroscience",
+            "name": "Psychology of Black Women",
             "sections": [
                 {
                     "numsection": "PSYC 394-01",
-                    "instructor": "STAFF",
-                    "days": "M W F",
-                    "availmax": "16 / 16",
-                    "courseid": "10324",
-                    "start": "01:10 pm",
-                    "end": "02:10 pm"
-                },
-                {
-                    "numsection": "PSYC 394-02",
                     "instructor": "Morgan Jerald",
                     "days": "T R",
                     "availmax": "16 / 16",
@@ -7679,7 +7793,7 @@
                     "end": "02:50 pm"
                 },
                 {
-                    "numsection": "PSYC 394-03",
+                    "numsection": "PSYC 394-02",
                     "instructor": "STAFF",
                     "days": "T R",
                     "availmax": "16 / 16",
@@ -7690,7 +7804,6 @@
             ]
         },
         "PSYC 401": {
-            "course-num": "PSYC 401",
             "dept": "PSYC",
             "name": "Directed Research in Psychology",
             "sections": [
@@ -7702,20 +7815,10 @@
                     "courseid": "10326",
                     "start": "10:50 am",
                     "end": "11:50 am"
-                },
-                {
-                    "numsection": "PSYC 401-02",
-                    "instructor": "Brooke Lea",
-                    "days": "M W F",
-                    "availmax": "8 / 8",
-                    "courseid": "10327",
-                    "start": "10:50 am",
-                    "end": "11:50 am"
                 }
             ]
         },
         "PSYC 402": {
-            "course-num": "PSYC 402",
             "dept": "PSYC",
             "name": "Clinical Science Capstone",
             "sections": [
@@ -7731,7 +7834,6 @@
             ]
         },
         "RELI 110": {
-            "course-num": "RELI 110",
             "dept": "RELI",
             "name": "The Big Questions",
             "sections": [
@@ -7747,7 +7849,6 @@
             ]
         },
         "RELI 111": {
-            "course-num": "RELI 111",
             "dept": "RELI",
             "name": "Introduction to Buddhism",
             "sections": [
@@ -7763,7 +7864,6 @@
             ]
         },
         "RELI 121": {
-            "course-num": "RELI 121",
             "dept": "RELI",
             "name": "Jesus, Peter, Paul and Mary: The Beginnings of Christianity",
             "sections": [
@@ -7779,7 +7879,6 @@
             ]
         },
         "RELI 135": {
-            "course-num": "RELI 135",
             "dept": "RELI",
             "name": "India and Rome",
             "sections": [
@@ -7795,7 +7894,6 @@
             ]
         },
         "RELI 136": {
-            "course-num": "RELI 136",
             "dept": "RELI",
             "name": "World Religions and World Religions Discourse",
             "sections": [
@@ -7811,7 +7909,6 @@
             ]
         },
         "RELI 194": {
-            "course-num": "RELI 194",
             "dept": "RELI",
             "name": "Arts of Islam",
             "sections": [
@@ -7827,7 +7924,6 @@
             ]
         },
         "RELI 235": {
-            "course-num": "RELI 235",
             "dept": "RELI",
             "name": "Theorizing Religion",
             "sections": [
@@ -7843,7 +7939,6 @@
             ]
         },
         "RELI 294": {
-            "course-num": "RELI 294",
             "dept": "RELI",
             "name": "Gender Relations in Islam",
             "sections": [
@@ -7891,11 +7986,19 @@
                     "courseid": "10723",
                     "start": "09:40 am",
                     "end": "11:10 am"
+                },
+                {
+                    "numsection": "RELI 294-06",
+                    "instructor": "Serdar Yalcin",
+                    "days": "M W F",
+                    "availmax": "20 / 20",
+                    "courseid": "10799",
+                    "start": "10:50 am",
+                    "end": "11:50 am"
                 }
             ]
         },
         "RUSS 101": {
-            "course-num": "RUSS 101",
             "dept": "RUSS",
             "name": "Elementary Russian I",
             "sections": [
@@ -7929,7 +8032,6 @@
             ]
         },
         "RUSS 203": {
-            "course-num": "RUSS 203",
             "dept": "RUSS",
             "name": "Intermediate Russian I",
             "sections": [
@@ -7963,7 +8065,6 @@
             ]
         },
         "RUSS 261": {
-            "course-num": "RUSS 261",
             "dept": "RUSS",
             "name": "Making History: Russian Cinema as Testimony, Propaganda, and Art",
             "sections": [
@@ -7979,7 +8080,6 @@
             ]
         },
         "RUSS 272": {
-            "course-num": "RUSS 272",
             "dept": "RUSS",
             "name": "The Post-Soviet Sphere",
             "sections": [
@@ -7987,7 +8087,7 @@
                     "numsection": "RUSS 272-01",
                     "instructor": "James von Geldern",
                     "days": "M W F",
-                    "availmax": "16 / 16",
+                    "availmax": "20 / 20",
                     "courseid": "10266",
                     "start": "10:50 am",
                     "end": "11:50 am"
@@ -7995,7 +8095,6 @@
             ]
         },
         "RUSS 294": {
-            "course-num": "RUSS 294",
             "dept": "RUSS",
             "name": "Soviet Union and Successors",
             "sections": [
@@ -8011,7 +8110,6 @@
             ]
         },
         "RUSS 305": {
-            "course-num": "RUSS 305",
             "dept": "RUSS",
             "name": "Advanced Russian I",
             "sections": [
@@ -8021,13 +8119,12 @@
                     "days": "T R",
                     "availmax": "15 / 15",
                     "courseid": "10256",
-                    "start": "09:40 am",
-                    "end": "11:10 am"
+                    "start": "01:20 pm",
+                    "end": "02:50 pm"
                 }
             ]
         },
         "RUSS 367": {
-            "course-num": "RUSS 367",
             "dept": "RUSS",
             "name": "Dostoevsky in Translation",
             "sections": [
@@ -8043,7 +8140,6 @@
             ]
         },
         "SOCI 110": {
-            "course-num": "SOCI 110",
             "dept": "SOCI",
             "name": "Introduction to Sociology",
             "sections": [
@@ -8059,7 +8155,6 @@
             ]
         },
         "SOCI 150": {
-            "course-num": "SOCI 150",
             "dept": "SOCI",
             "name": "Prius or Pickup? Political Divides and Social Class",
             "sections": [
@@ -8075,7 +8170,6 @@
             ]
         },
         "SOCI 190": {
-            "course-num": "SOCI 190",
             "dept": "SOCI",
             "name": "Criminal Behavior/Social Control",
             "sections": [
@@ -8091,7 +8185,6 @@
             ]
         },
         "SOCI 194": {
-            "course-num": "SOCI 194",
             "dept": "SOCI",
             "name": "Immigrant Voices in Times of Fear",
             "sections": [
@@ -8116,7 +8209,6 @@
             ]
         },
         "SOCI 270": {
-            "course-num": "SOCI 270",
             "dept": "SOCI",
             "name": "Interpretive Social Research",
             "sections": [
@@ -8131,8 +8223,22 @@
                 }
             ]
         },
+        "SOCI 280": {
+            "dept": "SOCI",
+            "name": "Indigenous Peoples' Movements in Global Context",
+            "sections": [
+                {
+                    "numsection": "SOCI 280-01",
+                    "instructor": "Erik Larson",
+                    "days": "M W F",
+                    "availmax": "20 / 20",
+                    "courseid": "10791",
+                    "start": "02:20 pm",
+                    "end": "03:20 pm"
+                }
+            ]
+        },
         "SOCI 294": {
-            "course-num": "SOCI 294",
             "dept": "SOCI",
             "name": "Consumerism",
             "sections": [
@@ -8156,24 +8262,7 @@
                 }
             ]
         },
-        "SOCI 370": {
-            "course-num": "SOCI 370",
-            "dept": "SOCI",
-            "name": "Political Sociology",
-            "sections": [
-                {
-                    "numsection": "SOCI 370-01",
-                    "instructor": "Erik Larson",
-                    "days": "M W F",
-                    "availmax": "20 / 20",
-                    "courseid": "10241",
-                    "start": "02:20 pm",
-                    "end": "03:20 pm"
-                }
-            ]
-        },
         "SOCI 480": {
-            "course-num": "SOCI 480",
             "dept": "SOCI",
             "name": "Senior Seminar",
             "sections": [
@@ -8189,7 +8278,6 @@
             ]
         },
         "SPAN 101": {
-            "course-num": "SPAN 101",
             "dept": "SPAN",
             "name": "Elementary Spanish I",
             "sections": [
@@ -8214,7 +8302,6 @@
             ]
         },
         "SPAN 102": {
-            "course-num": "SPAN 102",
             "dept": "SPAN",
             "name": "Elementary Spanish II",
             "sections": [
@@ -8239,7 +8326,6 @@
             ]
         },
         "SPAN 110": {
-            "course-num": "SPAN 110",
             "dept": "SPAN",
             "name": "Accelerated Beginning Spanish",
             "sections": [
@@ -8255,7 +8341,6 @@
             ]
         },
         "SPAN 194": {
-            "course-num": "SPAN 194",
             "dept": "SPAN",
             "name": "Marginalized & Subaltern Subjects",
             "sections": [
@@ -8271,7 +8356,6 @@
             ]
         },
         "SPAN 203": {
-            "course-num": "SPAN 203",
             "dept": "SPAN",
             "name": "Intermediate Spanish I",
             "sections": [
@@ -8323,7 +8407,6 @@
             ]
         },
         "SPAN 204": {
-            "course-num": "SPAN 204",
             "dept": "SPAN",
             "name": "Intermediate Spanish II",
             "sections": [
@@ -8357,7 +8440,6 @@
             ]
         },
         "SPAN 305": {
-            "course-num": "SPAN 305",
             "dept": "SPAN",
             "name": "Advanced Oral and Written Expression: Exploring Spanish in the United States",
             "sections": [
@@ -8409,7 +8491,6 @@
             ]
         },
         "SPAN 306": {
-            "course-num": "SPAN 306",
             "dept": "SPAN",
             "name": "Spanish for Heritage Speakers",
             "sections": [
@@ -8425,7 +8506,6 @@
             ]
         },
         "SPAN 307": {
-            "course-num": "SPAN 307",
             "dept": "SPAN",
             "name": "Introduction to Analysis of Hispanic Texts",
             "sections": [
@@ -8441,7 +8521,6 @@
             ]
         },
         "SPAN 308": {
-            "course-num": "SPAN 308",
             "dept": "SPAN",
             "name": "Introduction to U.S. Latinx Studies",
             "sections": [
@@ -8457,7 +8536,6 @@
             ]
         },
         "SPAN 309": {
-            "course-num": "SPAN 309",
             "dept": "SPAN",
             "name": "Introduction to Hispanic Linguistics",
             "sections": [
@@ -8473,7 +8551,6 @@
             ]
         },
         "SPAN 334": {
-            "course-num": "SPAN 334",
             "dept": "SPAN",
             "name": "Spanish in the Workplace",
             "sections": [
@@ -8489,7 +8566,6 @@
             ]
         },
         "SPAN 354": {
-            "course-num": "SPAN 354",
             "dept": "SPAN",
             "name": "Here and There: Superando Limites/Crossing Boundaries",
             "sections": [
@@ -8505,7 +8581,6 @@
             ]
         },
         "SPAN 361": {
-            "course-num": "SPAN 361",
             "dept": "SPAN",
             "name": "The Fight Against Tradition: From the Enlightenment to the Avant Garde",
             "sections": [
@@ -8521,7 +8596,6 @@
             ]
         },
         "SPAN 394": {
-            "course-num": "SPAN 394",
             "dept": "SPAN",
             "name": "Latinx in the Midwest",
             "sections": [
@@ -8537,7 +8611,6 @@
             ]
         },
         "STAT 112": {
-            "course-num": "STAT 112",
             "dept": "STAT",
             "name": "Introduction to Data Science",
             "sections": [
@@ -8562,7 +8635,6 @@
             ]
         },
         "STAT 125": {
-            "course-num": "STAT 125",
             "dept": "STAT",
             "name": "Epidemiology",
             "sections": [
@@ -8587,7 +8659,6 @@
             ]
         },
         "STAT 155": {
-            "course-num": "STAT 155",
             "dept": "STAT",
             "name": "Introduction to Statistical Modeling",
             "sections": [
@@ -8630,7 +8701,6 @@
             ]
         },
         "STAT 253": {
-            "course-num": "STAT 253",
             "dept": "STAT",
             "name": "Statistical Machine Learning",
             "sections": [
@@ -8655,7 +8725,6 @@
             ]
         },
         "STAT 354": {
-            "course-num": "STAT 354",
             "dept": "STAT",
             "name": "Probability",
             "sections": [
@@ -8665,8 +8734,8 @@
                     "days": "M W F",
                     "availmax": "20 / 20",
                     "courseid": "10456",
-                    "start": "01:20 pm",
-                    "end": "02:20 pm"
+                    "start": "01:10 pm",
+                    "end": "02:10 pm"
                 },
                 {
                     "numsection": "STAT 354-02",
@@ -8680,7 +8749,6 @@
             ]
         },
         "STAT 451": {
-            "course-num": "STAT 451",
             "dept": "STAT",
             "name": "Causal Inference",
             "sections": [
@@ -8705,7 +8773,6 @@
             ]
         },
         "STAT 453": {
-            "course-num": "STAT 453",
             "dept": "STAT",
             "name": "Survival Analysis",
             "sections": [
@@ -8721,7 +8788,6 @@
             ]
         },
         "THDA 105": {
-            "course-num": "THDA 105",
             "dept": "THDA",
             "name": "Seeing Performance in the Twin Cities",
             "sections": [
@@ -8737,7 +8803,6 @@
             ]
         },
         "THDA 110": {
-            "course-num": "THDA 110",
             "dept": "THDA",
             "name": "Introduction to the Study of Performance",
             "sections": [
@@ -8753,7 +8818,6 @@
             ]
         },
         "THDA 120": {
-            "course-num": "THDA 120",
             "dept": "THDA",
             "name": "Acting",
             "sections": [
@@ -8769,7 +8833,6 @@
             ]
         },
         "THDA 125": {
-            "course-num": "THDA 125",
             "dept": "THDA",
             "name": "Technical Theater",
             "sections": [
@@ -8794,7 +8857,6 @@
             ]
         },
         "THDA 217": {
-            "course-num": "THDA 217",
             "dept": "THDA",
             "name": "Gender and Race Theory in Performance",
             "sections": [
@@ -8810,7 +8872,6 @@
             ]
         },
         "THDA 220": {
-            "course-num": "THDA 220",
             "dept": "THDA",
             "name": "Voice and Speech",
             "sections": [
@@ -8826,7 +8887,6 @@
             ]
         },
         "THDA 235": {
-            "course-num": "THDA 235",
             "dept": "THDA",
             "name": "Fundamentals of Scenography",
             "sections": [
@@ -8842,9 +8902,8 @@
             ]
         },
         "THDA 242": {
-            "course-num": "THDA 242",
             "dept": "THDA",
-            "name": "Introduction to Playwriting and Textual Analysis",
+            "name": "Playwriting",
             "sections": [
                 {
                     "numsection": "THDA 242-01",
@@ -8858,7 +8917,6 @@
             ]
         },
         "THDA 245": {
-            "course-num": "THDA 245",
             "dept": "THDA",
             "name": "Performance Methods: Shakespeare to Butoh",
             "sections": [
@@ -8883,7 +8941,6 @@
             ]
         },
         "THDA 250": {
-            "course-num": "THDA 250",
             "dept": "THDA",
             "name": "Experiential Anatomy and the Mind Body Connection",
             "sections": [
@@ -8899,7 +8956,6 @@
             ]
         },
         "THDA 294": {
-            "course-num": "THDA 294",
             "dept": "THDA",
             "name": "Auditions",
             "sections": [
@@ -8915,7 +8971,6 @@
             ]
         },
         "THDA 490": {
-            "course-num": "THDA 490",
             "dept": "THDA",
             "name": "Capstone and Honors Seminar",
             "sections": [
@@ -8930,8 +8985,127 @@
                 }
             ]
         },
+        "THDA 21": {
+            "dept": "THDA",
+            "name": "African-based Movement I",
+            "sections": [
+                {
+                    "numsection": "THDA 21-01",
+                    "instructor": "Patricia Brown",
+                    "days": "T R",
+                    "availmax": "20 / 20",
+                    "courseid": "10182",
+                    "start": "03:00 pm",
+                    "end": "04:30 pm"
+                }
+            ]
+        },
+        "THDA 41": {
+            "dept": "THDA",
+            "name": "Modern Dance I",
+            "sections": [
+                {
+                    "numsection": "THDA 41-01",
+                    "instructor": "Darrius Strong",
+                    "days": "M W F",
+                    "availmax": "20 / 20",
+                    "courseid": "10183",
+                    "start": "09:40 am",
+                    "end": "10:40 am"
+                }
+            ]
+        },
+        "THDA 43": {
+            "dept": "THDA",
+            "name": "Modern Dance III",
+            "sections": [
+                {
+                    "numsection": "THDA 43-01",
+                    "instructor": "Wynn Fricke",
+                    "days": "M W F",
+                    "availmax": "20 / 20",
+                    "courseid": "10184",
+                    "start": "12:00 pm",
+                    "end": "01:00 pm"
+                }
+            ]
+        },
+        "THDA 51": {
+            "dept": "THDA",
+            "name": "Beginning Ballet",
+            "sections": [
+                {
+                    "numsection": "THDA 51-01",
+                    "instructor": "Jill Lile",
+                    "days": "M W F",
+                    "availmax": "18 / 18",
+                    "courseid": "10185",
+                    "start": "02:20 pm",
+                    "end": "03:20 pm"
+                }
+            ]
+        },
+        "THDA 53": {
+            "dept": "THDA",
+            "name": "Intermediate Ballet",
+            "sections": [
+                {
+                    "numsection": "THDA 53-01",
+                    "instructor": "Jill Lile",
+                    "days": "M W",
+                    "availmax": "12 / 12",
+                    "courseid": "10186",
+                    "start": "03:30 pm",
+                    "end": "05:00 pm"
+                }
+            ]
+        },
+        "THDA 60": {
+            "dept": "THDA",
+            "name": "African-based Movement Ensemble",
+            "sections": [
+                {
+                    "numsection": "THDA 60-01",
+                    "instructor": "Patricia Brown",
+                    "days": "T",
+                    "availmax": "20 / 20",
+                    "courseid": "10187",
+                    "start": "04:45 pm",
+                    "end": "07:00 pm"
+                }
+            ]
+        },
+        "THDA 80": {
+            "dept": "THDA",
+            "name": "Performance Practice",
+            "sections": [
+                {
+                    "numsection": "THDA 80-01",
+                    "instructor": "Claudia Tatinge Nascimento",
+                    "days": "TBA",
+                    "availmax": "50 / 50",
+                    "courseid": "10188",
+                    "start": "TBA",
+                    "end": "TBA"
+                }
+            ]
+        },
+        "THDA 81": {
+            "dept": "THDA",
+            "name": "Technical Practice",
+            "sections": [
+                {
+                    "numsection": "THDA 81-01",
+                    "instructor": "Thomas Barrett",
+                    "days": "TBA",
+                    "availmax": "25 / 25",
+                    "courseid": "10189",
+                    "start": "TBA",
+                    "end": "TBA"
+                }
+            ]
+        },
         "WGSS 100": {
-            "course-num": "WGSS 100",
             "dept": "WGSS",
             "name": "Intro to Women's, Gender and Sexuality Studies Queer Politics, Queer Theory",
             "sections": [
@@ -8947,7 +9121,6 @@
             ]
         },
         "WGSS 217": {
-            "course-num": "WGSS 217",
             "dept": "WGSS",
             "name": "Gender and Race Theory in Performance",
             "sections": [
@@ -8963,7 +9136,6 @@
             ]
         },
         "WGSS 240": {
-            "course-num": "WGSS 240",
             "dept": "WGSS",
             "name": "Comparative Feminisms: Whiteness and Postcolonialisms Before and During the 2020 Pandemic",
             "sections": [
@@ -8979,7 +9151,6 @@
             ]
         },
         "WGSS 252": {
-            "course-num": "WGSS 252",
             "dept": "WGSS",
             "name": "Gender, Sexualities and Feminist Visual Culture",
             "sections": [
@@ -8995,7 +9166,6 @@
             ]
         },
         "WGSS 264": {
-            "course-num": "WGSS 264",
             "dept": "WGSS",
             "name": "The Psychology of Gender",
             "sections": [
@@ -9011,7 +9181,6 @@
             ]
         },
         "WGSS 294": {
-            "course-num": "WGSS 294",
             "dept": "WGSS",
             "name": "Trans Studies and Politics",
             "sections": [
@@ -9027,7 +9196,6 @@
             ]
         },
         "WGSS 300": {
-            "course-num": "WGSS 300",
             "dept": "WGSS",
             "name": "Worlds Upside Down: Revolutions in Theories and Practices",
             "sections": [

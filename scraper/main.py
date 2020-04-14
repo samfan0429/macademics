@@ -17,7 +17,7 @@ def row_to_json(content):
     startTime = datetime.now()
 
     # text patterns
-    course_pattern = re.compile("[\w]{2,4}\s[\d]{3}-[a-zA-Z0-9]{2}")  # regex pattern of any course
+    course_pattern = re.compile("\w{2,4}\s\d{2,3}-[a-zA-Z0-9]{2}")  # regex pattern of any course
 
     rows = content.find_all('tr')
     sections = []
@@ -53,6 +53,7 @@ def row_to_json(content):
 
 
             items["courseid"] = course_id
+            print(items["numsection"])
 
             items["course-num"] = items["numsection"].split('-')[0]
             items["dept"] = items["numsection"].split(' ')[0]
