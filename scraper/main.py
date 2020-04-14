@@ -17,7 +17,7 @@ def row_to_json(content):
     startTime = datetime.now()
 
     # text patterns
-    course_pattern = re.compile("[\w]{3,4}\s[\d]{3}-[a-zA-Z0-9]{2}")  # regex pattern of any course
+    course_pattern = re.compile("[\w]{2,3,4}\s[\d]{3}-[a-zA-Z0-9]{2}")  # regex pattern of any course
 
     rows = content.find_all('tr')
     sections = []
