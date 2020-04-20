@@ -1,12 +1,31 @@
 from bs4 import BeautifulSoup
+from selenium import webdriver
 import requests
 import json
 import re
+import time
 from datetime import *
 
 url = 'https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/'
 response = requests.get(url, timeout=5)
-content = BeautifulSoup(response.content, "html.parser")
+
+
+browser = webdriver.Chrome('chromedriver')
+browser.get(url)
+
+details = browser.find_elements_by_class_name("crs-detail")
+print(len(details))
+for x in range(0,len(details)):
+    if details[x].is_displayed():
+        details[x].click()
+
+
+# time.sleep(3000000)
+html = browser.page_source
+
+print("html")
+
+content = BeautifulSoup(html, "html.parser")
 
 page_structure = content.prettify()
 
