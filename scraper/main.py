@@ -9,16 +9,14 @@ from datetime import *
 url = 'https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/'
 response = requests.get(url, timeout=5)
 
-
 browser = webdriver.Chrome('chromedriver')
 browser.get(url)
 
 details = browser.find_elements_by_class_name("crs-detail")
 print(len(details))
-for x in range(0,len(details)):
+for x in range(0, len(details)):
     if details[x].is_displayed():
         details[x].click()
-
 
 # time.sleep(3000000)
 html = browser.page_source
@@ -30,6 +28,7 @@ content = BeautifulSoup(html, "html.parser")
 page_structure = content.prettify()
 
 headers = ["numsection", "name", "days", "time", "room", "instructor", "availmax"]
+distributions = {"Writing WA", "Writing WP", "Writing WC", "U.S. Identities and Differences", "Internationalism", "Humanities", "Social science", "Fine arts", "Natural science and mathematics", "Quantitative Thinking Q1", "Quantitative Thinking Q2""Quantitative Thinking Q3"}
 
 
 def row_to_json(content):
@@ -50,13 +49,16 @@ def row_to_json(content):
 
         first_cell = cells[0].text.strip()
 
+
+
         # if it is a course row, scrap each cell content
+        items = {}
         if course_pattern.match(first_cell):
 
             course_id = rows[i]["data-id"]
+            print(course_id)
 
-
-            items = {}
+            # items = {}
 
             for i in range(len(cells)):
 
@@ -70,9 +72,8 @@ def row_to_json(content):
                         infopiece = re.sub("[\w]{6}\s", "", infopiece)
                 items[headers[i]] = infopiece.strip()
 
-
             items["courseid"] = course_id
-            print(items["numsection"])
+            # print(items["numsection"])
 
             items["course-num"] = items["numsection"].split('-')[0]
             items["dept"] = items["numsection"].split(' ')[0]
@@ -83,8 +84,6 @@ def row_to_json(content):
                 items["end"] = items["time"].split('-')[1]
             else:
                 items["end"] = "TBA"
-
-
 
             # add each course to the courses list
             sections.append(items)
@@ -107,18 +106,23 @@ def row_to_json(content):
                     'availmax': section['availmax'],
                     'courseid': section['courseid'],
                     'start': section['start'],
-                    'end': section['end']
+                    'end': section['end'],
+                    'sectionid': section['courseid']
 
                     # and so on with the properties you want
                 })
 
+        # details row
+        else:
 
+            # TODO: the data lies within <div id=crs+"items[course_id])"> )
+            # TODO: issue is can't get items[course_id]
+            # TODO: get <p> children of <div id="crsXXXXXX">
+            # TODO: first <p> is for course description
+            # TODO: second <p> is for General Requirements , findChildren('span') and add to a set
+            # TODO: third <p> is for Distribution Requirements , findChildren('span') and add to a set
 
-
-
-
-
-    export_dict = {"fall20": courses}
+            export_dict = {"fall20": courses}
 
     # export as JSON
     with open('fall20.json', 'w') as fout:
@@ -129,7 +133,6 @@ def row_to_json(content):
 
 def main():
     row_to_json(content)
-
 
 
 if __name__ == '__main__':
