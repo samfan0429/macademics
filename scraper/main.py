@@ -1,31 +1,16 @@
 from bs4 import BeautifulSoup
-from selenium import webdriver
-import requests
 import json
 import re
 import time
 from datetime import *
 
-url = 'https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/'
-response = requests.get(url, timeout=5)
 
-browser = webdriver.Chrome('chromedriver')
-browser.get(url)
+with open("clicked.html", "r") as f:
+    contents = f.read()
 
-details = browser.find_elements_by_class_name("crs-detail")
-print(len(details))
-for x in range(0, len(details)):
-    if details[x].is_displayed():
-        details[x].click()
+bs4_content = BeautifulSoup(contents, "html.parser")
 
-# time.sleep(3000000)
-html = browser.page_source
-
-print("html")
-
-content = BeautifulSoup(html, "html.parser")
-
-page_structure = content.prettify()
+page_structure = bs4_content.prettify()
 
 headers = ["numsection", "name", "days", "time", "room", "instructor", "availmax"]
 distributions = {"Writing WA", "Writing WP", "Writing WC", "U.S. Identities and Differences", "Internationalism", "Humanities", "Social science", "Fine arts", "Natural science and mathematics", "Quantitative Thinking Q1", "Quantitative Thinking Q2""Quantitative Thinking Q3"}
@@ -49,14 +34,11 @@ def row_to_json(content):
 
         first_cell = cells[0].text.strip()
 
-
-
         # if it is a course row, scrap each cell content
         items = {}
         if course_pattern.match(first_cell):
 
             course_id = rows[i]["data-id"]
-            print(course_id)
 
             # items = {}
 
@@ -114,15 +96,12 @@ def row_to_json(content):
 
         # details row
         else:
+            # TODO: get <span> content of this issue
+            # TODO: somehow parse through all the tags to reach span
+            # TODO: Can't use find_all('span) because that way we can't attribute to this specfic course-section
+            # TODO: maybe we can use specific course id (these course id also aviablel in <tr data-id="">)
 
-            # TODO: the data lies within <div id=crs+"items[course_id])"> )
-            # TODO: issue is can't get items[course_id]
-            # TODO: get <p> children of <div id="crsXXXXXX">
-            # TODO: first <p> is for course description
-            # TODO: second <p> is for General Requirements , findChildren('span') and add to a set
-            # TODO: third <p> is for Distribution Requirements , findChildren('span') and add to a set
-
-            export_dict = {"fall20": courses}
+        export_dict = {"fall20": courses}
 
     # export as JSON
     with open('fall20.json', 'w') as fout:
