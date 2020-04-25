@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Issues</title>
+    </head>
+
+    <body>
+    <h1>List of Known issues</h1>
+
+    <ol>
+        <li>No labs are shown as course options</li>
+            <details>
+                This is probably due to scraping parameteres. Most likely due to regex. <br>
+                This leads to required lab sections not being added to the summary. <br>
+                Wwe need to automatically add a lab row when choosing that lab's parent course.
+            </details>
+
+            <br>
+
+        <li>Different topics courses are grouped as one if same course number</li>
+            <details>
+                This is due to data modeling based upon grouping of course number <br>
+                This leads to totally different course content seemingly appear as different sections of one same course. <br>
+                We need to add a way to display as a different course. Maybe we can do this based  upon the naming scheme of topics courses - X9X.
+            </details>  
+
+
+        <li>No real-time search of text</li>
+            <details>
+                This is due to Firestore's limitation. <br>
+                This leads to more requirement of user interaction. <br>
+                We can add this featuere when we figure out how to use Algolia. We can also search among the course details as an added benefit.
+            </details>
+
+        
+    </ol>
+
+            
+</body>
+</html>
