@@ -1,10 +1,14 @@
 <template>
     <section id="courses-summary">
         <hr>
+
         <div 
         v-for="section in sectionsSelected" 
         :key="section">
-            {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.start}} - {{section.end}} - {{section.instructor}}
+
+            <div>
+                {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.start}} - {{section.end}} - {{section.instructor}}
+            </div>
         </div>
     </section>
 </template>

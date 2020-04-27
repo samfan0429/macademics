@@ -45,9 +45,20 @@ export default {
             if(!(this.sectionsSelected.includes(section))){
                 this.sectionsSelected.push(section)
                 eventBus.displaySection(this.sectionsSelected)
+                this.timesSelected.push(""+ section.days + "-" + section.start + "-" + section.end) 
+            }
+            else{
+                var index = this.sectionsSelected.indexOf(section)
+                if (index > -1) {
+                    this.sectionsSelected.splice(index, 1)
+                }
+
+                var index = this.timesSelected.indexOf(""+ section.days + "-" + section.start + "-" + section.end)
+                if (index > -1) {
+                    this.timesSelected.splice(index, 1)
+                }
             }
 
-            this.timesSelected.push(""+ section.days + "-" + section.start + "-" + section.end) 
             //WILL FIX THIS INTO ACTUALLY CHECKING FOR SCHEDULE CONFLICTS
         },
 
