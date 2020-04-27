@@ -1,8 +1,8 @@
 <template>
     <section id="courses-searched">
         <div class="course" v-for="(course, index) in courses.slice(0,10)" :key="index" >
-            <button> 
-                <!-- @click=""> --> 
+            <button
+                @click="courseAdded(course)"> 
             +
             </button>
 
@@ -25,17 +25,27 @@ export default {
     data() {
         return {
             courses: [],
+            coursesAdded: []
         }
     },
 
     methods: {
-    },
-    computed: {
+        courseAdded(course){
+            if(!(this.coursesAdded.includes(course))){
+                this.coursesAdded.push(course)
+                console.log("IN COURSES SEARCHED")
+                eventBus.displayCourse(this.coursesAdded)
+
+            }
+        }
+
     },
 
     created() { 
     // get data from database and save it temporarily in Vue. 
     // This includes all data (courses and their sections)
+        
+        // 
         db.collection('fall20').get().then
         (querySnapshot => {
             querySnapshot.forEach(course => {
@@ -63,6 +73,7 @@ export default {
             })        
     },
 }
+
 </script>
 
 <style>
