@@ -1,8 +1,8 @@
 <template>
-    <section id="courses-selected">
+    <section id="courses-summary">
         <hr>
         <div 
-        v-for="section in sectionsSelected" 
+        v-for="section in sectionsSummary" 
         :key="section">
             {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.start}} - {{section.end}}
         </div>
@@ -14,7 +14,7 @@ import {eventBus} from '../main'
 
 export default {
     props: {
-        sectionsSelected: Array
+        sectionsSummary: Array
     },
     data() {
         return {
@@ -23,8 +23,8 @@ export default {
     },
 
     created(){
-        eventBus.$on('sectionClicked', (sectionsSelected)=>{
-            this.sectionsSelected = sectionsSelected;
+        eventBus.$on('sectionClicked', (sectionsSummary)=>{
+            this.sectionsSummary = sectionsSummary;
         });
     }
 };
