@@ -4,7 +4,7 @@
         <div 
         v-for="section in sectionsSelected" 
         :key="section">
-            {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.start}} - {{section.end}}
+            {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.start}} - {{section.end}} - {{section.instructor}}
         </div>
     </section>
 </template>

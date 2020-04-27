@@ -57,6 +57,7 @@ export default {
                         'days': section.days,
                         'start': section.start,
                         'end': section.end,
+                        'instructor': section.instructor,
                     }
                     sections.push(aSection)
                     }        
@@ -66,6 +67,7 @@ export default {
                     'name': course.data().name,
                     'sections': sections,
                     show: true,
+
                 }
             this.courses.push(data)
     
