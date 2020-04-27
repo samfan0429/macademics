@@ -1,6 +1,6 @@
 <template>
     <section id="courses-selected">
-        <div class="course" v-for="(course, index) in courses.slice(0,10)" :key="index" >
+        <div class="course" v-for="(course, index) in coursesAdded" :key="index" >
             <button 
                 @click="course.show=!course.show">
             X
@@ -30,9 +30,11 @@ import db from '../firebaseinit.js'
 import {eventBus} from '../main'
 
 export default {
-    data() {
+   props: {
+        coursesAdded: Array
+    },
+   data() {
         return {
-            courses: [],
             sectionsSelected: [],
             timesSelected: [],
         }
@@ -66,33 +68,13 @@ export default {
   
     },
 
-    created() {
-        db.collection('spring20').get().then
-        (querySnapshot => {
-            querySnapshot.forEach(course => {
-                const sections = []
-                course.data().sections.forEach(section => {
-                    const aSection = {
-                        'name': course.data().name,
-                        'numsection': section.numsection,
-                        'days': section.days,
-                        'start': section.start,
-                        'end': section.end,
-                    }
-                    sections.push(aSection)
-                    }        
-                )
-                const data = {
-                    'courseNum': course.data().courseNum, //(course-num into courseNum)
-                    'name': course.data().name,
-                    'sections': sections,
-                    show: true,
-                }
-            this.courses.push(data)
-    
-            })
-            })        
-    },
+    created(){
+        eventBus.$on('courseAdded', (coursesAdded)=>{
+            this.coursesAdded = coursesAdded;
+        });
+    }
+
+
 }
 </script>
 
