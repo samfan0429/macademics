@@ -3,7 +3,7 @@
    <app-header></app-header>
    <div class='content'>
      <search-bar></search-bar>
-     <courses-searched></courses-searched>
+     <courses-selected></courses-selected>
      <courses-summary></courses-summary>
 
     </div>
@@ -14,7 +14,7 @@
 <script>
 import Header from './components/Header.vue';
 import SearchBar from './components/SearchBar.vue'
-import CoursesSearched from './components/CoursesSearched.vue'
+import CoursesSelected from './components/CoursesSelected.vue'
 import CoursesSummary from './components/CoursesSummary.vue'
 import Footer from './components/Footer.vue';
  
@@ -22,7 +22,7 @@ export default {
  components: {
    'app-header': Header,
    'search-bar': SearchBar,
-   'courses-searched': CoursesSearched,
+   'courses-selected': CoursesSelected,
    'courses-summary': CoursesSummary
   ,
    'app-footer': Footer,
