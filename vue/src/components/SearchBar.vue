@@ -18,7 +18,7 @@ export default {
 <style>
 #search-bar{
     display: block;
-    margin : auto;
+    margin : 0% 0% 0% 5%;
 
     width: 50%;
     padding: 1%;
