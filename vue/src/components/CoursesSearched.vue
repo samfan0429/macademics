@@ -6,10 +6,10 @@
             +
             </button>
 
-            <div v-if="course.show" class= "course-name">
+            <div class= "course-name">
                 <div 
                     id="course-name"  
-                    v-if="course.show">
+                >
                 {{course.courseNum}} - {{course.name}} 
                 </div>
             </div>

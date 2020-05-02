@@ -1,25 +1,27 @@
 <template>
     <section id="courses-selected">
         <div class="course" v-for="(course, index) in coursesAdded" :key="index" >
-            <button 
-                @click="course.show=!course.show">
-            X
-            </button>
+            
 
-            <div v-if="course.show" class= "course-name">
+            <div v-if="course.show" class= "course">
+                <button 
+                @click="course.show=!course.show">
+                    X
+                </button>
                 <div 
                     id="course-name"  
                     v-if="course.show">
                 {{course.courseNum}} - {{course.name}} 
                 </div>
-            </div>
-            <div class="section" v-for="(section, index) in course.sections" :key="index">
-                <button 
-                @click="sectionSelected(section)"
-                :class = "{gray: isConflicted(section)}"
-                >
-                    {{section.days}} - {{section.start}} - {{section.end}}
-                </button>
+            <!-- </div> -->
+                <div class="section" v-for="(section, index) in course.sections" :key="index">
+                    <button 
+                    @click="sectionSelected(section)"
+                    :class = "{gray: isConflicted(section)}"
+                    >
+                        {{section.days}} - {{section.start}} - {{section.end}}
+                    </button>
+                </div>
             </div>
         </div>
     </section>
