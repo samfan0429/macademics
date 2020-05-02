@@ -1,19 +1,20 @@
 <template>
-    <section id="courses-searched">
+    <section id="search">
         <input id='search-bar' type="text" v-model="input" v-on:keyup.enter="searchTermEntered(input)">
 
+        <div id="courses-searched">
+            <div class="course" v-for="(course, index) in courses" :key="index" >
+                <button
+                    @click="courseAdded(course)"> 
+                +
+                </button>
 
-        <div class="course" v-for="(course, index) in courses" :key="index" >
-            <button
-                @click="courseAdded(course)"> 
-            +
-            </button>
-
-            <div class= "course-name">
-                <div 
-                    id="course-name"  
-                >
-                {{course.courseNum}} - {{course.name}} 
+                <div class= "course-name">
+                    <div 
+                        id="course-name"  
+                    >
+                    {{course.courseNum}} - {{course.name}} 
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,7 +46,7 @@ export default {
         searchTermEntered(input){
             console.log(this.input)
             this.courses = []
-            db.collection('fall20').where("dept", "==",input)
+            db.collection('fall20').where("dept", "==",input.toUpperCase())
             .get().then
             (querySnapshot => {
                 querySnapshot.forEach(course => {
