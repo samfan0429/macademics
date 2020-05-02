@@ -24,6 +24,8 @@
 <script>
 import db from '../firebaseinit.js'
 import {eventBus} from '../main'
+import firebase from 'firebase'
+import 'firebase/firestore'
 
 export default {
 
@@ -46,34 +48,70 @@ export default {
         searchTermEntered(input){
             console.log(this.input)
             this.courses = []
-            db.collection('fall20').where("dept", "==",input.toUpperCase())
-            .get().then
-            (querySnapshot => {
-                querySnapshot.forEach(course => {
-                    const sections = []
-                    course.data().sections.forEach(section => {
-                        const aSection = {
+            if(input.length <= 4){
+                db.collection('fall20').where("dept", "==",input.toUpperCase())
+                .get().then
+                (querySnapshot => {
+                    querySnapshot.forEach(course => {
+                        const sections = []
+                        course.data().sections.forEach(section => {
+                            const aSection = {
+                                'name': course.data().name,
+                                'numsection': section.numsection,
+                                'days': section.days,
+                                'start': section.start,
+                                'end': section.end,
+                                'instructor': section.instructor,
+                            }
+                            sections.push(aSection)
+                            }        
+                        )
+                        const data = {
+                            'courseNum': course.id, 
                             'name': course.data().name,
-                            'numsection': section.numsection,
-                            'days': section.days,
-                            'start': section.start,
-                            'end': section.end,
-                            'instructor': section.instructor,
-                        }
-                        sections.push(aSection)
-                        }        
-                    )
-                    const data = {
-                        'courseNum': course.id, 
-                        'name': course.data().name,
-                        'sections': sections,
-                        show: true,
+                            'sections': sections,
+                            show: true,
 
-                    }
-                this.courses.push(data)
-        
-                })
-                })   
+                        }
+                    this.courses.push(data)
+            
+                    })
+                    })   
+            } 
+            else{
+                console.log("NAME OF COURSE ENTERED")
+                db.collection('fall20').where(firebase.firestore.FieldPath.documentId(), "==",input.toUpperCase())
+                .get().then
+                (querySnapshot => {
+                    querySnapshot.forEach(course => {
+                        const sections = []
+                        course.data().sections.forEach(section => {
+                            const aSection = {
+                                'name': course.data().name,
+                                'numsection': section.numsection,
+                                'days': section.days,
+                                'start': section.start,
+                                'end': section.end,
+                                'instructor': section.instructor,
+                            }
+                            sections.push(aSection)
+                            }        
+                        )
+                        const data = {
+                            'courseNum': course.id, 
+                            'name': course.data().name,
+                            'sections': sections,
+                            show: true,
+
+                        }
+                    this.courses.push(data)
+            
+                    })
+                    })   
+            }
+
+
+            
 
         }
 
