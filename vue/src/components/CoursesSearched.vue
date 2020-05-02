@@ -1,5 +1,8 @@
 <template>
     <section id="courses-searched">
+        <input id='search-bar' type="text" v-model="input" v-on:keyup.enter="searchTermEntered(input)">
+
+
         <div class="course" v-for="(course, index) in courses" :key="index" >
             <button
                 @click="courseAdded(course)"> 
@@ -10,7 +13,7 @@
                 <div 
                     id="course-name"  
                 >
-                {{course.courseNum}} - {{course.name}} 
+                {{course.courseNum}} - {{course.name}} - {{input}}
                 </div>
             </div>
         </div>
@@ -22,10 +25,13 @@ import db from '../firebaseinit.js'
 import {eventBus} from '../main'
 
 export default {
+
     data() {
         return {
             courses: [],
-            coursesAdded: []
+            coursesAdded: [],
+            input: ""
+
         }
     },
 
@@ -33,10 +39,12 @@ export default {
         courseAdded(course){
             if(!(this.coursesAdded.includes(course))){
                 this.coursesAdded.push(course)
-                console.log("IN COURSES SEARCHED")
                 eventBus.displayCourse(this.coursesAdded)
-
             }
+        },
+
+        searchTermEntered(input){
+            console.log(this.input)
         }
 
     },
@@ -45,8 +53,9 @@ export default {
     // get data from database and save it temporarily in Vue. 
     // This includes all data (courses and their sections)
         
-        // 
-        db.collection('fall20').get().then
+        // .where("dept", "==", "LING") before .get
+        db.collection('fall20')
+        .get().then
         (querySnapshot => {
             querySnapshot.forEach(course => {
                 const sections = []
@@ -96,5 +105,17 @@ export default {
 #courses-searched{
     overflow-y: auto;
     max-height: 40vh;
+}
+
+#search-bar{
+    display: block;
+    margin : 0% 0% 0% 5%;
+
+    width: 50%;
+    padding: 1%;
+    border: 2px solid #dfe1e5;
+
+    border-radius: 24px;
+    outline: none;
 }
 </style>

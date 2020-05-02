@@ -2,8 +2,6 @@
  <div class=container>
    <app-header></app-header>
    <div class='content'>
-     <search-bar></search-bar>
-
      <courses-searched></courses-searched>
      <hr>
      <course-header></course-header>
@@ -18,7 +16,6 @@
 
 <script>
 import Header from './components/Header.vue'
-import SearchBar from './components/SearchBar.vue'
 import CourseHeader from './components/CourseHeader.vue'
 import SectionHeader from './components/SectionHeader.vue'
 import CoursesSearched from './components/CoursesSearched.vue'
@@ -29,7 +26,6 @@ import Footer from './components/Footer.vue'
 export default {
  components: {
    'app-header': Header,
-   'search-bar': SearchBar,
    'course-header': CourseHeader,
    'section-header': SectionHeader,
    'courses-searched': CoursesSearched,

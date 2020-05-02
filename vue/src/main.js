@@ -9,7 +9,7 @@ export const eventBus = new Vue({
 
       displayCourse(courses){
         this.$emit('courseAdded', courses);
-      }
+      },
   }
 });
 
