@@ -1,8 +1,11 @@
 <template>
     <section id="courses-selected">
-        <div class="course" v-for="(course, index) in coursesAdded" :key="index" >
-            
-
+        <div id="titles">
+            <h1 id="titleLeft">Courses Selected</h1>
+            <h1 id="titleRight">Available Sections</h1>
+        </div>
+        
+        <div class="course" v-for="(course, index) in coursesAdded" :key="index">
             <div v-if="course.show" class= "course">
                 <button 
                 @click="course.show=!course.show">
@@ -95,6 +98,26 @@ export default {
 .course{
     display: flex;
     padding: 10px
+}
+
+#titles{
+    display:flex;
+    width: 100vw;
+
+}
+
+#titleLeft{
+    width:40vw;
+    text-align: left;
+}
+
+#titleRight{
+    width: 40vw;
+    text-align: right;
+}
+h1{
+    padding-left: 10px;
+    padding-right: 10px
 }
 
 .gray{

@@ -1,7 +1,9 @@
 <template>
     <section id="search">
-        <input id='search-bar' type="text" v-model="input" v-on:keyup.enter="searchTermEntered(input)">
-
+        <div class='title-bar'>
+            <div id="semester"> Fall 2020 </div>
+            <input id='search-bar' type="text" v-model="input" v-on:keyup.enter="searchTermEntered(input)">
+        </div>
         <div id="courses-searched">
             <div class="course" v-for="(course, index) in courses" :key="index" >
                 <button
@@ -175,6 +177,14 @@ export default {
     max-height: 40vh;
 }
 
+.title-bar{
+    display:flex;
+}
+
+#semester{
+    text-align: center;
+    width: 10vw;
+}
 #search-bar{
     display: block;
     margin : 0% 0% 0% 5%;

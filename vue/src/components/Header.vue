@@ -1,7 +1,6 @@
 <template>
     <header>
-        <h1>macademics</h1>
-        <hr>
+        <div>macademics</div>
 
     </header>
 </template>
@@ -10,5 +9,8 @@
 </script>
 
 <style>
-
+header{
+    padding-left: 20px;
+    display: flex;
+}
 </style>

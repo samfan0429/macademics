@@ -1,7 +1,7 @@
 <template>
     <section id="courses-summary">
         <hr>
-
+        <h2>Your Courses</h2>
         <div 
         v-for="section in sectionsSelected" 
         :key="section">
@@ -36,6 +36,6 @@ export default {
 
 <style scoped>
 div{
-    padding: 20px;
+    padding: 2px;
 }
 </style>

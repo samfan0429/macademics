@@ -2,36 +2,31 @@
  <div class=container>
    <app-header></app-header>
    <div class='content'>
+     <hr>
      <courses-searched></courses-searched>
      <hr>
-     <course-header></course-header>
-     <section-header></section-header>
      <courses-selected></courses-selected>
      <courses-summary></courses-summary>
 
     </div>
-   <app-footer></app-footer>
+   <!-- <app-footer></app-footer> -->
  </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import CourseHeader from './components/CourseHeader.vue'
-import SectionHeader from './components/SectionHeader.vue'
 import CoursesSearched from './components/CoursesSearched.vue'
 import CoursesSelected from './components/CoursesSelected.vue'
 import CoursesSummary from './components/CoursesSummary.vue'
-import Footer from './components/Footer.vue'
+// import Footer from './components/Footer.vue'
 
 export default {
  components: {
    'app-header': Header,
-   'course-header': CourseHeader,
-   'section-header': SectionHeader,
    'courses-searched': CoursesSearched,
    'courses-selected': CoursesSelected,
    'courses-summary': CoursesSummary,
-   'app-footer': Footer,
+  //  'app-footer': Footer,
  }
 }
 </script>
@@ -42,7 +37,7 @@ export default {
   display: flex;
   flex-direction: column;
 
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .content{
