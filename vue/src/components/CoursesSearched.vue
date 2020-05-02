@@ -13,7 +13,7 @@
                 <div 
                     id="course-name"  
                 >
-                {{course.courseNum}} - {{course.name}} - {{input}}
+                {{course.courseNum}} - {{course.name}} 
                 </div>
             </div>
         </div>
@@ -31,7 +31,6 @@ export default {
             courses: [],
             coursesAdded: [],
             input: ""
-
         }
     },
 
@@ -45,6 +44,36 @@ export default {
 
         searchTermEntered(input){
             console.log(this.input)
+            this.courses = []
+            db.collection('fall20').where("dept", "==",input)
+            .get().then
+            (querySnapshot => {
+                querySnapshot.forEach(course => {
+                    const sections = []
+                    course.data().sections.forEach(section => {
+                        const aSection = {
+                            'name': course.data().name,
+                            'numsection': section.numsection,
+                            'days': section.days,
+                            'start': section.start,
+                            'end': section.end,
+                            'instructor': section.instructor,
+                        }
+                        sections.push(aSection)
+                        }        
+                    )
+                    const data = {
+                        'courseNum': course.id, 
+                        'name': course.data().name,
+                        'sections': sections,
+                        show: true,
+
+                    }
+                this.courses.push(data)
+        
+                })
+                })   
+
         }
 
     },
