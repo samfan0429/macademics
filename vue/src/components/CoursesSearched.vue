@@ -92,4 +92,9 @@ export default {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+#courses-searched{
+    overflow-y: auto;
+    max-height: 40vh;
+}
 </style>
