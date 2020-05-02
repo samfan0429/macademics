@@ -1,6 +1,6 @@
 <template>
     <section id="courses-searched">
-        <div class="course" v-for="(course, index) in courses.slice(0,10)" :key="index" >
+        <div class="course" v-for="(course, index) in courses" :key="index" >
             <button
                 @click="courseAdded(course)"> 
             +
