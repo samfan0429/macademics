@@ -8,7 +8,7 @@
             <div class="course" v-for="(course, index) in courses" :key="index" >
                 <button
                     @click="courseAdded(course)"> 
-                +
+                Add
                 </button>
 
                 <div class= "course-name">
