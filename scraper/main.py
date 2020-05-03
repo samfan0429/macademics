@@ -23,11 +23,16 @@ def row_to_json(content):
 
     for i in range(0, len(dept_tables)):
         rows = dept_tables[i].find_all('tr')
+
         for j in range(0, len(rows), 2):
-            cells = rows[j].find_all('td')
 
             items = {}
 
+            # unique CRN code
+            section_id = rows[j].get("data-id")
+            items["section-id"] = section_id
+
+            cells = rows[j].find_all('td')
             for i in range(len(cells)):
 
                 infopiece = cells[i].text.strip()
@@ -40,11 +45,9 @@ def row_to_json(content):
                         infopiece = re.sub("[\w]{6}\s", "", infopiece)
                 items[headers[i]] = infopiece.strip()
 
-            # items["courseid"] = course_id
-
+            # data sanitizing
             items["course-num"] = items["numsection"].split('-')[0]
             items["dept"] = items["numsection"].split(' ')[0]
-
             items["start"] = items["time"].split('-')[0]
 
             if items["start"] != "TBA":
@@ -52,10 +55,21 @@ def row_to_json(content):
             else:
                 items["end"] = "TBA"
 
+
             # TODO: get <span> content of this issue
             # TODO: somehow parse through all the tags to reach span
             # TODO: Can't use find_all('span) because that way we can't attribute to this specfic course-section
             # TODO: maybe we can use specific course id (these course id also aviablel in <tr data-id="">)
+
+            items["distributions"] = []
+            detail_element = rows[j+1].find(id="crs"+section_id)
+            # print(detail_element)
+            # print(type(detail_element))
+            if detail_element != None:
+                distributions = detail_element.find_all('span')
+                for item in distributions:
+                    items["distributions"].append(item.text)
+
 
             # add each course to the courses list
             sections.append(items)
@@ -68,7 +82,10 @@ def row_to_json(content):
                 # 'course-num': section['course-num'],
                 'dept': section['dept'],
                 'name': section['name'],
-                'sections': []
+                # assuming each course has the same distributions, 
+                # (edge cases exist with topic courses + a couple more)
+                'distrbutions': section['distributions'],
+                'sections': [],
             }
 
         courses[section['course-num']]['sections'].append({
@@ -78,7 +95,7 @@ def row_to_json(content):
             'availmax': section['availmax'],
             'start': section['start'],
             'end': section['end'],
-            # 'sectionid': section['courseid']
+            'section-id': section['section-id']
         })
 
     # export as JSON
