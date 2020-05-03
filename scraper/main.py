@@ -55,21 +55,13 @@ def row_to_json(content):
             else:
                 items["end"] = "TBA"
 
-
-            # TODO: get <span> content of this issue
-            # TODO: somehow parse through all the tags to reach span
-            # TODO: Can't use find_all('span) because that way we can't attribute to this specfic course-section
-            # TODO: maybe we can use specific course id (these course id also aviablel in <tr data-id="">)
-
+            # course additional details 
             items["distributions"] = []
-            detail_element = rows[j+1].find(id="crs"+section_id)
-            # print(detail_element)
-            # print(type(detail_element))
+            detail_element = rows[j + 1].find(id="crs" + section_id)
             if detail_element != None:
                 distributions = detail_element.find_all('span')
                 for item in distributions:
                     items["distributions"].append(item.text)
-
 
             # add each course to the courses list
             sections.append(items)
