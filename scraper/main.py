@@ -57,11 +57,15 @@ def row_to_json(content):
 
             # course additional details 
             items["distributions"] = []
+            items["description"] = ""
             detail_element = rows[j + 1].find(id="crs" + section_id)
             if detail_element != None:
                 distributions = detail_element.find_all('span')
                 for item in distributions:
                     items["distributions"].append(item.text)
+
+                description_element = detail_element.find('p')
+                items["description"] = description_element.text.strip()
 
             # add each course to the courses list
             sections.append(items)
@@ -74,6 +78,7 @@ def row_to_json(content):
                 # 'course-num': section['course-num'],
                 'dept': section['dept'],
                 'name': section['name'],
+                'description': section['description'],
                 # assuming each course has the same distributions, 
                 # (edge cases exist with topic courses + a couple more)
                 'distrbutions': section['distributions'],
@@ -87,7 +92,8 @@ def row_to_json(content):
             'availmax': section['availmax'],
             'start': section['start'],
             'end': section['end'],
-            'section-id': section['section-id']
+            'section-id': section['section-id'],
+            
         })
 
     # export as JSON
