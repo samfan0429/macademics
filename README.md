@@ -19,3 +19,9 @@ To run `firestore-loader`:
 3. Have npm package `firestore-export-import` installed.
 
 ---
+
+To run the web app
+
+1. `cd` into vue directory
+2. `npm install` to install depedencies
+3. `npm run dev` to run the website in dev mode.
