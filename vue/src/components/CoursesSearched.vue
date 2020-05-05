@@ -1,7 +1,6 @@
 <template>
     <section id="search">
         <div class='title-bar'>
-            <div id="semester"> Fall 2020 </div>
             <input id='search-bar' type="text" v-model="input" v-on:keyup.enter="searchTermEntered(input)">
         </div>
         <div id="courses-searched">
@@ -181,13 +180,9 @@ export default {
     display:flex;
 }
 
-#semester{
-    text-align: center;
-    width: 10vw;
-}
 #search-bar{
     display: block;
-    margin : 0% 0% 0% 5%;
+    margin : 0% 0% 0% 0%;
 
     width: 50%;
     padding: 1%;
