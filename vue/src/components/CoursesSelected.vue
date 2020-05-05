@@ -20,8 +20,8 @@
                 <div class="section" v-for="(section, index) in course.sections" :key="index">
                     <button 
                     @click="sectionSelected(section)"
-                    :class = "{gray: isConflicted(section)}"
-                    >
+                    :class = "{gray: isConflicted(section)}">
+                    <!-- listen to the emitted event and call isConflicted? -->
                         {{section.days}} - {{section.start}} - {{section.end}}
                     </button>
                 </div>
