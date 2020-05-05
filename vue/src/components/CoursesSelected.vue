@@ -42,32 +42,47 @@ export default {
         return {
             sectionsSelected: [],
             timesSelected: [],
+            coursesSelected: []
         }
     },
 
     methods: {
         sectionSelected(section){
-            if(!(this.sectionsSelected.includes(section)) & !(this.timesSelected.includes(""+ section.days + "-" + section.start + "-" + section.end))){
-                console.log("FIRST TIME CLICKING IT")
+            if(!(this.sectionsSelected.includes(section)) & 
+            !(this.timesSelected.includes(""+ section.days + "-" + section.start + "-" + section.end))
+            & !(this.coursesSelected.includes(section.name)))
+            {
                 this.sectionsSelected.push(section)
+                this.coursesSelected.push(section.name)
                 this.timesSelected.push(""+ section.days + "-" + section.start + "-" + section.end) 
-                eventBus.displaySection(this.sectionsSelected, this.timesSelected)
+                eventBus.displaySection(this.sectionsSelected, this.timesSelected, this.coursesSelected)
 
             }
-            // if(this.sectionsSelected.includes(section)){
-            //     console.log("SECOND IF")
-            //     var index = this.sectionsSelected.indexOf(section)
-            //     if (index > -1) {
-            //         this.sectionsSelected.splice(index, 1)
-            //     }
+            // if(this.coursesSelected.includes(section.name)){
+            //     this.sectionsSelected.push(section)
+            //     this.timesSelected.push(""+ section.days + "-" + section.start + "-" + section.end)
+            //     eventBus.displaySection(this.sectionsSelected, this.timesSelected, this.coursesSelected)
 
-            //     var index = this.timesSelected.indexOf(""+ section.days + "-" + section.start + "-" + section.end)
-            //     if (index > -1) {
-            //         this.timesSelected.splice(index, 1)
-            //     }
             // }
+            
+            // TODO: 
+            // send a warning saying the time of the section the user is selecting conflict with 
+            // a section already added to coursesSummary
+            // if(this.timesSelected.includes(""+ section.days + "-" + section.start + "-" + section.end))){
+            //    *send the warning*
+            //}
 
-            //WILL FIX THIS INTO ACTUALLY CHECKING FOR SCHEDULE CONFLICTS
+            else{
+                var index = this.sectionsSelected.indexOf(section)
+                if (index > -1) {
+                    this.sectionsSelected.splice(index, 1)
+                }
+
+                var index = this.timesSelected.indexOf(""+ section.days + "-" + section.start + "-" + section.end)
+                if (index > -1) {
+                    this.timesSelected.splice(index, 1)
+                }
+            }
         },
 
         isConflicted(section){
@@ -77,11 +92,15 @@ export default {
                 if((""+ section.days + "-" + section.start + "-" + section.end) == time){
                     boolean = true
                 }
-                
+            })
+
+            this.coursesSelected.forEach(courseSelected =>{
+                if(courseSelected == section.name){
+                    boolean = true
+                }
             })
             return boolean
         }
-
     },
     computed: {
   

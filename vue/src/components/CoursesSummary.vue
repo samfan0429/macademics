@@ -24,7 +24,8 @@ import {eventBus} from '../main'
 export default {
     props: {
         sectionsSelected: Array,
-        timesSelected: Array
+        timesSelected: Array,
+        coursesSelected: Array
     },
     data() {
         return {
@@ -44,14 +45,18 @@ export default {
                 this.timesSelected.splice(index, 1)
             }
 
-            //emit an event?
+            var index = this.coursesSelected.indexOf(section.name)
+            if (index > -1) {
+                this.coursesSelected.splice(index, 1)
+            }
         }
     },
 
     created(){
-        eventBus.$on('sectionClicked', (sectionsSelected, timesSelected)=>{
+        eventBus.$on('sectionClicked', (sectionsSelected, timesSelected, coursesSelected)=>{
             this.sectionsSelected = sectionsSelected
             this.timesSelected = timesSelected
+            this.coursesSelected = coursesSelected
         });
     }
 };
