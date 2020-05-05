@@ -20,7 +20,8 @@
                 <div class="section" v-for="(section, index) in course.sections" :key="index">
                     <button 
                     @click="sectionSelected(section)"
-                    :class = "{gray: isConflicted(section)}">
+                    :class = "{gray: isConflicted(section), yellow: isSelected(section)}
+                    ">
                     <!-- listen to the emitted event and call isConflicted? -->
                         {{section.days}} - {{section.start}} - {{section.end}}
                     </button>
@@ -114,6 +115,17 @@ export default {
                 }
             })
             return boolean
+        },
+
+        isSelected(section){
+            let boolean = false
+
+            this.sectionsSelected.forEach(aSection =>{
+                if(aSection == section){
+                    boolean = true
+                }
+            })
+            return boolean
         }
     },
     computed: {
@@ -160,6 +172,9 @@ h1{
     color: gray;
 }
 
+.yellow{
+    background-color: yellow;
+}
 #course-name{
     padding-left: 10px;
     padding-right: 10px;
