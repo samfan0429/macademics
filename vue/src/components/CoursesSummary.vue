@@ -23,7 +23,8 @@ import {eventBus} from '../main'
 
 export default {
     props: {
-        sectionsSelected: Array
+        sectionsSelected: Array,
+        timesSelected: Array
     },
     data() {
         return {
@@ -48,8 +49,9 @@ export default {
     },
 
     created(){
-        eventBus.$on('sectionClicked', (sectionsSelected)=>{
-            this.sectionsSelected = sectionsSelected;
+        eventBus.$on('sectionClicked', (sectionsSelected, timesSelected)=>{
+            this.sectionsSelected = sectionsSelected
+            this.timesSelected = timesSelected
         });
     }
 };

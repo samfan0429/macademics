@@ -47,22 +47,25 @@ export default {
 
     methods: {
         sectionSelected(section){
-            if(!(this.sectionsSelected.includes(section))){
+            if(!(this.sectionsSelected.includes(section)) & !(this.timesSelected.includes(""+ section.days + "-" + section.start + "-" + section.end))){
+                console.log("FIRST TIME CLICKING IT")
                 this.sectionsSelected.push(section)
-                eventBus.displaySection(this.sectionsSelected)
                 this.timesSelected.push(""+ section.days + "-" + section.start + "-" + section.end) 
-            }
-            else{
-                var index = this.sectionsSelected.indexOf(section)
-                if (index > -1) {
-                    this.sectionsSelected.splice(index, 1)
-                }
+                eventBus.displaySection(this.sectionsSelected, this.timesSelected)
 
-                var index = this.timesSelected.indexOf(""+ section.days + "-" + section.start + "-" + section.end)
-                if (index > -1) {
-                    this.timesSelected.splice(index, 1)
-                }
             }
+            // if(this.sectionsSelected.includes(section)){
+            //     console.log("SECOND IF")
+            //     var index = this.sectionsSelected.indexOf(section)
+            //     if (index > -1) {
+            //         this.sectionsSelected.splice(index, 1)
+            //     }
+
+            //     var index = this.timesSelected.indexOf(""+ section.days + "-" + section.start + "-" + section.end)
+            //     if (index > -1) {
+            //         this.timesSelected.splice(index, 1)
+            //     }
+            // }
 
             //WILL FIX THIS INTO ACTUALLY CHECKING FOR SCHEDULE CONFLICTS
         },

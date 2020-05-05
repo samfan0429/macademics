@@ -3,8 +3,8 @@ import App from './App.vue'
 
 export const eventBus = new Vue({
   methods: {
-      displaySection(sections) {
-          this.$emit('sectionClicked', sections);
+      displaySection(sections, timesSelected) {
+          this.$emit('sectionClicked', sections, timesSelected);
       },
 
       displayCourse(courses){
