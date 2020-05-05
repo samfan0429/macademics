@@ -4,8 +4,8 @@
         <h2>Your Courses</h2>
 
             <div 
-            v-for="section in sectionsSelected" 
-            :key="section" class="sections">
+            v-for="(section, index) in sectionsSelected" 
+            :key="index" class="sections">
                 <button 
                 @click="deleteSection(section)">
                 X
@@ -40,12 +40,12 @@ export default {
                 this.sectionsSelected.splice(index, 1)
             }
 
-            var index = this.timesSelected.indexOf(""+ section.days + "-" + section.start + "-" + section.end)
+            index = this.timesSelected.indexOf(""+ section.days + "-" + section.start + "-" + section.end)
             if (index > -1) {
                 this.timesSelected.splice(index, 1)
             }
 
-            var index = this.coursesSelected.indexOf(section.name)
+            index = this.coursesSelected.indexOf(section.name)
             if (index > -1) {
                 this.coursesSelected.splice(index, 1)
             }

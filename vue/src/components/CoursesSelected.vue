@@ -58,12 +58,30 @@ export default {
                 eventBus.displaySection(this.sectionsSelected, this.timesSelected, this.coursesSelected)
 
             }
-            // if(this.coursesSelected.includes(section.name)){
-            //     this.sectionsSelected.push(section)
-            //     this.timesSelected.push(""+ section.days + "-" + section.start + "-" + section.end)
-            //     eventBus.displaySection(this.sectionsSelected, this.timesSelected, this.coursesSelected)
+            else if(this.coursesSelected.includes(section.name) 
+            & !(this.sectionsSelected.includes(section))
+            & !(this.timesSelected.includes(""+ section.days + "-" + section.start + "-" + section.end))){
+                var oldSection = ''
+                this.sectionsSelected.forEach(aSection => {
+                    if(aSection.name == section.name){
+                        oldSection = aSection
+                    }
+                })
+                var index = this.sectionsSelected.indexOf(oldSection)
+                if (index > -1) {
+                    this.sectionsSelected.splice(index, 1)
+                }
 
-            // }
+                index = this.timesSelected.indexOf(""+ oldSection.days + "-" + oldSection.start + "-" + oldSection.end)
+                if (index > -1) {
+                    this.timesSelected.splice(index, 1)
+                }
+
+                this.sectionsSelected.push(section)
+                this.timesSelected.push(""+ section.days + "-" + section.start + "-" + section.end)
+                eventBus.displaySection(this.sectionsSelected, this.timesSelected, this.coursesSelected)
+
+            }
             
             // TODO: 
             // send a warning saying the time of the section the user is selecting conflict with 
@@ -72,7 +90,9 @@ export default {
             //    *send the warning*
             //}
 
-            else{
+            else if((this.sectionsSelected.includes(section)) & 
+            (this.timesSelected.includes(""+ section.days + "-" + section.start + "-" + section.end))
+            & (this.coursesSelected.includes(section.name))){
                 var index = this.sectionsSelected.indexOf(section)
                 if (index > -1) {
                     this.sectionsSelected.splice(index, 1)
@@ -90,12 +110,6 @@ export default {
             //WILL FIX THIS INTO ACTUALLY CHECKING FOR SCHEDULE CONFLICTS
             this.timesSelected.forEach(time => {
                 if((""+ section.days + "-" + section.start + "-" + section.end) == time){
-                    boolean = true
-                }
-            })
-
-            this.coursesSelected.forEach(courseSelected =>{
-                if(courseSelected == section.name){
                     boolean = true
                 }
             })
