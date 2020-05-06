@@ -48,8 +48,37 @@ export default {
         },
 
         searchTermEntered(input){
-            console.log(this.input)
             this.courses = []
+            if(input.length == 0){
+                db.collection('fall20')
+                .get().then
+                (querySnapshot => {
+                    querySnapshot.forEach(course => {
+                        const sections = []
+                        course.data().sections.forEach(section => {
+                            const aSection = {
+                                'name': course.data().name,
+                                'numsection': section.numsection,
+                                'days': section.days,
+                                'start': section.start,
+                                'end': section.end,
+                                'instructor': section.instructor,
+                            }
+                            sections.push(aSection)
+                            }        
+                        )
+                        const data = {
+                            'courseNum': course.id, 
+                            'name': course.data().name,
+                            'sections': sections,
+                            show: true,
+
+                        }
+                    this.courses.push(data)
+            
+                })
+                })
+            }
             if(input.length <= 4){
                 db.collection('fall20').where("dept", "==",input.toUpperCase())
                 .get().then
