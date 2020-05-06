@@ -43,4 +43,14 @@ export default {
 .content{
   flex: 1 0 auto;
 }
+
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+body {
+  background-color: beige;
+}
 </style>
