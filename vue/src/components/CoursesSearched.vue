@@ -42,6 +42,7 @@ export default {
         courseAdded(course){
             if(!(this.coursesAdded.includes(course))){
                 this.coursesAdded.push(course)
+                course.show = true
                 eventBus.displayCourse(this.coursesAdded)
             }
         },

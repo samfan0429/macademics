@@ -8,7 +8,7 @@
         <div class="course" v-for="(course, index) in coursesAdded" :key="index">
             <div v-if="course.show" class= "course">
                 <button 
-                @click="course.show=!course.show">
+                @click="deleteCourse(course)">
                     X
                 </button>
                 <div 
@@ -48,6 +48,15 @@ export default {
     },
 
     methods: {
+        deleteCourse(course){
+            course.show = false
+            var index = this.coursesAdded.indexOf(course)
+            if (index > -1) {
+                console.log(index)
+                this.coursesAdded.splice(index, 1)
+                
+            }
+        },
         sectionSelected(section){
             if(!(this.sectionsSelected.includes(section)) & 
             !(this.timesSelected.includes(""+ section.days + "-" + section.start + "-" + section.end))
