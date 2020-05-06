@@ -34,12 +34,9 @@ def section_grouper(sections):
                 'description': section['description'],
                 # assuming each course has the same distributions, 
                 # (edge cases exist with topic courses + a couple more)
-                'distributions': section['distributions'],
+                'distrbutions': section['distributions'],
                 'sections': [],
-                
             }
-
-        
 
         courses[section['course-num']]['sections'].append({
             'numsection': section['numsection'],
@@ -51,12 +48,6 @@ def section_grouper(sections):
             'section-id': section['section-id'],
             
         })
-    
-    
-    for course in courses:
-        for reqs in courses[course]["distributions"]:
-            courses[course][str(reqs)] = bool(True)
-    
     
     return courses
 
@@ -102,15 +93,12 @@ def course_parser(dept_table):
 
         details_page = requests.get(details_url, verify=False)
         details_soup = BeautifulSoup(details_page.text, features="lxml")
-    
-
-        description_element = details_soup.find('p')
-        items["description"] = description_element.text.strip()
-
         distributions = details_soup.find_all('span')
         for item in distributions:
             items["distributions"].append(item.text)
-            
+
+        description_element = details_soup.find('p')
+        items["description"] = description_element.text.strip()
 
 
         # add each course to the courses list
