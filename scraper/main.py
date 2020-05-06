@@ -5,79 +5,25 @@ import requests
 from datetime import *
 from concurrent.futures import ThreadPoolExecutor
 
-with open("clicked.html", "r") as f:
-    contents = f.read()
 
-semester_url = "https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/"
-semester_requests = requests.get(semester_url).text
-bs4_content = BeautifulSoup(contents, "lxml")
-
-page_structure = bs4_content.prettify()
-
-headers = ["numsection", "name", "days", "time", "room", "instructor", "availmax"]
 distributions = {"Writing WA", "Writing WP", "Writing WC", "U.S. Identities and Differences", "Internationalism",
                  "Humanities", "Social science", "Fine arts", "Natural science and mathematics",
-                 "Quantitative Thinking Q1", "Quantitative Thinking Q2""Quantitative Thinking Q3"}
+                 "Quantitative Thinking Q1", "Quantitative Thinking Q2", "Quantitative Thinking Q3"}
 
 
-def row_to_json(content):
+
+
+def section_scraper(content):
     dept_tables = content.find_all('tbody')
-
     sections = []
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        for section in executor.map(course_parser, dept_tables):
+            sections.append(section)
 
-    for i in range(0, len(dept_tables)):
-        rows = dept_tables[i].find_all('tr')
-
-        for j in range(0, len(rows), 2):
-
-            items = {}
-
-            # unique CRN code
-            section_id = rows[j].get("data-id")
-            items["section-id"] = section_id
-
-            cells = rows[j].find_all('td')
-            for i in range(len(cells)):
-
-                infopiece = cells[i].text.strip()
-
-                # removing characters like "instructor:"
-                if i in range(2, 7):
-                    infopiece = re.sub(".+:\s", "", infopiece)
-
-                    if i == 6:
-                        infopiece = re.sub("[\w]{6}\s", "", infopiece)
-                items[headers[i]] = infopiece.strip()
-
-            # data sanitizing
-            items["course-num"] = items["numsection"].split('-')[0]
-            items["dept"] = items["numsection"].split(' ')[0]
-            items["start"] = items["time"].split('-')[0]
-
-            if items["start"] != "TBA":
-                items["end"] = items["time"].split('-')[1]
-            else:
-                items["end"] = "TBA"
-
-            # course additional details 
-            items["distributions"] = []
-            items["description"] = ""
-            details_url = "https://webapps.macalester.edu/registrardata/classdata/fall2020/" + section_id
-
-            details_page = requests.get(details_url, verify=False)
-            details_soup = BeautifulSoup(details_page.text, features="lxml")
-            distributions = details_soup.find_all('span')
-            for item in distributions:
-                items["distributions"].append(item.text)
-
-            description_element = details_soup.find('p')
-            items["description"] = description_element.text.strip()
+    return sections
 
 
-            # add each course to the courses list
-            sections.append(items)
-
-    # Section Grouper
+def section_grouper(sections):
     courses = {}
     for section in sections:
         if section['course-num'] not in courses:
@@ -102,18 +48,85 @@ def row_to_json(content):
             'section-id': section['section-id'],
             
         })
+    
+    return courses
 
-    # export as JSON
-    export_dict = {"fall20": courses}
+def course_parser(dept_table):
+    rows = dept_table.find_all('tr')
 
-    with open('fall20.json', 'w') as fout:
-        json.dump(export_dict, fout, indent=4)
+    for j in range(0, len(rows), 2):
+
+        items = {}
+
+        # unique CRN code
+        section_id = rows[j].get("data-id")
+        items["section-id"] = section_id
+
+        cells = rows[j].find_all('td')
+        headers = ["numsection", "name", "days", "time", "room", "instructor", "availmax"]
+        for i in range(len(cells)):
+
+            infopiece = cells[i].text.strip()
+
+            # removing characters like "instructor:"
+            if i in range(2, 7):
+                infopiece = re.sub(".+:\s", "", infopiece)
+
+                if i == 6:
+                    infopiece = re.sub("[\w]{6}\s", "", infopiece)
+            items[headers[i]] = infopiece.strip()
+
+        # data sanitizing
+        items["course-num"] = items["numsection"].split('-')[0]
+        items["dept"] = items["numsection"].split(' ')[0]
+        items["start"] = items["time"].split('-')[0]
+
+        if items["start"] != "TBA":
+            items["end"] = items["time"].split('-')[1]
+        else:
+            items["end"] = "TBA"
+
+        # course additional details 
+        items["distributions"] = []
+        items["description"] = ""
+        details_url = "https://webapps.macalester.edu/registrardata/classdata/fall2020/" + section_id
+
+        details_page = requests.get(details_url, verify=False)
+        details_soup = BeautifulSoup(details_page.text, features="lxml")
+        distributions = details_soup.find_all('span')
+        for item in distributions:
+            items["distributions"].append(item.text)
+
+        description_element = details_soup.find('p')
+        items["description"] = description_element.text.strip()
+
+
+        # add each course to the courses list
+        return items  
 
 
 def main():
     startTime = datetime.now()
-    row_to_json(bs4_content)
-    print(f'\nTime elasped: ', datetime.now() - startTime)
+
+    semester_url = "https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/"
+    semester_requests = requests.get(semester_url).text
+    bs4_content = BeautifulSoup(semester_requests, "lxml")
+    page_structure = bs4_content.prettify()
+
+    
+    sections = []
+    courses = section_grouper(section_scraper(bs4_content))
+    
+
+    # export as JSON
+    export_dict = {"fall20": courses}
+    with open('fall20.json', 'w') as fout:
+        json.dump(export_dict, fout, indent=4)
+
+    print('\nTime elasped: ', datetime.now() - startTime)
+
+
+
 
 if __name__ == '__main__':
     main()
