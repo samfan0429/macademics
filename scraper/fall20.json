@@ -4,7 +4,7 @@
             "dept": "AMST",
             "name": "Introduction to African American Literature",
             "description": "In this introductory course, we will study African American literature from the mid-nineteenth century to the present. We will study major genres, such as slave narratives and poetry, and movements, including the Harlem Renaissance and Afrofuturism. We will learn to use the tools and vocabulary of literary analysis to read closely, critically, and appreciatively. Themes of national critique, solidarity, and joy will organize and focus our study. Authors will include: Frederick Douglass, Langston Hughes, Zora Neale Hurston, James Baldwin, Octavia Butler, and Ross Gay, among others. Requirements include: brief written responses to the readings, two essays of about 5 pages (one of which must be revised), and a final project. This course will fulfill either the foundation course in literature requirement or the literature by U.S. writers of color requirement for the English major.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "U.S. Identities and Differences",
                 "Humanities"
@@ -19,13 +19,16 @@
                     "end": "02:10 pm",
                     "section-id": "10097"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "U.S. Identities and Differences": true,
+            "Humanities": true
         },
         "ANTH 101": {
             "dept": "ANTH",
             "name": "General Anthropology",
             "description": "This course is an introduction to the discipline of anthropology as a whole. It presents students with a theoretical grounding in the four major subfields: archaeology, biological anthropology, cultural anthropology, and linguistics. In this class the emphasis is on the holistic nature of the discipline. Students will be challenged with some of the countless links between the systems of biology and culture. They will explore key questions about human diversity in the past, present, and future. Prerequisite(s): Not open to students who've taken ANTH 111\u00a0.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WP",
                 "Internationalism",
                 "Social science"
@@ -40,13 +43,16 @@
                     "end": "09:30 am",
                     "section-id": "10126"
                 }
-            ]
+            ],
+            "Writing WP": true,
+            "Internationalism": true,
+            "Social science": true
         },
         "ART 130": {
             "dept": "ART",
             "name": "Drawing I",
             "description": "This studio course is an introduction to fundamental drawing materials and techniques. Students explore a variety of themes and subjects, including still life, architecture, figure drawing, portraiture, and imagination. Formal elements covered include: line, value, volume, space, proportion, perspective, mark-making, and composition. Context for assignments is given through frequent discussion of both historical and contemporary artworks. In group critiques and discussions, we consider composition, representational accuracy, creative expression, content, and intention. Two three-hour periods per week. (4 credits)",
-            "distrbutions": [
+            "distributions": [
                 "Fine arts"
             ],
             "sections": [
@@ -59,13 +65,14 @@
                     "end": "11:40 am",
                     "section-id": "10138"
                 }
-            ]
+            ],
+            "Fine arts": true
         },
         "ASIA 140": {
             "dept": "ASIA",
             "name": "Introduction to East Asian Civilization",
             "description": "This course introduces the cultures and societies of China, Japan and Korea from the earliest times to the present day. Primarily an introductory course for beginners in East Asian civilization, this course considers a variety of significant themes in religious, political, economic, social and cultural developments in the region.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WP",
                 "Internationalism",
                 "Humanities"
@@ -80,13 +87,16 @@
                     "end": "11:50 am",
                     "section-id": "10512"
                 }
-            ]
+            ],
+            "Writing WP": true,
+            "Internationalism": true,
+            "Humanities": true
         },
         "BIOL 170": {
             "dept": "BIOL",
             "name": "Ecology and the Environment",
             "description": "This course dives into a range of topics to study how species, populations, communities, ecosystems, and biomes function in our changing climate. We\u00a0will emphasize biological nutrient and energy cycling, population dynamics, animal and plant species interactions, disturbances and response to disturbances, and ecology in urban and agricultural landscapes. We will examine Ecology under four conceptual 'lenses': Climate Change, Environmental Justice, Land Use, and Ecosystem Services. These lenses provide critical insight into how scientists, policy makers, land managers, and other stakeholders evaluate complex ecological and environmental systems. Labs will be field and data-based, and emphasize the development of hypotheses, novel data collection at Ordway Field Station, and statistical analysis.\u00a0Three hours lecture and one three-hour lab each week.",
-            "distrbutions": [
+            "distributions": [
                 "Quantitative Thinking Q3",
                 "Natural science and mathematics"
             ],
@@ -100,13 +110,15 @@
                     "end": "10:40 am",
                     "section-id": "10169"
                 }
-            ]
+            ],
+            "Quantitative Thinking Q3": true,
+            "Natural science and mathematics": true
         },
         "CHEM 111": {
             "dept": "CHEM",
             "name": "General Chemistry I: Structure and Equilibrium",
             "description": "This course offers a rigorous, foundational treatment of atoms and molecules. We study the nature of chemical bonding and how bonding gives rise to the three-dimensional structure of matter. We explore how the macroscopic properties of substances can be interpreted in terms of atomic and molecular structure. We also learn mathematical and conceptual tools for quantifying chemical equilibrium, with an emphasis on the reactions of acids and bases. Laboratory work reinforces concepts in lecture, and also provides a review of fundamental topics, such as stoichiometry, gas laws, and solution-phase reactions, that are essential for future course work in chemistry. Three lectures and one three-hour laboratory per week. Lab fee of $12 required.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WP",
                 "Quantitative Thinking Q1",
                 "Natural science and mathematics"
@@ -121,17 +133,20 @@
                     "end": "09:30 am",
                     "section-id": "10570"
                 }
-            ]
+            ],
+            "Writing WP": true,
+            "Quantitative Thinking Q1": true,
+            "Natural science and mathematics": true
         },
         "CHIN 101": {
             "dept": "CHIN",
             "name": "First Year Chinese I",
             "description": "This course is an introduction to Chinese language and culture. It offers instruction and practice in basic sentence patterns and conversational expressions to enable students to speak and write in Chinese.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "CHIN 101-01",
-                    "instructor": "STAFF",
+                    "instructor": "Andrew Kauffman",
                     "days": "M W F",
                     "availmax": "18 / 20",
                     "start": "01:10 pm",
@@ -144,7 +159,7 @@
             "dept": "CLAS",
             "name": "Elementary Latin I",
             "description": "This two-term sequence introduces the grammar and vocabulary of Latin, the language of the ancient Romans. Students learn through reading adapted passages, by breaking down grammatical structures into recognizable patterns, and through tutorials and drills. We aim to cover all basic grammar by the end of the year. In the second semester, students begin to read easy Latin such as the Bible, Pliny, Cornelius Nepos and/or Caesar.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "CLAS 111-01",
@@ -161,7 +176,7 @@
             "dept": "COMP",
             "name": "Introduction to Data Science",
             "description": "This course provides an introduction to the handling, analysis, and interpretation of the big datasets now routinely being collected in science, commerce, and government. Students achieve facility with a sophisticated, technical computing environment. The course aligns with techniques being used in several courses in the natural and social sciences, statistics, and mathematics. The course is intended to be accessible to all students, regardless of background.",
-            "distrbutions": [
+            "distributions": [
                 "Quantitative Thinking Q2",
                 "Natural science and mathematics"
             ],
@@ -175,13 +190,15 @@
                     "end": "09:30 am",
                     "section-id": "10472"
                 }
-            ]
+            ],
+            "Quantitative Thinking Q2": true,
+            "Natural science and mathematics": true
         },
         "ECON 113": {
             "dept": "ECON",
             "name": "Financial Accounting",
             "description": "Accounting is the language of business. One of the objectives of this course is to learn that \"language.\" The emphasis will be on understanding financial statements both for profit and non-profit organizations. International accounting, ethics and investment decisions are also covered. This course is designed for students who desire an understanding of the elements of accounting as a component of a liberal arts education as well as for those who would like to study further in accounting or business. This course counts as a Group B elective.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "ECON 113-01",
@@ -198,7 +215,7 @@
             "dept": "EDUC",
             "name": "Educational Psychology",
             "description": "An introduction to theory and research in educational psychology. Topics include learning theory, learner characteristics, intelligence, creativity, motivation, measurement and evaluation, and models of teaching appropriate for diverse learners from early childhood through young adulthood. Students are required to complete observations in classroom settings.",
-            "distrbutions": [
+            "distributions": [
                 "Quantitative Thinking Q1",
                 "Social science"
             ],
@@ -212,13 +229,15 @@
                     "end": "11:10 am",
                     "section-id": "10002"
                 }
-            ]
+            ],
+            "Quantitative Thinking Q1": true,
+            "Social science": true
         },
         "ENGL 112": {
             "dept": "ENGL",
             "name": "Introduction to African American Literature",
             "description": "In this introductory course, we will study African American literature from the mid-nineteenth century to the present. We will study major genres, such as slave narratives and poetry, and movements, including the Harlem Renaissance and Afrofuturism. We will learn to use the tools and vocabulary of literary analysis to read closely, critically, and appreciatively. Themes of national critique, solidarity, and joy will organize and focus our study. Authors will include: Frederick Douglass, Langston Hughes, Zora Neale Hurston, James Baldwin, Octavia Butler, and Ross Gay, among others. Requirements include: brief written responses to the readings, two essays of about 5 pages (one of which must be revised), and a final project. This course will fulfill either the foundation course in literature requirement or the literature by U.S. writers of color requirement for the English major.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "U.S. Identities and Differences",
                 "Humanities"
@@ -233,13 +252,16 @@
                     "end": "02:10 pm",
                     "section-id": "10096"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "U.S. Identities and Differences": true,
+            "Humanities": true
         },
         "ENVI 104": {
             "dept": "ENVI",
             "name": "Soil: Science and Sustainability",
             "description": "From the food we eat, to the air we breathe, soil shapes our lives. Soil forms in response to local conditions, recording regional climate variability (if you know how to look). Soil is also one of the most important carbon sinks, so the way we interact with soil has the potential to seriously impact our changing climate. However, as an important agricultural resource, we must continue to utilize soil to feed Earth's growing population. To better understand this under-appreciated layer of Earth, this class will investigate soil formation, soil properties and the variability between types of soil, and how we interact with soil in our world today. This course includes one field trip.",
-            "distrbutions": [
+            "distributions": [
                 "Natural science and mathematics"
             ],
             "sections": [
@@ -252,13 +274,14 @@
                     "end": "10:40 am",
                     "section-id": "10657"
                 }
-            ]
+            ],
+            "Natural science and mathematics": true
         },
         "FREN 101": {
             "dept": "FREN",
             "name": "French I",
             "description": "Emphasizing the active use of the language, this course develops the fundamental skills of listening, speaking, reading, and writing. It includes an introduction to the cultural background of France and the Francophone world. Class sessions are supplemented by weekly small group meetings with a French graduate assistant. For students with no previous work in French. ALL COURSES ARE TAUGHT IN FRENCH UNLESS OTHERWISE INDICATED.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "FREN 101-01",
@@ -275,7 +298,7 @@
             "dept": "GEOG",
             "name": "Human Geography of Global Issues",
             "description": "This course is an introduction to the global perspectives, basic concepts and fundamental questions of geography. It focuses on the ways through which all places on Earth are interconnected and how the human use of Earth's surface varies over space. Major topics covered will be the human perception of earth space and the ways people give order to space; the growth and distribution of human population; the localization and spatial characteristics of patterns of settlement and land use; geopolitics and colonialism; environmental geography; the geography of economic development and modernization; principles of the analysis of spatial diffusion; spatial aspects of retail marketing; the geographic analysis of selected issues in industrialized societies such as gender issues, racism, poverty, sport, and religion.",
-            "distrbutions": [
+            "distributions": [
                 "Internationalism",
                 "Social science"
             ],
@@ -289,13 +312,15 @@
                     "end": "11:50 am",
                     "section-id": "10613"
                 }
-            ]
+            ],
+            "Internationalism": true,
+            "Social science": true
         },
         "GEOL 103": {
             "dept": "GEOL",
             "name": "Geocinema",
             "description": "Lights, camera, ACTION! Geologists think planet Earth is incredibly exciting, but nowhere is the story of the behavior of our planet more dramatized and misrepresented than in movies! Whether they are big-budget thrillers like Jurassic Park, San Andreas, or The Day After Tomorrow, or low-brow science fiction like Boa, movies tend to stretch the reality of natural hazards and earth processes to great dramatic effect. In this course, we will have the opportunity to watch a variety of movie clips that focus on geologic hazards (such as volcanoes, earthquakes, avalanches, floods, and tsunamis) and other earth processes (origins of life, evolution, mass extinction, climate change, and glaciers). We will examine the scientific features and processes depicted in films, learn about their scientific basis, and critique the film's portrayal of earth process. Students will work in groups to examine a film centered on a geological process, and critique the way science is depicted. The final project gives you the opportunity to develop your own script for a movie that does the geology correctly. This course will cover quantitative concepts relevant to earth processes, such as describing the world quantitatively, understanding uncertainty and risk, and evaluating quality and sources of data.",
-            "distrbutions": [
+            "distributions": [
                 "Quantitative Thinking Q3",
                 "Natural science and mathematics"
             ],
@@ -309,13 +334,15 @@
                     "end": "01:00 pm",
                     "section-id": "10627"
                 }
-            ]
+            ],
+            "Quantitative Thinking Q3": true,
+            "Natural science and mathematics": true
         },
         "GERM 101": {
             "dept": "GERM",
             "name": "Elementary German I",
             "description": "Emphasizing the active use of the language, this course focuses on vocabulary and structural acquisition as a way to develop elementary proficiency in speaking, reading, writing, and comprehension. Students both develop facility with German in highly structured contexts through work with authentic texts and become familiar with a variety of contemporary German-speaking cultures. Students will work with an open educational resource for this course: an interactive, online, and free textbook designed to meet the learning needs of Macalester students. For beginning students with no previous German language instruction. Three hours per week plus laboratory conversation hour.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "GERM 101-01",
@@ -332,7 +359,7 @@
             "dept": "HIST",
             "name": "The Greek World",
             "description": "This course surveys the political, economic, and cultural development of the peoples of the ancient Greek world from the late Bronze Age through the Hellenistic era. Students will hone their critical thinking skills while working with translations of ancient literature, archaeological remains and works of art. The basic structure of the course is chronological, but we will examine major themes across time and space, which may include the interaction between physical landscape and historical change; rule by the one, the few and the many; the nature and development of literary and artistic genres; the economic, military, and/or cultural dimensions of empire; or the intersections of gender, sexuality, ethnicity, slave/free status and civic identity in the Greek world.\u00a0 Meets History Department pre-1800 requirement.",
-            "distrbutions": [
+            "distributions": [
                 "Internationalism",
                 "Humanities"
             ],
@@ -346,13 +373,15 @@
                     "end": "10:40 am",
                     "section-id": "10259"
                 }
-            ]
+            ],
+            "Internationalism": true,
+            "Humanities": true
         },
         "INTD 101": {
             "dept": "INTD",
             "name": "College Writing",
             "description": "This course provides instruction in college-level academic writing. Students practice writing in various modes in preparation for writing across disciplines and beyond their formal education. Good academic writing requires critical reading skills, so students read and strive to emulate models of good writing while practicing critical analysis of others' writing. This class is primarily a discussion course, meant to foster a comfortable environment in which students can discuss and practice their writing.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA"
             ],
             "sections": [
@@ -365,13 +394,14 @@
                     "end": "11:10 am",
                     "section-id": "10803"
                 }
-            ]
+            ],
+            "Writing WA": true
         },
         "INTL 110": {
             "dept": "INTL",
             "name": "Introduction to Intl Studies: Globalization - Homogeneity and Heterogeneity",
             "description": "Globalization is upon us, resulting in unprecedented cultural interpenetration and civilizational encounter. Most of what animates this condition is old. However, the contemporary velocity, reach, and mutations of these forces suggest a new \"world time,\" full of contradictions, perils, and promises. This course introduces students to globalization by asking What is globalization, and how does one study it? What are the principal forces (social groups, ideas, institutions, and ecological circumstances) that shaped and now propel it? What are its concrete consequences, and how are we to respond? Open to first- and second-year students, or permission of the instructor.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "Internationalism",
                 "Social science"
@@ -386,13 +416,16 @@
                     "end": "02:50 pm",
                     "section-id": "10441"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "Internationalism": true,
+            "Social science": true
         },
         "JAPA 101": {
             "dept": "JAPA",
             "name": "First Year Japanese I",
             "description": "Introduction to Japanese language and culture. Practice in basic sentence patterns and conversational expressions to enable students to speak and write Japanese.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "JAPA 101-01",
@@ -409,7 +442,7 @@
             "dept": "LATI",
             "name": "Introduction to Latin America",
             "description": "This course offers a general survey of the complex and heterogeneous region we somewhat reductively term Latin America. It follows a roughly chronological approach, beginning with the eve of encounter and continuing through the contemporary era. Discussions will consider themes such as the institution and legacy of colonialism, the search for new national identities, and the onset of modern racial and political strife. The course will emphasize the import of global economic, political, and cultural trends on the formation of the region.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "Internationalism",
                 "Humanities"
@@ -424,13 +457,16 @@
                     "end": "02:10 pm",
                     "section-id": "10514"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "Internationalism": true,
+            "Humanities": true
         },
         "LING 100": {
             "dept": "LING",
             "name": "Introduction to Linguistics",
             "description": "The aim of this course is to make you aware of the complex organization and systematic nature of language, the primary means of human communication. In a sense, you will be studying yourself, since you are a prime example of a language user. Most of your knowledge of language, however, is unconscious, and the part of language that you can describe is largely the result of your earlier education, which may have given you confused, confusing, or misleading notions about language. This course is intended to clarify your ideas about language and bring you to a better understanding of its nature. By the end of the course you should be familiar with some of the terminology and techniques of linguistic analysis and be able to apply this knowledge to the description of different languages. There are no prerequisites, but this course is the prerequisite for almost every higher level course within the linguistics major.",
-            "distrbutions": [
+            "distributions": [
                 "Social science"
             ],
             "sections": [
@@ -443,13 +479,14 @@
                     "end": "02:50 pm",
                     "section-id": "10014"
                 }
-            ]
+            ],
+            "Social science": true
         },
         "MATH 135": {
             "dept": "MATH",
             "name": "Applied Multivariable Calculus I",
             "description": "This course focuses on calculus useful for applied work in the natural and social sciences. There is a strong emphasis on developing scientific computing and mathematical modeling skills. The topics include functions as models of data, differential calculus of functions of one and several variables, integration, differential equations, and estimation techniques. Applications\u00a0are drawn from varied areas, including biology, chemistry, economics, and physics.",
-            "distrbutions": [
+            "distributions": [
                 "Quantitative Thinking Q1",
                 "Natural science and mathematics"
             ],
@@ -463,13 +500,15 @@
                     "end": "09:30 am",
                     "section-id": "10435"
                 }
-            ]
+            ],
+            "Quantitative Thinking Q1": true,
+            "Natural science and mathematics": true
         },
         "MCST 110": {
             "dept": "MCST",
             "name": "Texts and Power: Foundations of Media and Cultural Studies",
             "description": "This course introduces students to the intellectual roots and contemporary applications of cultural studies, including critical media studies, focusing on the theoretical bases for analyses of power and meaning in production, texts, and reception. It includes primary readings in anti-racist, feminist, modern, postmodern, and queer cultural and social theory, and compares them to traditional approaches to the humanities. Designed as preparation for intermediate and advanced work grounded in cultural studies, the course is writing intensive, with special emphasis on developing skills in critical thinking and scholarly argumentation and documentation. Completion of or enrollment in MCST 110 is the prerequisite for majoring in media and cultural studies.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "Humanities"
             ],
@@ -483,13 +522,15 @@
                     "end": "10:40 am",
                     "section-id": "10390"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "Humanities": true
         },
         "MUSI 110": {
             "dept": "MUSI",
             "name": "Music Appreciation",
             "description": "Focuses on listening to music and making sense of what we hear. Explores diverse musical styles and cultures with an emphasis on concert music of the western world, placing the music within cultural-historical frameworks.",
-            "distrbutions": [
+            "distributions": [
                 "Fine arts"
             ],
             "sections": [
@@ -502,13 +543,14 @@
                     "end": "02:10 pm",
                     "section-id": "10377"
                 }
-            ]
+            ],
+            "Fine arts": true
         },
         "NSCI 488": {
             "dept": "NSCI",
             "name": "Neuroscience Capstone",
             "description": "Taken during the senior year, this 2-credit course provides a forum for students to prepare for post-graduation opportunities and create the poster that each will present at the Neuroscience Poster Session held every spring. Students' posters will have a central focus on neuroscience and be based on the research/internship experience, the multi-draft paper, or related coursework to be approved by the capstone course instructor. At least one of these components must be completed before the capstone course is taken. Prerequisite(s): Declared Neuroscience major.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "NSCI 488-01",
@@ -525,7 +567,7 @@
             "dept": "PE",
             "name": "Beginning Social Dance",
             "description": "Learn how to dance the Foxtrot, Waltz, Rumba and East Coast Swing! Learn to identify the music for each particular dance and dance to the music with a partner. Introduction to techniques unique to each dance. No partner is required, and all are welcome. No previous dance experience necessary.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "PE 03-01",
@@ -542,7 +584,7 @@
             "dept": "PHIL",
             "name": "Introduction to Philosophy: Philosophy of the Future",
             "description": "We all hope and work for a bright future, even if we sometimes fear the worst. But what exactly is this future we care so much about, and for what sort of future should we strive? This class introduces fundamental problems of philosophy by exploring metaphysical, epistemological and ethical problems about the future. We begin with the central concerns of philosophy itself: what is real? what do I know? what is good? what really matters? We then consider the puzzling nature of the future, which we value immensely, and worry about, as though it is fully real. Are the past and present more real than the future? This raises interesting questions of our moral attitude to the future: do we have obligations to persons and generations that do not yet exist or no longer exist? Might we have an obligation to ensure that someone does (or does not) exist in the future? Future humans will face ethical issues that are worth thinking about in the present. For example, is it acceptable for future humans to colonize other planets as past humans have colonized other continents? There are a number of threats (e.g. Covid-19) that may prevent a human future altogether: war; climate change, pandemics. How do we gauge these threats and act accordingly? And if it turns out we are doomed, how would this affect the meaning of the life we have left? If we survive, human nature is likely to undergo significant change with the rise of technologies like artificial intelligence, genetic engineering and biomedical enhancement. Are these enhancements good for us? Are we ready to become \u2018trans-human\u2019? Finally, how can we (in the present) ensure a good future for those to come?",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "Humanities"
             ],
@@ -556,13 +598,15 @@
                     "end": "11:10 am",
                     "section-id": "10364"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "Humanities": true
         },
         "PHYS 120": {
             "dept": "PHYS",
             "name": "Astronomical Techniques",
             "description": "This laboratory course provides active exercises in astronomical measurement techniques, including telescope and other observations of the night sky (as weather permits). The course is ideal for students who desire hands-on observing experience to complement\u00a0PHYS 113, or as a background for advanced observing projects. Prerequisite(s): concurrent or previous registration in PHYS 113  or PHYS 226.",
-            "distrbutions": [
+            "distributions": [
                 "Natural science and mathematics"
             ],
             "sections": [
@@ -575,13 +619,14 @@
                     "end": "10:00 pm",
                     "section-id": "10648"
                 }
-            ]
+            ],
+            "Natural science and mathematics": true
         },
         "POLI 100": {
             "dept": "POLI",
             "name": "Foundations of US Politics",
             "description": "This course introduces the constitutional framework, political culture, branches of government, political behavior, and nongovernmental institutions (e.g. political parties, media, or interest groups) that dynamically shape American politics. \u00a0Approaches vary by instructor, potentially including some mix of simulations, class debates, offsite observations, and comparative and critical examinations, but share a common set of objectives: 1) cultivating a broad and conversational understanding of key ideas, issues, and problems particular to American politics through classic and contemporary readings; 2) stimulating further inquiry into how American politics works and why it matters and 3) developing students' own reasoning, critical thinking, writing, and public speaking skills. This course is principally designed for beginning political science majors and non-majors who have not taken an AP course in US Government and Politics.",
-            "distrbutions": [
+            "distributions": [
                 "Social science"
             ],
             "sections": [
@@ -594,13 +639,14 @@
                     "end": "02:10 pm",
                     "section-id": "10338"
                 }
-            ]
+            ],
+            "Social science": true
         },
         "PORT 111": {
             "dept": "PORT",
             "name": "Accelerated Beginning Portuguese",
             "description": "Intensive instruction in speaking, understanding, reading and writing Portuguese. Brazilian usage emphasized. Successful completion with a minimum grade of C- allows enrollment in the second level Portuguese course, PORT 331. Three class hours per week plus two hours of tutorial.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "PORT 111-01",
@@ -617,7 +663,7 @@
             "dept": "PSYC",
             "name": "Introduction to Psychology",
             "description": "An introduction to psychological science -- the study of behavior and mental processes. This course surveys the major subdisciplines of the field, including such topics as the brain and neuroscience, behavioral genetics, cognitive and social development, perception, learning, memory, decision-making, language, consciousness, emotions, motivation, psychological disorders, social identity, interpersonal interactions and group and\u00a0cultural processes. Lecture and laboratory components.",
-            "distrbutions": [
+            "distributions": [
                 "Social science"
             ],
             "sections": [
@@ -630,13 +676,14 @@
                     "end": "09:30 am",
                     "section-id": "10288"
                 }
-            ]
+            ],
+            "Social science": true
         },
         "RELI 110": {
             "dept": "RELI",
             "name": "The Big Questions",
             "description": "What is religion? Why are people religious? What are the broad similarities and differences among various religions across culture and time? Some people describe themselves as spiritual but not religious. What does that mean? These are the basic questions that we consider in this introductory course. We shall explore religion as a practice of constructing similarities and differences that recruits virtually every issue that humans find important. Birth, puberty, and death; sex, money, and power; ethics and politics; humanity, divinity, and animality, earth and sky are all part of the religious imagination. We shall approach religion as a comparative practice, both intercultural and cross-cultural, through which people understand themselves and others.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "Internationalism",
                 "Humanities"
@@ -651,13 +698,16 @@
                     "end": "11:10 am",
                     "section-id": "10279"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "Internationalism": true,
+            "Humanities": true
         },
         "RUSS 101": {
             "dept": "RUSS",
             "name": "Elementary Russian I",
             "description": "A structured introduction to the basics of the Russian sound system and grammar, as well as speaking, reading, writing, and comprehension. Some exposure to Russian culture. For beginning students. No prerequisites. Russian language classes (unless otherwise stated) are proficiency oriented, and aim at perfecting all four linguistic skills: speaking, listening, reading, and writing. Intermediate and advanced courses are taught in Russian as much as possible. Most classes meet three times per week with an additional weekly class period devoted specifically to oral proficiency. These conversation classes are taught by Russian native speakers.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "RUSS 101-01",
@@ -674,7 +724,7 @@
             "dept": "SOCI",
             "name": "Introduction to Sociology",
             "description": "The course introduces students to the sociological imagination, or \"the quality of mind essential to grasp the interplay of individual and society, of biography and history, of self and the world,\" as C. Wright Mills described it. The enduring value of a sociological imagination is to help students situate peoples' lives and important events in broader social contexts by understanding how political, economic, and cultural forces constitute social life. Sociology explores minute aspects of social life (microsociology) as well as global social processes and structures (macrosociology). Topics covered vary from semester to semester, but may include: socialization, suburbanization and housing, culture, race, ethnicity, gender, sexuality, class stratification, deviance and crime, economic and global inequality, families and intimate relationships, education, religion, and globalization.",
-            "distrbutions": [
+            "distributions": [
                 "U.S. Identities and Differences",
                 "Social science"
             ],
@@ -688,13 +738,15 @@
                     "end": "04:30 pm",
                     "section-id": "10242"
                 }
-            ]
+            ],
+            "U.S. Identities and Differences": true,
+            "Social science": true
         },
         "SPAN 101": {
             "dept": "SPAN",
             "name": "Elementary Spanish I",
             "description": "Pronunciation, grammar essentials, conversation and reading. Three class hours a week plus one hour of tutorial. Minimal introduction to history and culture of hispanophone countries. For admission into SPAN 102, students must have completed 101, or its equivalent, with a minimum grade of C-.",
-            "distrbutions": [],
+            "distributions": [],
             "sections": [
                 {
                     "numsection": "SPAN 101-01",
@@ -711,7 +763,7 @@
             "dept": "STAT",
             "name": "Introduction to Data Science",
             "description": "This course provides an introduction to the handling, analysis, and interpretation of the big datasets now routinely being collected in science, commerce, and government. Students achieve facility with a sophisticated, technical computing environment. The course aligns with techniques being used in several courses in the natural and social sciences, statistics, and mathematics. The course is intended to be accessible to all students, regardless of background.",
-            "distrbutions": [
+            "distributions": [
                 "Quantitative Thinking Q2",
                 "Natural science and mathematics"
             ],
@@ -725,13 +777,15 @@
                     "end": "09:30 am",
                     "section-id": "10471"
                 }
-            ]
+            ],
+            "Quantitative Thinking Q2": true,
+            "Natural science and mathematics": true
         },
         "THDA 105": {
             "dept": "THDA",
             "name": "Seeing Performance in the Twin Cities",
             "description": "In this course, first-year students critically attend live dance and theater performances in the exciting arts scene of the Twin Cities, and articulate their individual reactions by writing reviews, responses, and essays. In this process of studied spectatorship, students acquire the vocabularies of the field. Readings include seminal texts in dance and theatre criticism, as well as manifestos and scholarly articles. We will attend dance and theater performances at professional venues such as the Walker Arts Center, the Guthrie, Penumbra Theatre, Mixed Blood, Northrop Auditorium, and Cowles Center. This course is typically reserved for incoming first-years\u00a0and not open to returning students. Students can not received credit for both 105 and\u00a0THDA 110.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "U.S. Identities and Differences",
                 "Fine arts"
@@ -746,13 +800,16 @@
                     "end": "02:50 pm",
                     "section-id": "10190"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "U.S. Identities and Differences": true,
+            "Fine arts": true
         },
         "WGSS 100": {
             "dept": "WGSS",
             "name": "Intro to Women's, Gender and Sexuality Studies Queer Politics, Queer Theory",
             "description": "This course is an introduction to the range and importance of 20th century as well as current feminist and queer theories and practices to our understanding of positive social change. It will analyze feminist and queer histories of resistance and alternatives to economic and political control, in the U.S. and elsewhere. The framework for the course is the intersection of gender and sexuality with race, class, nationality, and dis/ability; it will address such issues as economic marginalization, social movements, the institutions of family and marriage, migration and the role of the state/nation among others. Depending on the instructor, the course generally focuses on either LGBTQI studies or on transnational perspectives of these issues.",
-            "distrbutions": [
+            "distributions": [
                 "Writing WA",
                 "Internationalism",
                 "Social science"
@@ -767,7 +824,10 @@
                     "end": "02:50 pm",
                     "section-id": "10179"
                 }
-            ]
+            ],
+            "Writing WA": true,
+            "Internationalism": true,
+            "Social science": true
         }
     }
 }
