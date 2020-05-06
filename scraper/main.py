@@ -1,12 +1,16 @@
 from bs4 import BeautifulSoup
 import json
 import re
+import requests
 from datetime import *
+from concurrent.futures import ThreadPoolExecutor
 
 with open("clicked.html", "r") as f:
     contents = f.read()
 
-bs4_content = BeautifulSoup(contents, "html.parser")
+semester_url = "https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/"
+semester_requests = requests.get(semester_url).text
+bs4_content = BeautifulSoup(contents, "lxml")
 
 page_structure = bs4_content.prettify()
 
@@ -58,14 +62,17 @@ def row_to_json(content):
             # course additional details 
             items["distributions"] = []
             items["description"] = ""
-            detail_element = rows[j + 1].find(id="crs" + section_id)
-            if detail_element != None:
-                distributions = detail_element.find_all('span')
-                for item in distributions:
-                    items["distributions"].append(item.text)
+            details_url = "https://webapps.macalester.edu/registrardata/classdata/fall2020/" + section_id
 
-                description_element = detail_element.find('p')
-                items["description"] = description_element.text.strip()
+            details_page = requests.get(details_url, verify=False)
+            details_soup = BeautifulSoup(details_page.text, features="lxml")
+            distributions = details_soup.find_all('span')
+            for item in distributions:
+                items["distributions"].append(item.text)
+
+            description_element = details_soup.find('p')
+            items["description"] = description_element.text.strip()
+
 
             # add each course to the courses list
             sections.append(items)
@@ -106,8 +113,7 @@ def row_to_json(content):
 def main():
     startTime = datetime.now()
     row_to_json(bs4_content)
-    print('\nTime elasped: ', datetime.now() - startTime)
-
+    print(f'\nTime elasped: ', datetime.now() - startTime)
 
 if __name__ == '__main__':
     main()
