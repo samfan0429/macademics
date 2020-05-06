@@ -1,7 +1,14 @@
 <template>
     <section id="search">
         <div class='title-bar'>
-            <input id='search-bar' type="text" v-model="input" v-on:keyup.enter="searchTermEntered(input)">
+            <input 
+                id='search-bar' type="text" 
+                v-model="input" 
+                v-on:keyup.enter="searchTermEntered(input)"
+                >
+            <filter-buttons
+            @distClicked="filterCourses($event)">
+            </filter-buttons>
         </div>
         <div id="courses-searched">
             <div class="course" v-for="(course, index) in courses" :key="index" >
@@ -23,12 +30,16 @@
 </template>
 
 <script>
+import FilterButtons from './FilterButtons.vue'
 import db from '../firebaseinit.js'
 import {eventBus} from '../main'
 import firebase from 'firebase'
 import 'firebase/firestore'
 
 export default {
+    components: {
+        'filter-buttons': FilterButtons,
+    },
 
     data() {
         return {
@@ -45,6 +56,19 @@ export default {
                 course.show = true
                 eventBus.displayCourse(this.coursesAdded)
             }
+        },
+
+        filterCourses(distributionsSelected){
+            var i
+            for (i=0; i < distributionsSelected.length; i++){
+                var newCourses = this.courses.filter(course =>
+                    course.distributions.includes(distributionsSelected[i])
+                )     
+            }
+            this.courses = []
+            newCourses.forEach(course => {
+                this.courses.push(course)
+            })          
         },
 
         searchTermEntered(input){
@@ -71,6 +95,7 @@ export default {
                             'courseNum': course.id, 
                             'name': course.data().name,
                             'sections': sections,
+                            'distributions': course.data().distrbutions,
                             show: true,
 
                         }
@@ -101,6 +126,7 @@ export default {
                             'courseNum': course.id, 
                             'name': course.data().name,
                             'sections': sections,
+                            'distributions': course.data().distrbutions,
                             show: true,
 
                         }
@@ -132,6 +158,7 @@ export default {
                             'courseNum': course.id, 
                             'name': course.data().name,
                             'sections': sections,
+                            'distributions': course.data().distrbutions,
                             show: true,
 
                         }
@@ -174,6 +201,7 @@ export default {
                     'courseNum': course.id, 
                     'name': course.data().name,
                     'sections': sections,
+                    'distributions': course.data().distrbutions,
                     show: true,
 
                 }

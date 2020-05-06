@@ -52,7 +52,6 @@ export default {
             course.show = false
             var index = this.coursesAdded.indexOf(course)
             if (index > -1) {
-                console.log(index)
                 this.coursesAdded.splice(index, 1)
                 
             }
