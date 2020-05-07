@@ -46,6 +46,7 @@ export default {
         return {
             courses: [],
             allCourses: [],
+            tempListCourses: [],
             coursesAdded: [],
             input: ""
         }
@@ -70,18 +71,33 @@ export default {
                 this.courses.push(course)
             })
             // console.log(this.courses.length)
- 
+            // this.tempListCourses = []
+            //     this.courses.forEach(course => {
+            //         this.tempListCourses.push(course)
+            //     })
         },
 
         distUnselect(distributionsSelected){
             this.courses = []
-            this.allCourses.forEach(course => {
+            if(this.tempListCourses.length == 0){
+                this.allCourses.forEach(course => {
                 this.courses.push(course)
-            })
-            var i
-            for (i=0; i < distributionsSelected.length; i++){
-                this.distSelect(distributionsSelected[i])
+                })
+                var i
+                for (i=0; i < distributionsSelected.length; i++){
+                    this.distSelect(distributionsSelected[i])
+                }
             }
+            else{
+                this.tempListCourses.forEach(course => {
+                this.courses.push(course)
+                })
+                var i
+                for (i=0; i < distributionsSelected.length; i++){
+                    this.distSelect(distributionsSelected[i])
+                }
+            }
+           
         },
 
         searchTermEntered(input){
@@ -90,6 +106,7 @@ export default {
                 this.allCourses.forEach(course => {
                     this.courses.push(course)
                 })
+                this.tempListCourses = []
             }
             else{
                 this.allCourses.forEach(course => {
@@ -104,9 +121,13 @@ export default {
                         // }))
                     ){
                         this.courses.push(course)
-
                     }
-                })                   
+                })
+                this.tempListCourses = []
+                this.courses.forEach(course => {
+                    this.tempListCourses.push(course)
+                })
+
             }
 
 
