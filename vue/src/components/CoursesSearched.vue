@@ -1,18 +1,22 @@
 <template>
-    <section id="search">
-        <div class='title-bar'>
+    <section id="search" class="container">
+        <div class='title-bar row'>
             <input 
+                class = "col-8"
                 id='search-bar' type="text" 
                 v-model="input" 
                 v-on:keyup.enter="searchTermEntered(input)"
                 >
-            <filter-buttons
+            <filter-buttons class="col"
             @distSelected="distSelect($event)"
             @distUnselected="distUnselect($event)">
             </filter-buttons>
         </div>
-        <div id="courses-searched">
-            <div class="course" v-for="(course, index) in courses" :key="index" >
+        <div id="courses-searched" class='row'>
+        <table class="table table-hover table-striped ">
+            <tbody>
+            <tr class="course" v-for="(course, index) in courses" :key="index" >
+                
                 <button
                     @click="courseAdded(course)"> 
                 Add
@@ -25,8 +29,11 @@
                     {{course.courseNum}} - {{course.name}} 
                     </div>
                 </div>
-            </div>
+            </tr>
+            </tbody>
+        </table>
         </div>
+        
     </section>
 </template>
 

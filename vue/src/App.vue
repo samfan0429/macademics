@@ -1,5 +1,5 @@
 <template>
- <div class=container>
+ <div class='container vertical-center'>
    <app-header></app-header>
    <div class='content'>
      <hr>
@@ -33,11 +33,14 @@ export default {
 
 <style>
 .container{
-  min-height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 100vw;
+  /* min-height: 100%;
   display: flex;
   flex-direction: column;
 
-  font-size: 20px;
+  font-size: 20px; */
 }
 
 .content{

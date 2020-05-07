@@ -2,7 +2,7 @@
     <section id="courses-selected">
         <div id="titles">
             <h1 id="titleLeft">Courses Selected</h1>
-            <h1 id="titleRight">Available Sections</h1>
+            <!-- <h1 id="titleRight">Available Sections</h1> -->
         </div>
         
         <div class="course" v-for="(course, index) in coursesAdded" :key="index">

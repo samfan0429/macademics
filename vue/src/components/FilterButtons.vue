@@ -1,15 +1,54 @@
 <template>
-  <div class="filterButtons">
-    <button 
-      v-for="n in 12"
-      :key="n"
-      id="button"
-      :class = "{green: isSelected(distributions[n-1])}"
-      @click = distChosen(distributions[n-1])>
-        {{buttonsNames[n-1]}}
-    </button>
+  <div class="filterButtons btn-group btn-group-toggle container">
+    <div class="row">
+      <div class='col-3'>
+        <button 
+          v-for="n in 3"
+          :key="n"
+          id="button"
+          class="btn btn-outline-success"
+          :class = "{'btn-success': isSelected(distributions[n-1])}"
+          @click = distChosen(distributions[n-1])>
+            {{buttonsNames[n-1]}}
+        </button>
+      </div>
+      <div class='col-3'>
+        <button 
+          v-for="n in 3"
+          :key="n+3"
+          id="button"
+          class="btn btn-outline-success"
+          :class = "{'btn-success': isSelected(distributions[n+3-1])}"
+          @click = distChosen(distributions[n+3-1])>
+            {{buttonsNames[n+3-1]}}
+        </button>
+      </div>
+      <div class='col-3'>
+        <button 
+          v-for="n in 3"
+          :key="n+6"
+          id="button"
+          class="btn btn-outline-success"
+          :class = "{'btn-success': isSelected(distributions[n+6-1])}"
+          @click = distChosen(distributions[n+6-1])>
+            {{buttonsNames[n+6-1]}}
+        </button>
+      </div>
+      <div class='col-3'>
+        <button 
+          v-for="n in 3"
+          :key="n+9"
+          id="button"
+          class="btn btn-outline-success"
+          :class = "{'btn-success': isSelected(distributions[n+9-1])}"
+          @click = distChosen(distributions[n+9-1])>
+            {{buttonsNames[n+9-1]}}
+        </button>
+      </div>
+    </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -58,5 +97,10 @@ export default {
 <style scoped>
   .green{
     background-color: green;
+  }
+
+  #button{
+    border-radius: 24px;
+    width: 7vw;
   }
 </style>
