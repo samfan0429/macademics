@@ -1,18 +1,22 @@
 <template>
     <section id="courses-summary">
         <hr>
-        <h2>Your Courses</h2>
+        <h3><b>Your Courses</b></h3>
 
             <div 
             v-for="(section, index) in sectionsSelected" 
             :key="index" class="sections">
+                 
                 <button 
-                @click="deleteSection(section)">
+                    class="btn btn-danger"
+                    id="x"
+                    @click="deleteSection(section)">
                 X
-                </button>            
+                </button>         
 
-                <div class="section-name">
-                    {{section.numsection}} - {{section.name}} - {{section.days}} - {{section.start}} - {{section.end}} - {{section.instructor}}
+                <div class="section-name justify-content-center">
+                    <b>{{section.numsection}} - {{section.name}} 
+                    - <br>{{section.days}} - {{section.start}} - {{section.end}} - {{section.instructor}}</b>
                 </div>
             </div>
     </section>
@@ -66,14 +70,35 @@ export default {
 div{
     padding: 2px;
 }
-
+#courses-summary{
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
 .sections{
     display: flex;
     padding: 10px;
+    justify-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    min-width: 80%;
+    justify-self: start;
+    /* width: 80vw; */
 }
 
 .section-name{
     padding-left: 10px;
     padding-right: 10px;
+    /* align-self: left ; */
+    /* display: flex; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* align-content: center; */
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div>macademics</div>
+        <p>macademics</p>
 
     </header>
 </template>
@@ -12,5 +12,6 @@
 header{
     padding-left: 20px;
     display: flex;
+    font-size: 25px;
 }
 </style>

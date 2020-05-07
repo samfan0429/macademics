@@ -9,7 +9,7 @@
      <courses-summary></courses-summary>
 
     </div>
-   <!-- <app-footer></app-footer> -->
+   <app-footer></app-footer>
  </div>
 </template>
 
@@ -18,7 +18,7 @@ import Header from './components/Header.vue'
 import CoursesSearched from './components/CoursesSearched.vue'
 import CoursesSelected from './components/CoursesSelected.vue'
 import CoursesSummary from './components/CoursesSummary.vue'
-// import Footer from './components/Footer.vue'
+import Footer from './components/Footer.vue'
 
 export default {
  components: {
@@ -26,7 +26,7 @@ export default {
    'courses-searched': CoursesSearched,
    'courses-selected': CoursesSelected,
    'courses-summary': CoursesSummary,
-  //  'app-footer': Footer,
+   'app-footer': Footer,
  }
 }
 </script>
