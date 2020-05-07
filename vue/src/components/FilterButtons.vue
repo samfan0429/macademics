@@ -107,7 +107,7 @@ export default {
     border-color: #5cb85c;
     max-width: 100%;
     margin-bottom: 5px;
-      
+    font-weight: bold;
 
   }
 

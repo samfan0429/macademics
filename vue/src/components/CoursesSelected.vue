@@ -1,13 +1,15 @@
 <template>
     <section id="courses-selected">
         <div id="titles">
-            <h1 id="titleLeft">Courses Selected</h1>
+            <h1>Courses of interest</h1>
             <!-- <h1 id="titleRight">Available Sections</h1> -->
         </div>
         
         <div class="course" v-for="(course, index) in coursesAdded" :key="index">
             <div v-if="course.show" class= "course">
                 <button 
+                class="btn btn-danger"
+                id="x"
                 @click="deleteCourse(course)">
                     X
                 </button>
@@ -186,5 +188,16 @@ h1{
 #course-name{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#x{
+    font-weight: bold;
+    border-radius: 50%;
+    /* font-size: 10px; */
+
+}
+#x:hover{
+    transform: translateY(-0.8px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 </style>
