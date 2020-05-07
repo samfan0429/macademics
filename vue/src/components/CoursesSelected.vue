@@ -1,31 +1,34 @@
 <template>
-    <section id="courses-selected">
-        <div id="titles">
-            <h1>Courses of interest</h1>
-            <!-- <h1 id="titleRight">Available Sections</h1> -->
+    <section id="courses-selected" class="container">
+        <div id="titles" class="row">
+            <h3 class='col-5'><b>Courses of Interest</b></h3>
+            <h3 class='col-7'><b>Available Sections</b></h3>
         </div>
         
-        <div class="course" v-for="(course, index) in coursesAdded" :key="index">
+        <div class="row" v-for="(course, index) in coursesAdded" :key="index">
             <div v-if="course.show" class= "course">
-                <button 
-                class="btn btn-danger"
-                id="x"
-                @click="deleteCourse(course)">
-                    X
-                </button>
-                <div 
-                    id="course-name"  
-                    v-if="course.show">
-                {{course.courseNum}} - {{course.name}} 
-                </div>
-            <!-- </div> -->
-                <div class="section" v-for="(section, index) in course.sections" :key="index">
+                <div class="col-5 course-title">
                     <button 
+                    class="btn btn-danger"
+                    id="x"
+                    @click="deleteCourse(course)">
+                        X
+                    </button>
+                    <div 
+                        id="course-name"  
+                        v-if="course.show">
+                    <b>{{course.courseNum}}</b> - {{course.name}} 
+                    </div>
+                </div>
+                <div class="section col-7 justify-content-center">
+                    <button 
+                    id="button-section"
+                    class='col-4 btn'
+                    v-for="(section, index) in course.sections" :key="index"
                     @click="sectionSelected(section)"
-                    :class = "{gray: isConflicted(section), yellow: isSelected(section)}
-                    ">
+                    :class = "[{'btn-secondary': isConflicted(section)}, {'btn-warning': isSelected(section)}]">
                     <!-- listen to the emitted event and call isConflicted? -->
-                        {{section.days}} - {{section.start}} - {{section.end}}
+                        <b>{{section.days}} - {{section.start}}-{{section.end}}</b>
                     </button>
                 </div>
             </div>
@@ -153,51 +156,75 @@ export default {
 </script>
 
 <style>
-.course{
-    display: flex;
-    padding: 10px
-}
 
 #titles{
     display:flex;
-    width: 100vw;
-
+    /* width: 100vw; */
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
-#titleLeft{
-    width:40vw;
-    text-align: left;
+
+h3{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
 }
 
-#titleRight{
-    width: 40vw;
-    text-align: right;
-}
-h1{
-    padding-left: 10px;
-    padding-right: 10px
-}
-
-.gray{
-    color: gray;
+#button-section{
+    background-color: #f8f9fa;
+    border-color: #007bff;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 2px;
 }
 
-.yellow{
-    background-color: yellow;
+
+
+#button-section:hover{    
+    transform: translateY(-0.8px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
-#course-name{
-    padding-left: 10px;
-    padding-right: 10px;
+
+
+
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-content: center; 
+     justify-items: center; 
+     justify-content: center;
 }
 
 #x{
     font-weight: bold;
     border-radius: 50%;
-    /* font-size: 10px; */
+    max-height: 3.5vh;
+    max-width: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 
 }
 #x:hover{
     transform: translateY(-0.8px);
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.course{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.course-title{
+    display: flex;
+
+    align-items: center;
+
 }
 </style>

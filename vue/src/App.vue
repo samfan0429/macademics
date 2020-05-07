@@ -52,6 +52,7 @@ body, html {
   margin: 0;
   width: 100%;
   min-height: 100vh;
+  /* font-size: 100px;   */
 }
 body {
   /* background-color: rgb(178, 184, 189); */

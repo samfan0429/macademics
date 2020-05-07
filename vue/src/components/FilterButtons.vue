@@ -108,6 +108,9 @@ export default {
     max-width: 100%;
     margin-bottom: 5px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
   }
 
@@ -119,9 +122,6 @@ export default {
 
 
 
-  /* @media screen and (min-width: 650px){
-    #button{
-      width: 5.2vw;
-    }
-  } */
+
+
 </style>

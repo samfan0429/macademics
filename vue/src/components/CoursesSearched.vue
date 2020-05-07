@@ -262,7 +262,11 @@ export default {
 
 
 }
-
+  @media screen and (max-width: 850px) {
+    .title-bar {
+        display: block;
+    }
+  }
 .course{
     align-items: center;
     
