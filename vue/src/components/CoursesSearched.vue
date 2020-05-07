@@ -46,7 +46,8 @@ export default {
         return {
             courses: [],
             allCourses: [],
-            tempListCourses: [],
+            tempSearchCourses: [],
+            tempFilterCourses: [],
             coursesAdded: [],
             input: ""
         }
@@ -70,16 +71,22 @@ export default {
             newCourses.forEach(course => {
                 this.courses.push(course)
             })
-            // console.log(this.courses.length)
-            // this.tempListCourses = []
-            //     this.courses.forEach(course => {
-            //         this.tempListCourses.push(course)
-            //     })
+
+            this.tempFilterCourses = []
+            this.courses.forEach(course => {
+                this.tempFilterCourses.push(course)
+            })
         },
 
         distUnselect(distributionsSelected){
             this.courses = []
-            if(this.tempListCourses.length == 0){
+            if(distributionsSelected.length == 0){
+                this.tempFilterCourses = []
+                this.allCourses.forEach(course => {
+                    this.tempFilterCourses.push(course)
+                })
+            }
+            if(this.tempSearchCourses.length == 0){
                 this.allCourses.forEach(course => {
                 this.courses.push(course)
                 })
@@ -89,7 +96,7 @@ export default {
                 }
             }
             else{
-                this.tempListCourses.forEach(course => {
+                this.tempSearchCourses.forEach(course => {
                 this.courses.push(course)
                 })
                 var i
@@ -97,42 +104,70 @@ export default {
                     this.distSelect(distributionsSelected[i])
                 }
             }
-           
+            
         },
 
         searchTermEntered(input){
             this.courses = []
-            if(input.length == 0){
-                this.allCourses.forEach(course => {
-                    this.courses.push(course)
-                })
-                this.tempListCourses = []
+            if(this.tempFilterCourses.length==0){
+                if(input.length == 0){
+                    this.allCourses.forEach(course => {
+                        this.courses.push(course)
+                    })
+                    this.tempSearchCourses = []
+                }
+                else{
+                    this.allCourses.forEach(course => {
+                        if((course.courseNum.includes(input.toUpperCase())) ||
+                            (course.name.toLowerCase().includes(input.toLowerCase())) 
+                            // || (course.sections.forEach(section => {
+                            //     if(section.instructor.toLowerCase().includes(input.toLowerCase())){
+                            //         console.log(section.instructor.toLowerCase())
+                            //         return true
+
+                            //     }
+                            // }))
+                        ){
+                            this.courses.push(course)
+                        }
+                    })
+                    this.tempSearchCourses = []
+                    this.courses.forEach(course => {
+                        this.tempSearchCourses.push(course)
+                    })
+                }
+
             }
             else{
-                this.allCourses.forEach(course => {
-                    if((course.courseNum.includes(input.toUpperCase())) ||
-                        (course.name.toLowerCase().includes(input.toLowerCase())) 
-                        // || (course.sections.forEach(section => {
-                        //     if(section.instructor.toLowerCase().includes(input.toLowerCase())){
-                        //         console.log(section.instructor.toLowerCase())
-                        //         return true
-
-                        //     }
-                        // }))
-                    ){
+                if(input.length == 0){
+                    this.tempFilterCourses.forEach(course => {
                         this.courses.push(course)
-                    }
-                })
-                this.tempListCourses = []
-                this.courses.forEach(course => {
-                    this.tempListCourses.push(course)
-                })
+                    })
+                    this.tempSearchCourses = []
+                }
+                else{
+                    this.tempFilterCourses.forEach(course => {
+                        if((course.courseNum.includes(input.toUpperCase())) ||
+                            (course.name.toLowerCase().includes(input.toLowerCase())) 
+                            // || (course.sections.forEach(section => {
+                            //     if(section.instructor.toLowerCase().includes(input.toLowerCase())){
+                            //         console.log(section.instructor.toLowerCase())
+                            //         return true
+
+                            //     }
+                            // }))
+                        ){
+                            this.courses.push(course)
+                        }
+                    })
+                    this.tempSearchCourses = []
+                    this.courses.forEach(course => {
+                        this.tempSearchCourses.push(course)
+                    })
+                }
 
             }
-
-
             
-
         }
 
     },
