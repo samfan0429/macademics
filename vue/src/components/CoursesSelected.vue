@@ -26,8 +26,7 @@
                     class='col-4 btn'
                     v-for="(section, index) in course.sections" :key="index"
                     @click="sectionSelected(section)"
-                    :class = "[{'btn-secondary': isConflicted(section)}, {'btn-warning': isSelected(section)}]">
-                    <!-- listen to the emitted event and call isConflicted? -->
+                    :class = "{'btn-secondary': isConflicted(section), 'btn-warning': isSelected(section)}">
                         <b>{{section.days}} - {{section.start}}-{{section.end}}</b>
                     </button>
                 </div>
@@ -173,11 +172,14 @@ h3{
 }
 
 #button-section{
-    background-color: #f8f9fa;
-    border-color: #007bff;
+    /* background-color: #f8f9fa; */
+    border-color: #007bff; 
     border-radius: 8px;
     padding: 5px;
     margin: 2px;
+    border-width: 0.5px;
+    /* box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); */
+
 }
 
 
