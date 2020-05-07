@@ -7,7 +7,8 @@
                 v-on:keyup.enter="searchTermEntered(input)"
                 >
             <filter-buttons
-            @distClicked="filterCourses($event)">
+            @distSelected="distSelect($event)"
+            @distUnselected="distUnselect($event)">
             </filter-buttons>
         </div>
         <div id="courses-searched">
@@ -44,6 +45,7 @@ export default {
     data() {
         return {
             courses: [],
+            allCourses: [],
             coursesAdded: [],
             input: ""
         }
@@ -58,17 +60,70 @@ export default {
             }
         },
 
-        filterCourses(distributionsSelected){
+        distSelect(distribution){
+            // if (distributionsSelected.length > 0){
+                // var i
+                // for (i=0; i < distributionsSelected.length; i++){
+                var newCourses = this.courses.filter(course =>
+                    course.distributions.includes(distribution)
+                )     
+                    // }
+                this.courses = []
+                newCourses.forEach(course => {
+                    this.courses.push(course)
+                })
+                console.log(this.courses.length)
+                
+            // }
+            // else{
+            //     this.courses = []
+            //     this.allCourses.forEach(course => {
+            //         this.courses.push(course)
+            //     })
+            // }   
+        },
+
+        distUnselect(distributionsSelected){
+            // if (distributionsSelected.length > 0){
+            this.courses = []
+            this.allCourses.forEach(course => {
+                this.courses.push(course)
+            })
             var i
             for (i=0; i < distributionsSelected.length; i++){
-                var newCourses = this.courses.filter(course =>
-                    course.distributions.includes(distributionsSelected[i])
-                )     
+                console.log(this.courses.length)
+                console.log("AAA")
+
+                this.distSelect(distributionsSelected[i])
             }
-            this.courses = []
-            newCourses.forEach(course => {
-                this.courses.push(course)
-            })          
+        
+            // distSelect(distributionsSelected)                
+            // if (distributionsSelected.length > 0){
+            //     this.courses = []
+            //     this.allCourses.forEach(course => {
+            //         this.courses.push(course)
+            //     })                
+            //     var i
+            //     var newCourses = []
+            //     for (i=0; i < distributionsSelected.length; i++){
+            //         var filterCourses = this.courses.filter(course =>
+            //         course.distributions.includes(distributionsSelected[i])
+            //         )
+            //         filterCourses.forEach(course => {
+            //             newCourses.push(course)
+            //         })
+            //     }
+            //     this.courses = []
+            //     newCourses.forEach(course => {
+            //         this.courses.push(course)
+            //     })  
+            // }
+            // else{
+            //     this.courses = []
+            //     this.allCourses.forEach(course => {
+            //         this.courses.push(course)
+            //     })
+            // }
         },
 
         searchTermEntered(input){
@@ -136,7 +191,6 @@ export default {
                     })   
             } 
             else{
-                console.log("NAME OF COURSE ENTERED")
                 db.collection('fall20').where(firebase.firestore.FieldPath.documentId(), "==",input.toUpperCase())
                 .get().then
                 (querySnapshot => {
@@ -206,6 +260,7 @@ export default {
 
                 }
             this.courses.push(data)
+            this.allCourses.push(data)
     
             })
             })        
