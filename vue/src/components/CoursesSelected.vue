@@ -6,7 +6,11 @@
         </div>
         
         <div class="row" v-for="(course, index) in coursesAdded" :key="index">
-            <div v-if="course.show" class= "course">
+            <hr>
+            <div 
+            v-if="course.show" 
+            class= "course"
+            :class="{'grey': index%2 == 0}">
                 <div class="col-5 course-title">
                     <button 
                     class="btn btn-danger"
@@ -23,7 +27,7 @@
                 <div class="section col-7 justify-content-center">
                     <button 
                     id="button-section"
-                    class='col-4 btn'
+                    class='btn'
                     v-for="(section, index) in course.sections" :key="index"
                     @click="sectionSelected(section)"
                     :class = "{'btn-secondary': isConflicted(section), 'btn-warning': isSelected(section)}">
@@ -178,8 +182,9 @@ h3{
     padding: 5px;
     margin: 2px;
     border-width: 0.5px;
+    width: 15vw;
     /* box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); */
-
+    min-width: 50%;
 }
 
 
@@ -228,5 +233,9 @@ h3{
 
     align-items: center;
 
+}
+
+.grey{
+    background-color: #f9f9f9;
 }
 </style>
