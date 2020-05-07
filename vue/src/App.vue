@@ -54,6 +54,7 @@ body, html {
   min-height: 100vh;
 }
 body {
-  background-color: beige;
+  /* background-color: rgb(178, 184, 189); */
+  background-color: white
 }
 </style>

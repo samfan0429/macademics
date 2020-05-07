@@ -1,12 +1,28 @@
 <template>
     <section id="search" class="container">
-        <div class='title-bar row'>
-            <input 
-                class = "col-8"
-                id='search-bar' type="text" 
-                v-model="input" 
-                v-on:keyup.enter="searchTermEntered(input)"
-                >
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        
+        <div class='title-bar row'>    
+                    <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4 input-group col-8" id="searchbar-portion">
+                        <div class="input-group-append">
+                            <button id="button-addon1" class="btn btn-link text-primary">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                        
+                        <input 
+                            type="text" 
+                            placeholder="Search here for courses!" 
+                            aria-describedby="button-addon1" 
+                            class="shadow-none form-control border-0 bg-light"
+                            id='search-bar'
+                            v-model="input" 
+                            v-on:keyup.enter="searchTermEntered(input)">
+                        
+            </div>
+
             <filter-buttons class="col"
             @distSelected="distSelect($event)"
             @distUnselected="distUnselect($event)">
@@ -18,6 +34,8 @@
             <tr class="course" v-for="(course, index) in courses" :key="index" >
                 
                 <button
+                    class="btn btn-success"
+                    id="add"
                     @click="courseAdded(course)"> 
                 Add
                 </button>
@@ -26,7 +44,7 @@
                     <div 
                         id="course-name"  
                     >
-                    {{course.courseNum}} - {{course.name}} 
+                    <b>{{course.courseNum}}</b> - {{course.name}} 
                     </div>
                 </div>
             </tr>
@@ -241,6 +259,13 @@ export default {
 
 .title-bar{
     display:flex;
+
+
+}
+
+.course{
+    align-items: center;
+    
 }
 
 #search-bar{
@@ -253,5 +278,22 @@ export default {
 
     border-radius: 24px;
     outline: none;
+}
+
+#searchbar-portion{
+    display: flex;
+    height: 5vh;
+    align-content: center;
+    align-self: center;
+
+}
+
+#add{
+    font-weight: bold;
+}
+
+#add:hover{
+    transform: translateY(-0.8px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 </style>

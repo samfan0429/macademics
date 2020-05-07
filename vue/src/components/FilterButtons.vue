@@ -59,7 +59,7 @@ export default {
       distributions: ["Writing WA", "Writing WP", "Writing WC", "U.S. Identities and Differences", "Internationalism", 
         "Humanities", "Social science", "Fine arts", "Natural science and mathematics","Quantitative Thinking Q1", 
         "Quantitative Thinking Q2", "Quantitative Thinking Q3"],
-      buttonsNames: ["WA","WP","WC", "USID", "INTL", "HUM", "SS", "ARTS", "NS","Q1", "Q2", "Q3"]
+      buttonsNames: ["WA  ","WP  ","WC  ", "USID", "INTL", "HUM ", "SS  ", "ARTS", "NS  ","Q1  ", "Q2  ", "Q3  "]
     }
   },
 
@@ -101,7 +101,27 @@ export default {
 
   #button{
     border-radius: 24px;
-    width: 7vw;
+    width: 200px;
+    /* align-items: center; */
+    text-align: center;
+    border-color: #5cb85c;
+    max-width: 100%;
+    margin-bottom: 5px;
+      
 
   }
+
+  #button:hover{
+    transform: translateY(-0.8px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+
+  }
+
+
+
+  /* @media screen and (min-width: 650px){
+    #button{
+      width: 5.2vw;
+    }
+  } */
 </style>
