@@ -61,165 +61,52 @@ export default {
         },
 
         distSelect(distribution){
-            // if (distributionsSelected.length > 0){
-                // var i
-                // for (i=0; i < distributionsSelected.length; i++){
-                var newCourses = this.courses.filter(course =>
-                    course.distributions.includes(distribution)
-                )     
-                    // }
-                this.courses = []
-                newCourses.forEach(course => {
-                    this.courses.push(course)
-                })
-                console.log(this.courses.length)
-                
-            // }
-            // else{
-            //     this.courses = []
-            //     this.allCourses.forEach(course => {
-            //         this.courses.push(course)
-            //     })
-            // }   
+            var newCourses = this.courses.filter(course =>
+                course.distributions.includes(distribution)
+            )     
+
+            this.courses = []
+            newCourses.forEach(course => {
+                this.courses.push(course)
+            })
+            // console.log(this.courses.length)
+ 
         },
 
         distUnselect(distributionsSelected){
-            // if (distributionsSelected.length > 0){
             this.courses = []
             this.allCourses.forEach(course => {
                 this.courses.push(course)
             })
             var i
             for (i=0; i < distributionsSelected.length; i++){
-                console.log(this.courses.length)
-                console.log("AAA")
-
                 this.distSelect(distributionsSelected[i])
             }
-        
-            // distSelect(distributionsSelected)                
-            // if (distributionsSelected.length > 0){
-            //     this.courses = []
-            //     this.allCourses.forEach(course => {
-            //         this.courses.push(course)
-            //     })                
-            //     var i
-            //     var newCourses = []
-            //     for (i=0; i < distributionsSelected.length; i++){
-            //         var filterCourses = this.courses.filter(course =>
-            //         course.distributions.includes(distributionsSelected[i])
-            //         )
-            //         filterCourses.forEach(course => {
-            //             newCourses.push(course)
-            //         })
-            //     }
-            //     this.courses = []
-            //     newCourses.forEach(course => {
-            //         this.courses.push(course)
-            //     })  
-            // }
-            // else{
-            //     this.courses = []
-            //     this.allCourses.forEach(course => {
-            //         this.courses.push(course)
-            //     })
-            // }
         },
 
         searchTermEntered(input){
             this.courses = []
             if(input.length == 0){
-                db.collection('fall20')
-                .get().then
-                (querySnapshot => {
-                    querySnapshot.forEach(course => {
-                        const sections = []
-                        course.data().sections.forEach(section => {
-                            const aSection = {
-                                'name': course.data().name,
-                                'numsection': section.numsection,
-                                'days': section.days,
-                                'start': section.start,
-                                'end': section.end,
-                                'instructor': section.instructor,
-                            }
-                            sections.push(aSection)
-                            }        
-                        )
-                        const data = {
-                            'courseNum': course.id, 
-                            'name': course.data().name,
-                            'sections': sections,
-                            'distributions': course.data().distrbutions,
-                            show: true,
-
-                        }
-                    this.courses.push(data)
-            
-                })
+                this.allCourses.forEach(course => {
+                    this.courses.push(course)
                 })
             }
-            if(input.length <= 4){
-                db.collection('fall20').where("dept", "==",input.toUpperCase())
-                .get().then
-                (querySnapshot => {
-                    querySnapshot.forEach(course => {
-                        const sections = []
-                        course.data().sections.forEach(section => {
-                            const aSection = {
-                                'name': course.data().name,
-                                'numsection': section.numsection,
-                                'days': section.days,
-                                'start': section.start,
-                                'end': section.end,
-                                'instructor': section.instructor,
-                            }
-                            sections.push(aSection)
-                            }        
-                        )
-                        const data = {
-                            'courseNum': course.id, 
-                            'name': course.data().name,
-                            'sections': sections,
-                            'distributions': course.data().distrbutions,
-                            show: true,
-
-                        }
-                    this.courses.push(data)
-            
-                    })
-                    })   
-            } 
             else{
-                db.collection('fall20').where(firebase.firestore.FieldPath.documentId(), "==",input.toUpperCase())
-                .get().then
-                (querySnapshot => {
-                    querySnapshot.forEach(course => {
-                        const sections = []
-                        course.data().sections.forEach(section => {
-                            const aSection = {
-                                'name': course.data().name,
-                                'numsection': section.numsection,
-                                'days': section.days,
-                                'start': section.start,
-                                'end': section.end,
-                                'instructor': section.instructor,
-                            }
-                            sections.push(aSection)
-                            }        
-                        )
-                        const data = {
-                            'courseNum': course.id, 
-                            'name': course.data().name,
-                            'sections': sections,
-                            'distributions': course.data().distrbutions,
-                            show: true,
+                this.allCourses.forEach(course => {
+                    if((course.courseNum.includes(input.toUpperCase())) ||
+                        (course.name.toLowerCase().includes(input.toLowerCase())) 
+                        // || (course.sections.forEach(section => {
+                        //     if(section.instructor.toLowerCase().includes(input.toLowerCase())){
+                        //         console.log(section.instructor.toLowerCase())
+                        //         return true
 
-                        }
-                    this.courses.push(data)
-            
-                    })
-                    })   
+                        //     }
+                        // }))
+                    ){
+                        this.courses.push(course)
+
+                    }
+                })                   
             }
 
 
