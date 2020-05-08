@@ -16,7 +16,7 @@
 
                 <div class="section-name justify-content-center">
                     <b>{{section.numsection}} - {{section.name}} 
-                    - <br>{{section.days}} - {{section.start}} - {{section.end}} - {{section.instructor}}</b>
+                    - {{section.days}} - {{section.start}} - {{section.end}} - {{section.instructor}}</b>
                 </div>
             </div>
     </section>
