@@ -895,12 +895,21 @@
                 },
                 {
                     "numsection": "ASIA 194-02",
-                    "instructor": "STAFF",
+                    "instructor": "Andrew Kauffman",
                     "days": "M W F",
                     "availmax": "6 / 20",
                     "start": "09:40 am",
                     "end": "10:40 am",
                     "section-id": "10753"
+                },
+                {
+                    "numsection": "ASIA 194-03",
+                    "instructor": "Michael Toole",
+                    "days": "T R",
+                    "availmax": "12 / 20",
+                    "start": "09:49 am",
+                    "end": "11:10 am",
+                    "section-id": "10910"
                 }
             ]
         },
@@ -961,6 +970,15 @@
                     "start": "10:50 am",
                     "end": "11:50 am",
                     "section-id": "10786"
+                },
+                {
+                    "numsection": "ASIA 294-02",
+                    "instructor": "Michael Toole",
+                    "days": "T R",
+                    "availmax": "5 / 20",
+                    "start": "03:00 pm",
+                    "end": "04:30 pm",
+                    "section-id": "10911"
                 }
             ]
         },
@@ -1418,7 +1436,7 @@
                     "numsection": "BIOL 494-03",
                     "instructor": "Michael Anderson",
                     "days": "M W F",
-                    "availmax": "4 / 16",
+                    "availmax": "3 / 16",
                     "start": "12:00 pm",
                     "end": "01:00 pm",
                     "section-id": "10553"
@@ -1832,7 +1850,7 @@
             "sections": [
                 {
                     "numsection": "CHIN 101-01",
-                    "instructor": "STAFF",
+                    "instructor": "Andrew Kauffman",
                     "days": "M W F",
                     "availmax": "18 / 20",
                     "start": "01:10 pm",
@@ -1841,7 +1859,7 @@
                 },
                 {
                     "numsection": "CHIN 101-02",
-                    "instructor": "STAFF",
+                    "instructor": "Andrew Kauffman",
                     "days": "M W F",
                     "availmax": "15 / 20",
                     "start": "02:20 pm",
@@ -1898,7 +1916,7 @@
                 },
                 {
                     "numsection": "CHIN 194-02",
-                    "instructor": "STAFF",
+                    "instructor": "Andrew Kauffman",
                     "days": "M W F",
                     "availmax": "6 / 20",
                     "start": "09:40 am",
@@ -2311,6 +2329,15 @@
                     "start": "10:50 am",
                     "end": "11:50 am",
                     "section-id": "10800"
+                },
+                {
+                    "numsection": "CLAS 294-03",
+                    "instructor": "Nicholas Schaser",
+                    "days": "T R",
+                    "availmax": "19 / 20",
+                    "start": "09:40 am",
+                    "end": "11:10 am",
+                    "section-id": "10909"
                 }
             ]
         },
@@ -3440,7 +3467,7 @@
                     "numsection": "ENGL 150-05",
                     "instructor": "Sally Franson",
                     "days": "M W F",
-                    "availmax": "1 / 16",
+                    "availmax": "0 / 16",
                     "start": "09:40 am",
                     "end": "10:40 am",
                     "section-id": "10093"
@@ -4193,6 +4220,15 @@
                     "start": "03:00 pm",
                     "end": "04:30 pm",
                     "section-id": "10782"
+                },
+                {
+                    "numsection": "ENVI 294-05",
+                    "instructor": "Xavier Haro-Carrion",
+                    "days": "T R",
+                    "availmax": "9 / 20",
+                    "start": "09:40 am",
+                    "end": "11:10 am",
+                    "section-id": "10908"
                 }
             ]
         },
@@ -5220,7 +5256,7 @@
                 {
                     "numsection": "GERM 101-L1",
                     "instructor": "STAFF",
-                    "days": "M",
+                    "days": "R",
                     "availmax": "6 / 6",
                     "start": "03:30 pm",
                     "end": "04:30 pm",
@@ -6365,7 +6401,7 @@
             "sections": [
                 {
                     "numsection": "JAPA 194-01",
-                    "instructor": "STAFF",
+                    "instructor": "Michael Toole",
                     "days": "T R",
                     "availmax": "12 / 20",
                     "start": "09:40 am",
@@ -6437,7 +6473,7 @@
             "sections": [
                 {
                     "numsection": "JAPA 294-01",
-                    "instructor": "STAFF",
+                    "instructor": "Michael Toole",
                     "days": "T R",
                     "availmax": "5 / 20",
                     "start": "03:00 pm",
@@ -6590,7 +6626,9 @@
             "dept": "LATI",
             "name": "Neotropical Landscapes",
             "description": "Tropical ecosystems provide critical services both locally and globally including water sources, climate mitigation and biodiversity conservation. They are also home to various human populations and support livelihoods. This course offers an introduction to the human-environment landscapes of the New World tropics from a geographical perspective. The course is designed to provide students a basic understanding of the most important biophysical and social characteristics of the dominant landscapes of the New World tropics. Among others, these include the tropical rain forests of the Amazon basin, the montane forests and p\u00e1ramos of the Andes, and the tropical dry forests of the Pacific coast of South America. For each of these environments, we will learn the key biogeographical and ecological processes that make these ecosystems function the way they do. We will also study the peoples that live in these environments\u2014indigenous communities, afro-descendants, and mestizo populations\u2014and how they interact with their environment. Finally, we will cover some of the threats that these places face, including deforestation, afforestation, and climate change.",
-            "distrbutions": [],
+            "distrbutions": [
+                "Social science"
+            ],
             "sections": [
                 {
                     "numsection": "LATI 294-01",
@@ -9260,7 +9298,7 @@
             "sections": [
                 {
                     "numsection": "PSYC 254-01",
-                    "instructor": "STAFF",
+                    "instructor": "Piercarlo Valdesolo",
                     "days": "M W F",
                     "availmax": "0 / 24",
                     "start": "02:20 pm",
@@ -9463,7 +9501,7 @@
             "sections": [
                 {
                     "numsection": "PSYC 401-01",
-                    "instructor": "Brooke Lea",
+                    "instructor": "Lea, Valdesolo",
                     "days": "M W F",
                     "availmax": "8 / 16",
                     "start": "10:50 am",

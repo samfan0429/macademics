@@ -25,35 +25,36 @@ def section_scraper(content):
 
 def section_grouper(sections):
     courses = {}
-    for section in sections:
-        if section['course-num'] not in courses:
-            courses[section['course-num']] = {
-                # 'course-num': section['course-num'],
-                'dept': section['dept'],
-                'name': section['name'],
-                'description': section['description'],
-                # assuming each course has the same distributions, 
-                # (edge cases exist with topic courses + a couple more)
-                'distrbutions': section['distributions'],
-                'sections': [],
-            }
+    for dept_list in sections:
+        for section in dept_list:
+            if section['course-num'] not in courses:
+                courses[section['course-num']] = {
+                    # 'course-num': section['course-num'],
+                    'dept': section['dept'],
+                    'name': section['name'],
+                    'description': section['description'],
+                    # assuming each course has the same distributions,
+                    # (edge cases exist with topic courses + a couple more)
+                    'distrbutions': section['distributions'],
+                    'sections': [],
+                }
 
-        courses[section['course-num']]['sections'].append({
-            'numsection': section['numsection'],
-            'instructor': section['instructor'],
-            'days': section['days'],
-            'availmax': section['availmax'],
-            'start': section['start'],
-            'end': section['end'],
-            'section-id': section['section-id'],
-            
-        })
-    
+            courses[section['course-num']]['sections'].append({
+                'numsection': section['numsection'],
+                'instructor': section['instructor'],
+                'days': section['days'],
+                'availmax': section['availmax'],
+                'start': section['start'],
+                'end': section['end'],
+                'section-id': section['section-id'],
+
+            })
+
     return courses
 
 def course_parser(dept_table):
     rows = dept_table.find_all('tr')
-
+    dept_items = []
     for j in range(0, len(rows), 2):
 
         items = {}
@@ -102,7 +103,8 @@ def course_parser(dept_table):
 
 
         # add each course to the courses list
-        return items  
+        dept_items.append(items)
+    return dept_items
 
 
 def main():
@@ -111,12 +113,10 @@ def main():
     semester_url = "https://www.macalester.edu/registrar/schedules/2020fall/class-schedule/"
     semester_requests = requests.get(semester_url).text
     bs4_content = BeautifulSoup(semester_requests, "lxml")
-    page_structure = bs4_content.prettify()
 
-    
     sections = []
     courses = section_grouper(section_scraper(bs4_content))
-    
+
 
     # export as JSON
     export_dict = {"fall20": courses}
