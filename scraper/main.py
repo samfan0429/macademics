@@ -5,25 +5,24 @@ import requests
 from datetime import *
 from concurrent.futures import ThreadPoolExecutor
 
-
 distributions = {"Writing WA", "Writing WP", "Writing WC", "U.S. Identities and Differences", "Internationalism",
                  "Humanities", "Social science", "Fine arts", "Natural science and mathematics",
                  "Quantitative Thinking Q1", "Quantitative Thinking Q2", "Quantitative Thinking Q3"}
 
 
-
-
-def section_scraper(content):
+def section_scraper(content) -> list:
+    '''Scrape all the sections on the course schedule page'''
     dept_tables = content.find_all('tbody')
     sections = []
     with ThreadPoolExecutor(max_workers=100) as executor:
-        for section in executor.map(course_parser, dept_tables):
+        for section in executor.map(section_parser, dept_tables):
             sections.append(section)
 
     return sections
 
 
-def section_grouper(sections):
+def section_grouper(sections) -> dict:
+    '''Groups sections of the same course under same course'''
     courses = {}
     for dept_list in sections:
         for section in dept_list:
@@ -52,7 +51,9 @@ def section_grouper(sections):
 
     return courses
 
-def course_parser(dept_table):
+
+def section_parser(dept_table) -> list:
+    '''Parse all the sections within a department'''
     rows = dept_table.find_all('tr')
     dept_items = []
     for j in range(0, len(rows), 2):
@@ -101,7 +102,6 @@ def course_parser(dept_table):
         description_element = details_soup.find('p')
         items["description"] = description_element.text.strip()
 
-
         # add each course to the courses list
         dept_items.append(items)
     return dept_items
@@ -117,15 +117,12 @@ def main():
     sections = []
     courses = section_grouper(section_scraper(bs4_content))
 
-
     # export as JSON
     export_dict = {"fall20": courses}
     with open('fall20.json', 'w') as fout:
         json.dump(export_dict, fout, indent=4)
 
     print('\nTime elasped: ', datetime.now() - startTime)
-
-
 
 
 if __name__ == '__main__':
