@@ -47,4 +47,4 @@ To run the web app
 ---
 
 This was created in the Spring 2020 by 
-Aguilar Alejandro, [Kyaw Za Zaw](https://kyawza.me), Michale Steele, (Ngo Nhat)[https://www.linkedin.com/in/nhat-ngo-a9939716a/].
+Aguilar Alejandro, [Kyaw Za Zaw](https://kyawza.me), Michale Steele, [Ngo Nhat](https://www.linkedin.com/in/nhat-ngo-a9939716a).
