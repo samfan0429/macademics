@@ -2,13 +2,18 @@
 
 A student-built semester planning webapp for Macalester students.
 
-This app lets you filter by distribution and general education requirments for Macalester.
-You can also search by Course Number and Course Title.
+This app lets you filter by distribution and general education requirments for [Macalester College](https://macalester.edu).
+
+You can also search by Course Number `COMP 123` and Course Title `Introduction to Computer Science`.
+
+_We would love your feedback as users so please find our names on the Student Directory and email us! Thanks! Happy planning!_
+
+---
+Development
 
 To request a new feature, create an issue with the tag `feature`.
-To report a bug, create an issue with the tag `bug` with screenshots/screencasts if possible.
 
-----
+To report a bug, create an issue with the tag `bug` with screenshots/screencasts if possible.
 
 Technologies used:
 1. Python (BeautifulSoup4 library)
