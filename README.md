@@ -18,7 +18,7 @@ Technologies used:
 5. Bootstrap 4
 
 
-![Current Architecture:](https://imgur.com/a/wjQLDjN)
+[Current Architecture:](https://imgur.com/a/wjQLDjN)
 
 ---
 To run scraper:
@@ -47,4 +47,4 @@ To run the web app
 ---
 
 This was created in the Spring 2020 by 
-Aguilar Alejandro, Kyaw Za Zaw, Michale Steele, Ngo Nhat.
+Aguilar Alejandro, [Kyaw Za Zaw](https://kyawza.me), Michale Steele, (Ngo Nhat)[https://www.linkedin.com/in/nhat-ngo-a9939716a/].
