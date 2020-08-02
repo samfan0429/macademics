@@ -5,4 +5,7 @@ privateServiceAccountKey.json
 # IntelliJ files
 .idea
 
+# JSON files
+*.json
+
 
