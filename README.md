@@ -28,11 +28,9 @@ Technologies used:
 ---
 To run scraper:
 
-1. Have  `Python 3`, &nbsp; `pip`,  &nbsp; `virtualenv` &nbsp; installed.
-2. Create a new virtual environment.
-3. Install depedenices in that virtualenv using &nbsp;
-`pip install -r requirements.txt`.
-4. Run the script using  `python main.py`.
+1. Have  `Python 3`, &nbsp; `pip`,  &nbsp; `poetry` &nbsp; installed.
+2. Run `poetry install` in the webscraper directory.
+3. Run the script using  `python main.py`.
 
 ---
 To run `firestore-loader`:
