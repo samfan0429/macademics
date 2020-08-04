@@ -11,7 +11,7 @@ distributions = {"Writing WA", "Writing WP", "Writing WC", "U.S. Identities and 
 
 
 def section_scraper(content) -> list:
-    '''Scrape all the sections on the course schedule page'''
+    """Scrape all the sections on the course schedule page"""
     dept_tables = content.find_all('tbody')
     sections = []
     with ThreadPoolExecutor(max_workers=100) as executor:
@@ -22,7 +22,7 @@ def section_scraper(content) -> list:
 
 
 def section_grouper(sections) -> dict:
-    '''Groups sections of the same course under same course'''
+    """Groups sections of the same course under same course"""
     courses = {}
     for dept_list in sections:
         for section in dept_list:
@@ -53,7 +53,7 @@ def section_grouper(sections) -> dict:
 
 
 def section_parser(dept_table) -> list:
-    '''Parse all the sections within a department'''
+    """Parse all the sections within a department"""
     rows = dept_table.find_all('tr')
     dept_items = []
     for j in range(0, len(rows), 2):
