@@ -46,7 +46,7 @@ def section_grouper(sections) -> dict:
                 'start': section['start'],
                 'end': section['end'],
                 'section-id': section['section-id'],
-
+                'module': section['module']
             })
 
     return courses
@@ -101,6 +101,15 @@ def section_parser(dept_table) -> list:
 
         description_element = details_soup.find('p')
         items["description"] = description_element.text.strip()
+
+        module_title = dept_table.find_previous("h4").text
+        if module_title.split()[-1] == "Full":
+            # last word in module title is 'Full'
+            module = "full"
+        else:
+            # module title ends in a number
+            module = module_title[-1]
+        items["module"] = module
 
         # add each course to the courses list
         dept_items.append(items)
