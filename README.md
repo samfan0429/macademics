@@ -25,6 +25,8 @@ Technologies used:
 
 [Current Architecture:](https://imgur.com/a/wjQLDjN)
 
+We are trying to use [commit-conventions](https://www.conventionalcommits.org/en/v1.0.0/) for a better development process.
+
 ---
 To run scraper:
 
