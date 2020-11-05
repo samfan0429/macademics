@@ -33,7 +33,7 @@ To run scraper:
 1. Have  `Python 3`, &nbsp; `pip`,  &nbsp; `poetry` &nbsp; installed.
 2. Run `poetry install` in the webscraper directory.
 3. Run the script using  `python main.py`.
-
+- If you on Windows OS CMD or Powershell (not PyCharm), use the command line `poetry run py main.py` or `poetry run python main.py`. Make sure you have the poetry virtual set environment in the package.
 ---
 To run `firestore-loader`:
 
